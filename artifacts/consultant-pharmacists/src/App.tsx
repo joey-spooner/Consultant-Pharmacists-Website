@@ -68,40 +68,38 @@ function Home() {
         </div>
 
         <header className="relative z-30 border-b border-[#ded9cf] bg-[#f4f1e8]/95 backdrop-blur">
-          <div className="mx-auto max-w-[1320px] px-5 md:px-9">
-            <div className="flex items-center justify-between py-4 lg:justify-center lg:py-5">
-              <a href="#home" className="block shrink-0" aria-label="Consultant Pharmacists of America home" data-testid="link-brand-home">
-                <img
-                  src={`${import.meta.env.BASE_URL}consultant-pharmacists-top-logo-black.png`}
-                  alt="Consultant Pharmacists of America — Independent Clinical Advisory Firm"
-                  width={1400}
-                  height={294}
-                  className="h-auto w-[220px] max-w-full sm:w-[360px] lg:w-[510px]"
-                />
-              </a>
-              <button
-                type="button"
-                className="flex h-11 w-11 items-center justify-center border border-[#d6d1c7] text-[#203039] lg:hidden"
-                aria-label={menuOpen ? 'Close menu' : 'Open menu'}
-                aria-expanded={menuOpen}
-                onClick={() => setMenuOpen(!menuOpen)}
-                data-testid="button-mobile-menu"
-              >
-                {menuOpen ? <X size={20} /> : <Menu size={20} />}
-              </button>
-            </div>
-            <div className="hidden items-center justify-between border-t border-[#ded9cf] py-3 lg:flex">
-              <nav aria-label="Main navigation" className="flex items-center gap-5 xl:gap-7">
+          <div className="mx-auto flex max-w-[1320px] items-center justify-between gap-4 px-5 py-4 md:px-9 lg:gap-6 lg:py-5">
+            <a href="#home" className="block shrink-0" aria-label="Consultant Pharmacists of America home" data-testid="link-brand-home">
+              <img
+                src={`${import.meta.env.BASE_URL}consultant-pharmacists-top-logo-black.png`}
+                alt="Consultant Pharmacists of America — Independent Clinical Advisory Firm"
+                width={1400}
+                height={294}
+                className="h-auto w-[220px] max-w-full sm:w-[280px] lg:w-[255px] xl:w-[300px]"
+              />
+            </a>
+            <div className="hidden items-center gap-4 lg:flex xl:gap-6">
+              <nav aria-label="Main navigation" className="flex items-center gap-4 whitespace-nowrap xl:gap-6">
                 <a href="#book" className="nav-link text-[13px] text-[#535f62]" data-testid="link-nav-book">The guide</a>
                 <a href="#expertise" className="nav-link text-[13px] text-[#535f62]" data-testid="link-nav-expertise">Services</a>
                 <a href="#who-we-serve" className="nav-link text-[13px] text-[#535f62]" data-testid="link-nav-sectors">Who we serve</a>
                 <a href="#about" className="nav-link text-[13px] text-[#535f62]" data-testid="link-nav-about">About Dr. Baumgartner</a>
                 <a href="#contact" className="nav-link text-[13px] text-[#535f62]" data-testid="link-nav-contact">Contact</a>
               </nav>
-              <a href="#book" className="cta-button inline-flex items-center gap-2 bg-[#326c68] px-5 py-3 text-[12px] font-semibold tracking-[0.02em] text-[#f4f1e8] hover:bg-[#203039]" data-testid="link-header-guide-details">
+              <a href="#book" className="cta-button inline-flex shrink-0 items-center gap-2 bg-[#326c68] px-5 py-3 text-[12px] font-semibold tracking-[0.02em] text-[#f4f1e8] hover:bg-[#203039]" data-testid="link-header-guide-details">
                 Explore the guide <ArrowDown size={15} />
               </a>
             </div>
+            <button
+              type="button"
+              className="flex h-11 w-11 items-center justify-center border border-[#d6d1c7] text-[#203039] lg:hidden"
+              aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+              aria-expanded={menuOpen}
+              onClick={() => setMenuOpen(!menuOpen)}
+              data-testid="button-mobile-menu"
+            >
+              {menuOpen ? <X size={20} /> : <Menu size={20} />}
+            </button>
           </div>
         {menuOpen && (
           <nav aria-label="Mobile navigation" className="absolute inset-x-0 top-full border-b border-[#ded9cf] bg-[#f4f1e8] px-6 py-5 shadow-lg lg:hidden">
