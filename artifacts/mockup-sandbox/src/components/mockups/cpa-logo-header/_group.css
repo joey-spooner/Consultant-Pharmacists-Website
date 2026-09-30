@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap');
+
+.cpa-logo-study {
+  --app-font-sans: 'DM Sans', sans-serif;
+  --app-font-serif: 'Newsreader', Georgia, serif;
+  font-family: var(--app-font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.cpa-logo-study .serif { font-family: var(--app-font-serif); }
+.cpa-logo-study .eyebrow {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.17em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.cpa-logo-study .nav-link { transition: color 180ms ease; }
+.cpa-logo-study .nav-link:hover { color: #326c68; }
+.cpa-logo-study .cta-button { transition: background-color 180ms ease, color 180ms ease, transform 180ms ease; }
+.cpa-logo-study .cta-button:hover { transform: translateY(-2px); }
+
+@media (prefers-reduced-motion: reduce) {
+  .cpa-logo-study *, .cpa-logo-study *::before, .cpa-logo-study *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

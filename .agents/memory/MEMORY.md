@@ -1,0 +1,1 @@
+- [Transparent black logo previews](transparent-black-logo-previews.md) — inspect a flattened preview before judging transparent black PNGs; some viewers show a black rectangle.

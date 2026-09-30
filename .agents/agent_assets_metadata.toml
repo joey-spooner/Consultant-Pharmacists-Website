@@ -70,3 +70,17 @@ mtime_ms = 1790768516289
 storage_uri = "gcs://replit-rams-assets-kira/rams/assets/repl:4a15b134-b1c9-4a82-bd61-293c28f6d96d/5cd1a4dd-f5b7-4372-86f8-a5c9ea84547f/77a803fd-ec2e-4d5c-a10d-0a32ad9c8c3a"
 storage_version_token = "1790768568428334"
 content_type = "image/svg+xml"
+
+[[outputs]]
+id = "E65ZitGDR8tQ3DLFnvum2"
+uri = "file://attached_assets/consultant-pharmacists-top-logo-black.png"
+type = "image"
+title = "Top logo in black"
+description = "Transparent PNG extracted from the top lockup in the supplied logo set; suitable for comparing on the web."
+logical_id = "1d35e165-c772-43ff-beb3-87dcd61a5963"
+content_hash = "sha256:bad700e3729be5699336939fe00f565da251b9c34b2b12858645d1098923455e"
+size = 49855
+mtime_ms = 1790768907343
+storage_uri = "gcs://replit-rams-assets-kira/rams/assets/repl:4a15b134-b1c9-4a82-bd61-293c28f6d96d/1d35e165-c772-43ff-beb3-87dcd61a5963/3eff6726-80bf-45fa-b313-2391ac0fa429"
+storage_version_token = "1790769039806883"
+content_type = "image/png"
