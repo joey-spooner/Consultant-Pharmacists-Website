@@ -56,17 +56,18 @@ function Home() {
   };
 
   return (
-    <div className="min-h-[100dvh] overflow-hidden bg-[#f4f1e8] text-[#26343b]">
+    <div className="min-h-[100dvh] overflow-x-clip bg-[#f4f1e8] text-[#26343b]">
       <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:bg-[#f4f1e8] focus:px-4 focus:py-3">
         Skip to content
       </a>
-      <div className="bg-[#203039] px-5 py-2 text-center text-[11px] tracking-[0.08em] text-[#dfe4dc] sm:text-xs">
-        Independent clinical pharmacy &amp; nutrition expertise
-        <span className="mx-2 hidden text-[#a9c8c2] sm:inline">/</span>
-        <a className="hidden underline decoration-[#789690] underline-offset-4 transition hover:text-white sm:inline" href="tel:13526423005" data-testid="link-top-phone">352-642-3005</a>
-      </div>
+      <div className="sticky top-0 z-50">
+        <div className="bg-[#203039] px-5 py-2 text-center text-[11px] tracking-[0.08em] text-[#dfe4dc] sm:text-xs">
+          Independent clinical pharmacy &amp; nutrition expertise
+          <span className="mx-2 hidden text-[#a9c8c2] sm:inline">/</span>
+          <a className="hidden underline decoration-[#789690] underline-offset-4 transition hover:text-white sm:inline" href="tel:13526423005" data-testid="link-top-phone">352-642-3005</a>
+        </div>
 
-      <header className="relative z-30 border-b border-[#ded9cf] bg-[#f4f1e8]/95 backdrop-blur">
+        <header className="relative z-30 border-b border-[#ded9cf] bg-[#f4f1e8]/95 backdrop-blur">
         <div className="mx-auto flex max-w-[1320px] items-center justify-between px-5 py-4 md:px-9 lg:py-5">
           <a href="#home" className="group flex items-center gap-3" aria-label="Consultant Pharmacists of America home" data-testid="link-brand-home">
             <span className="flex h-10 w-10 items-center justify-center border border-[#326c68]/40 text-[#326c68] transition group-hover:bg-[#326c68] group-hover:text-[#f4f1e8]">
@@ -118,7 +119,8 @@ function Home() {
             </div>
           </nav>
         )}
-      </header>
+        </header>
+      </div>
 
       <main id="main">
         <section id="home" className="relative isolate bg-[#e8e5dc]">
