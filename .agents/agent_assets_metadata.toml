@@ -1,0 +1,30 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "oR9nBfmOOBlzYshpn7e2P"
+uri = "file://artifacts/consultant-pharmacists/public/baumgartner-portrait-enhanced.jpg"
+type = "image"
+title = "Restored portrait of Dr. Baumgartner"
+description = "AI-restored from the client’s existing portrait; please confirm his likeness before public use."
+logical_id = "03fbec9c-0b98-4266-b17e-db7844d95f49"
+content_hash = "sha256:b97df0a92b4041bf5253c9cd69be56e5305c6cebd1ecfdfb05b84755d7850986"
+size = 102466
+mtime_ms = 1790764187021
+storage_uri = "gcs://replit-rams-assets-kira/rams/assets/repl:4a15b134-b1c9-4a82-bd61-293c28f6d96d/03fbec9c-0b98-4266-b17e-db7844d95f49/7fc601cc-c3fe-41e2-82fd-c1a18c7c1281"
+storage_version_token = "1790764649238487"
+content_type = "image/jpeg"
+
+[[outputs]]
+id = "1pOVTWMsR10crgJkxcFDj"
+uri = "file://artifacts/consultant-pharmacists/public/parenteral-micronutrition-cover-enhanced.jpg"
+type = "image"
+title = "Refined guide image"
+description = "Cleaned homepage promotional artwork based on the original cover; not a print-ready cover master."
+logical_id = "f9b5603b-d39b-4794-be8f-db4d02b135ae"
+content_hash = "sha256:ef941e369793338c9b8b64e1a5de8e443b8f00976161ad7195140ca87115f15b"
+size = 110567
+mtime_ms = 1790764190493
+storage_uri = "gcs://replit-rams-assets-kira/rams/assets/repl:4a15b134-b1c9-4a82-bd61-293c28f6d96d/f9b5603b-d39b-4794-be8f-db4d02b135ae/88011880-c2a3-409f-bad2-06f81627e3a0"
+storage_version_token = "1790764650004083"
+content_type = "image/jpeg"

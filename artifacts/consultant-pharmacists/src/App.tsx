@@ -151,17 +151,20 @@ function Home() {
               </div>
               <p className="mt-5 text-[11px] text-[#7a807d]">Purchase securely through the official Payloadz link.</p>
             </div>
-            <div className="order-2 flex min-h-[265px] items-center justify-center gap-8 border border-[#d5d0c5] bg-[#f0ede5]/65 px-5 py-8 sm:min-h-[310px] sm:gap-10 lg:order-2 lg:min-h-[425px] lg:px-8">
+            <div className="order-2 flex min-h-[355px] items-center justify-center gap-8 border border-[#d5d0c5] bg-[#e9e6dd] px-5 py-8 sm:min-h-[390px] sm:gap-10 lg:order-2 lg:min-h-[425px] lg:px-8">
               <div className="relative flex shrink-0 items-center justify-center">
-                <span className="absolute -inset-5 border border-[#c8c2b5]" aria-hidden="true" />
-                <img
-                  src={`${import.meta.env.BASE_URL}parenteral-micronutrition-cover.jpg`}
-                  alt="Cover of The Clinical Guide to Parenteral Micronutrition (Enhanced Third Edition-1,055 pages)"
-                  width="162"
-                  height="215"
-                  className="relative h-[215px] w-[162px] object-contain shadow-[8px_12px_24px_rgba(32,48,57,.18)]"
-                  data-testid="img-guide-cover"
-                />
+                <span className="absolute -inset-4 border border-[#c8c2b5]" aria-hidden="true" />
+                <div className="relative h-[285px] w-[214px] overflow-hidden border border-white/80 bg-[#f9f8f1] shadow-[12px_18px_28px_rgba(32,48,57,.22)] sm:h-[315px] sm:w-[236px]">
+                  <span className="pointer-events-none absolute inset-y-0 left-0 z-10 w-2 bg-gradient-to-r from-[#273f45]/30 to-transparent" aria-hidden="true" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}parenteral-micronutrition-cover-enhanced.jpg`}
+                    alt="Cover of The Clinical Guide to Parenteral Micronutrition (Enhanced Third Edition-1,055 pages)"
+                    width="1024"
+                    height="1024"
+                    className="h-full w-full object-cover object-center"
+                    data-testid="img-guide-cover"
+                  />
+                </div>
               </div>
               <div className="hidden max-w-[160px] sm:block">
                 <p className="eyebrow text-[#326c68]">Clinical reference</p>
@@ -270,18 +273,25 @@ function Home() {
         <section id="about" className="scroll-mt-20 bg-[#e8e5dc]">
           <div className="mx-auto grid max-w-[1320px] lg:grid-cols-[.94fr_1.06fr]">
             <div className="relative min-h-[400px] overflow-hidden bg-[#b5b9ad] lg:min-h-[590px]">
-              <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_28%_25%,rgba(248,244,231,.58),transparent_37%),linear-gradient(145deg,#7a8a81,#344a4a_58%,#24343b)]" />
-              <div className="absolute inset-[9%] border border-white/25" />
-              <div className="absolute left-[14%] top-[17%] text-[#f3f0e7]">
-                <p className="eyebrow text-[#d3e2d8]">Clinical perspective, shaped over time</p>
-              </div>
+              <img
+                src={`${import.meta.env.BASE_URL}baumgartner-portrait-enhanced.jpg`}
+                alt="Dr. Thomas G. Baumgartner wearing a white coat"
+                width="1024"
+                height="1024"
+                loading="lazy"
+                decoding="async"
+                className="absolute inset-0 h-full w-full object-cover object-top"
+                data-testid="img-baumgartner-portrait"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#203039]/90 via-[#203039]/10 to-transparent" aria-hidden="true" />
+              <div className="absolute inset-[7%] border border-white/30" aria-hidden="true" />
               <div className="absolute bottom-[12%] left-[14%] right-[12%]">
-                <span className="serif block max-w-[470px] text-[clamp(2.1rem,4vw,3.5rem)] leading-[1.05] tracking-[-0.035em] text-[#f3f0e7]">
-                  “Good analysis starts with the details others might miss.”
+                <span className="eyebrow text-[#d5e5df]">President &amp; Chief Executive Officer</span>
+                <span className="serif mt-3 block max-w-[470px] text-[clamp(2rem,4vw,3.2rem)] leading-[1.05] tracking-[-0.035em] text-[#f3f0e7]">
+                  Dr. Thomas G. Baumgartner
                 </span>
-                <span className="mt-5 block text-[11px] font-semibold uppercase tracking-[0.17em] text-[#d5e0d8]">An independent clinical lens</span>
+                <span className="mt-4 block text-[12px] text-[#d5e0d8]">Clinical pharmacist · educator · editor</span>
               </div>
-              <span className="absolute bottom-6 right-7 serif text-[18px] italic text-white/65">CP · America</span>
             </div>
             <div className="flex flex-col justify-center px-6 py-16 sm:px-10 sm:py-20 lg:px-16 xl:px-20">
               <p className="eyebrow text-[#326c68]">The expert behind the practice</p>
