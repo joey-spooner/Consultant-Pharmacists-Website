@@ -38,7 +38,8 @@ _Populate as you build — explicit user instructions worth remembering across s
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- The free electrolyte download must be Chapters 5–11 of the main guide, not the older eight-page self-assessment primer linked by the former site. Do not label that primer as the excerpt.
+- The supplied full-book PDF is not encrypted or permission-restricted despite any "ReadOnly" filename. Do not put the full PDF in public web assets or claim it is protected; Gumroad watermarking is expected to be applied on upload, not by this site.
 
 ## Pointers
 
