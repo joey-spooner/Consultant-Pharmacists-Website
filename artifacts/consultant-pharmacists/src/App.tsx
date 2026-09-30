@@ -317,18 +317,19 @@ function Home() {
         <section id="resources" className="scroll-mt-32 border-t border-[#ded9cf] bg-[#f4f1e8]">
           <div className="mx-auto grid max-w-[1320px] gap-10 px-6 py-16 sm:px-10 sm:py-20 lg:grid-cols-[.76fr_1.24fr] lg:items-center lg:px-12">
             <div>
-              <p className="eyebrow text-[#326c68]">Free excerpt from the guide</p>
-              <h2 className="serif mt-4 text-[clamp(2.5rem,4vw,3.7rem)] leading-[1.02] tracking-[-0.04em]">Electrolytes: Chapters 5–11.</h2>
+              <p className="eyebrow text-[#326c68]">Free PDF from the guide</p>
+              <h2 className="serif mt-4 text-[clamp(2.5rem,4vw,3.7rem)] leading-[1.02] tracking-[-0.04em]">Electrolytes (Chapters 5–11).</h2>
             </div>
             <div className="flex flex-col gap-6 border-l border-[#cfc9bd] pl-6 sm:pl-9 md:flex-row md:items-center md:justify-between">
               <div className="max-w-[510px]">
-                <div className="flex items-center gap-2 text-[#326c68]"><BookOpen size={16} /><span className="eyebrow">Complimentary chapter excerpt</span></div>
+                <div className="flex items-center gap-2 text-[#326c68]"><BookOpen size={16} /><span className="eyebrow">Complimentary self-assessment excerpt</span></div>
                 <p className="mt-4 text-[14px] leading-[1.8] text-[#626d6f]">
-                  Chapters 5–11 on electrolytes are an excerpt from The Clinical Guide to Parenteral Micronutrition, not a separate publication.
+                  A free eight-page Electrolytes self-assessment excerpt associated with Chapters 5–11 of The Clinical Guide to Parenteral Micronutrition. It is a sample of the guide’s material, not the complete chapter text or a separate title.
                 </p>
-                <p className="mt-2 text-[12px] leading-[1.6] text-[#717a78]">The correct chapter PDF is needed before this download can be enabled.</p>
               </div>
-              <span className="inline-flex min-h-[48px] shrink-0 items-center justify-center border border-[#9daaa4] px-5 text-[12px] font-semibold text-[#65736f]" aria-disabled="true" data-testid="text-resource-excerpt-pending">Excerpt PDF pending</span>
+              <a href={`${import.meta.env.BASE_URL}electrolytes-self-assessment-excerpt.pdf`} download="electrolytes-self-assessment-excerpt.pdf" className="cta-button inline-flex min-h-[48px] shrink-0 items-center justify-center gap-2 border border-[#326c68] px-5 text-[12px] font-semibold text-[#326c68] hover:bg-[#326c68] hover:text-[#f4f1e8]" data-testid="link-resource-electrolytes">
+                Download free PDF <ArrowDown size={15} />
+              </a>
             </div>
           </div>
         </section>

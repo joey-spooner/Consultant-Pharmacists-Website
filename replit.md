@@ -38,7 +38,7 @@ _Populate as you build — explicit user instructions worth remembering across s
 
 ## Gotchas
 
-- The free electrolyte download must be Chapters 5–11 of the main guide, not the older eight-page self-assessment primer linked by the former site. Do not label that primer as the excerpt.
+- Present the free electrolyte download under the guide's Electrolytes (Chapters 5–11) section. The supplied file is an eight-page self-assessment excerpt, not the full text of those chapters; do not claim it contains all seven chapters or present it as a separate title.
 - The supplied full-book PDF is not encrypted or permission-restricted despite any "ReadOnly" filename. Do not put the full PDF in public web assets or claim it is protected; Gumroad watermarking is expected to be applied on upload, not by this site.
 
 ## Pointers
