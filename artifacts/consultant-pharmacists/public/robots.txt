@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://consultant-pharmacists-website.replit.app/sitemap.xml
