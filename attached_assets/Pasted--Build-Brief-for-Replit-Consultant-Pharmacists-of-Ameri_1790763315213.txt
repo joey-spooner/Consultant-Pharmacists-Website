@@ -1,0 +1,128 @@
+# Build Brief for Replit — Consultant Pharmacists of America Website
+
+Paste this directly into Replit as the project brief. Full background/audit lives in `spec.md` in
+this same folder, this file is the trimmed, build-focused version.
+
+## What to build
+
+A static, responsive 5-page marketing/sales site for a clinical pharmacy advisory firm, replacing
+an outdated WordPress.com site. Plain HTML/CSS/JS (or a minimal static-site approach), no CMS, no
+backend beyond a third-party form handler and links out to Gumroad for checkout.
+
+## Pages (exactly these 5, no more)
+
+1. **Home**
+2. **About**
+3. **Client Relationships**
+4. **Webinars**
+5. **Contact**
+
+## Home page
+
+- Hero: firm name + one-line positioning ("Excellence in Parenteral Nutrition, Micronutrition, and
+  Clinical Pharmacy"). Not a blog post, not dated.
+- Primary CTA above the fold: link to the main book's Gumroad product page. **This replaces a
+  broken PayloadZ checkout link** — treat this as the single most important element on the page.
+- A short 2-3 sentence excerpt from the book description (below) placed near that CTA, so visitors
+  get a flavor of the content before clicking through, per the client's explicit request.
+- Secondary section: brief pointers/links to About, Client Relationships, and Webinars.
+
+## About page
+
+Use this content as-is (reorganize into scannable sections: Credentials / Recognition /
+Experience — do not rewrite the substance):
+
+- Dr. Thomas G. Baumgartner, Pharm.D. (University of the Pacific, cum laude), M.Ed. (Stetson
+  University), B.S. Chemistry/Pharmacy (Rutgers)
+- FASHP Fellow; Florida Society of Health-Systems Pharmacists' "Health-Systems Pharmacist of the
+  Year"; National Academy of Pharmacy Practice; 100+ publications; 30+ years' experience
+- Firm positioning: "an independent advisory firm specializing in parenteral products, clinical
+  pharmacy and clinical nutrition." Services: medical chart review, expert legal consultation,
+  healthcare writing/publishing.
+
+## Client Relationships page
+
+Keep this exact list of 17 client/facility types (no new copy), but **do not render it as a flat
+bullet list** (that's the current site's biggest weakness on this page). Group into scannable
+clusters, e.g.:
+
+- **Acute & Ambulatory Care:** acute care hospitals, ambulatory medical centers, surgical centers
+- **Long-Term & Residential Care:** assisted living facilities, continuing care retirement
+  communities, nursing facilities, boarding homes, senior centers
+- **Home & Transitional Care:** home health care, hospice services, transitional care facilities
+- **Pharmacy & Institutional:** community pharmacies, wholesale/retail pharmacies, correctional
+  institutions, dialysis centers
+- **Private Patients**
+
+No testimonials or logos exist, keep this page text/icon based, not photo-based.
+
+## Webinars page
+
+Replace the current flat list of ~400 webinar titles with a **categorized layout** (accordion,
+tabs, or sectioned cards — your call on the pattern). Use these categories, matching the book's own
+chapter structure for site-wide consistency:
+
+- General / Foundational PN (TPN overview, pediatric PN, home PN)
+- Electrolytes
+- Trace Elements
+- Vitamins
+- Disease-Specific & Critical Care
+- Professional / Legal / Other
+
+This is a **credibility/portfolio page only** — no sign-up form, no attendee capture, nothing
+interactive beyond browsing. Keep the existing "request a custom webinar" CTA at the bottom.
+
+## Contact page
+
+Rebuild this exact form (fields only, wire to Formspree or Getform free tier, not a custom
+backend):
+
+- Name (required)
+- Email (required)
+- Services (checkboxes): Medico-legal, General consultation, Medical/Pharmacy Writing, Webinars,
+  Other
+- Message (textarea)
+- Submit
+
+Contact info to display: phone 352-642-3005, email ConsultantPharmacistsofAmerica@gmail.com.
+**Do not add a street address** until confirmed which one (open question, two candidates on file,
+neither approved yet).
+
+## Book product content (for the Home teaser + linking out to Gumroad)
+
+*The Clinical Guide to Parenteral Micronutrition (Enhanced Third Edition)*, edited by Dr. Thomas G.
+Baumgartner:
+
+> A comprehensive, evidence-based reference for healthcare professionals involved in the
+> administration of parenteral nutrition, especially in hospital and home settings. Covers
+> formulation, monitoring, and administration of micronutrients (electrolytes, trace elements,
+> vitamins) in Total Parenteral Nutrition. Structured in four chapter groups: Review chapters (PN
+> overview, pediatric PN, home PN), Electrolytes (Ch. 5-11), Trace Elements (Ch. 12-20), Vitamins
+> (Ch. 21-33), plus Special Topics (Carnitine) and Appendices (customizable TPN handbooks, teaching
+> materials). Designed for pharmacists, physicians, dietitians, nurses, and clinical support teams.
+
+Prices to display (actual checkout/pricing lives in Gumroad, not in site code — just show these
+correctly wherever price is referenced): primary reference **$15.99**, other titles **$9.99** each,
+electrolyte primer **free**.
+
+## Design direction
+
+- Quietly professional and clinical, not flashy. Competent and clean, not a personality overhaul.
+- Free stock photography only (clinical/healthcare themed), no custom photography/illustration.
+- The two pages needing the most visual rework are Client Relationships and Webinars (both
+  currently walls of text), everything else is closer to a styling pass.
+
+## Technical requirements
+
+- Fully static, responsive across desktop/mobile/tablet.
+- Custom favicon, per-page titles + meta descriptions, Open Graph preview image, sitemap.
+- No CMS, no blog, no database.
+- Build here in Replit; it will be published to GitHub Pages afterward (not Replit's own hosting).
+
+## Explicitly do NOT build
+
+- Any attendee sign-up/registration system on the Webinars page
+- Amazon Kindle/print listings or formatting
+- A street address on Contact (unconfirmed)
+- Social share buttons (not yet confirmed with the client, ask before adding)
+- Anything beyond these 5 pages

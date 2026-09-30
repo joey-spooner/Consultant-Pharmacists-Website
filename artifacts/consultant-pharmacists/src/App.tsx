@@ -78,15 +78,16 @@ function Home() {
             </span>
           </a>
           <nav aria-label="Main navigation" className="hidden items-center gap-7 lg:flex">
-            <a href="#expertise" className="nav-link text-[13px] text-[#535f62]" data-testid="link-nav-expertise">Expertise</a>
+            <a href="#book" className="nav-link text-[13px] text-[#535f62]" data-testid="link-nav-book">The guide</a>
+            <a href="#expertise" className="nav-link text-[13px] text-[#535f62]" data-testid="link-nav-expertise">Services</a>
             <a href="#who-we-serve" className="nav-link text-[13px] text-[#535f62]" data-testid="link-nav-sectors">Who we serve</a>
             <a href="#about" className="nav-link text-[13px] text-[#535f62]" data-testid="link-nav-about">About Dr. Baumgartner</a>
-            <a href="#resources" className="nav-link text-[13px] text-[#535f62]" data-testid="link-nav-resources">Resources</a>
+            <a href="#resources" className="nav-link text-[13px] text-[#535f62]" data-testid="link-nav-resources">Free resource</a>
           </nav>
           <div className="hidden items-center gap-5 lg:flex">
             <a href="mailto:consultantpharmacistsofamerica@gmail.com" aria-label="Email Consultant Pharmacists of America" className="text-[#326c68] transition hover:text-[#203039]" data-testid="link-header-email"><Mail size={18} strokeWidth={1.7} /></a>
-            <a href="#contact" className="cta-button inline-flex items-center gap-2 bg-[#326c68] px-5 py-3 text-[12px] font-semibold tracking-[0.02em] text-[#f4f1e8] hover:bg-[#203039]" data-testid="link-header-inquire">
-              Discuss your needs <ArrowUpRight size={15} />
+            <a href="https://www.payloadz.com/go/?id=1554165" target="_blank" rel="noopener noreferrer" className="cta-button inline-flex items-center gap-2 bg-[#326c68] px-5 py-3 text-[12px] font-semibold tracking-[0.02em] text-[#f4f1e8] hover:bg-[#203039]" data-testid="link-header-buy-guide">
+              Buy the guide · $29.95 <ArrowUpRight size={15} />
             </a>
           </div>
           <button
@@ -104,10 +105,11 @@ function Home() {
           <nav aria-label="Mobile navigation" className="absolute inset-x-0 top-full border-b border-[#ded9cf] bg-[#f4f1e8] px-6 py-5 shadow-lg lg:hidden">
             <div className="mx-auto flex max-w-[1320px] flex-col">
               {[
-                ['Expertise', '#expertise'],
+                ['The micronutrition guide', '#book'],
+                ['Consulting services', '#expertise'],
                 ['Who we serve', '#who-we-serve'],
                 ['About Dr. Baumgartner', '#about'],
-                ['Resources', '#resources'],
+                ['Free resource', '#resources'],
                 ['Start a conversation', '#contact'],
               ].map(([label, href]) => (
                 <a key={href} href={href} onClick={closeMenu} className="border-b border-[#ded9cf] py-3.5 text-sm" data-testid={`link-mobile-${href.slice(1)}`}>{label}</a>
@@ -119,40 +121,58 @@ function Home() {
       </header>
 
       <main id="main">
-        <section id="home" className="relative isolate">
-          <div className="absolute inset-0 -z-10 bg-[#e8e5dc]" />
-          <div className="mx-auto grid max-w-[1320px] items-stretch lg:min-h-[650px] lg:grid-cols-[1.02fr_.98fr]">
-            <div className="relative z-10 flex flex-col justify-center px-6 pb-14 pt-16 sm:px-10 sm:pt-20 lg:px-12 lg:py-20 xl:px-20">
-              <p className="eyebrow reveal text-[#326c68]">Specialist advisory practice · Florida &amp; beyond</p>
-              <h1 className="serif reveal reveal-delay-1 mt-6 max-w-[690px] text-[clamp(3.25rem,7vw,6.1rem)] leading-[0.96] tracking-[-0.045em] text-[#203039]">
-                Clarity for the <em className="font-normal text-[#326c68]">complex</em> clinical questions.
+        <section id="home" className="relative isolate bg-[#e8e5dc]">
+          <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_20%_30%,rgba(189,205,195,.3),transparent_45%),linear-gradient(115deg,#e8e5dc,#f4f1e8_58%,#e6e3da)]" />
+          <div id="book" className="mx-auto grid max-w-[1320px] items-center gap-10 px-6 py-12 sm:px-10 sm:py-16 lg:min-h-[605px] lg:grid-cols-[1fr_.86fr] lg:gap-14 lg:px-12 lg:py-20">
+            <div className="order-1 flex flex-col justify-center lg:order-1 lg:py-4">
+              <p className="eyebrow reveal text-[#326c68]">Featured clinical reference</p>
+              <h1 className="serif reveal reveal-delay-1 mt-5 max-w-[760px] text-[clamp(2.9rem,6.3vw,5.65rem)] leading-[0.97] tracking-[-0.047em] text-[#203039]">
+                The Clinical Guide to <em className="font-normal text-[#326c68]">Parenteral Micronutrition</em>
+                {" "}<span className="serif mt-4 block text-[clamp(1.1rem,2vw,1.45rem)] font-normal leading-[1.3] tracking-normal text-[#566164]">(Enhanced Third Edition-1,055 pages)</span>
               </h1>
-              <p className="reveal reveal-delay-2 mt-7 max-w-[535px] text-[16px] leading-[1.8] text-[#566164] sm:text-[17px]">
-                Independent expertise in parenteral products, clinical pharmacy, and clinical nutrition—brought to the cases, decisions, and work that need a closer look.
+              <p className="reveal reveal-delay-2 mt-5 text-[15px] font-medium text-[#566164]">
+                Edited by Dr. Thomas G. Baumgartner
               </p>
-              <div className="reveal reveal-delay-3 mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
-                <a href="#contact" className="cta-button inline-flex min-h-[52px] items-center justify-center gap-3 bg-[#326c68] px-6 text-sm font-semibold text-[#f6f3eb] hover:bg-[#203039]" data-testid="link-hero-inquire">
-                  Tell us what you’re working through <ArrowRight size={17} />
+              <p className="reveal reveal-delay-2 mt-4 max-w-[610px] text-[14px] leading-[1.8] text-[#626d6f]">
+                A clinical reference focused on parenteral micronutrition, from Consultant Pharmacists of America, Inc.
+              </p>
+              <div className="reveal reveal-delay-3 mt-7 flex flex-wrap items-center gap-x-5 gap-y-2 text-[12px] text-[#596567]">
+                <span>Listed price <strong className="text-[#26343b]">$29.95</strong></span>
+              </div>
+              <div className="reveal reveal-delay-3 mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+                <a href="https://www.payloadz.com/go/?id=1554165" target="_blank" rel="noopener noreferrer" className="cta-button inline-flex min-h-[53px] items-center justify-center gap-3 bg-[#326c68] px-6 text-sm font-semibold text-[#f6f3eb] hover:bg-[#203039]" data-testid="link-hero-buy-guide">
+                  Purchase the guide · $29.95 <ArrowUpRight size={17} />
                 </a>
-                <a href="#expertise" className="inline-flex min-h-[52px] items-center justify-center gap-2 px-4 text-sm font-medium text-[#326c68] transition hover:text-[#203039]" data-testid="link-hero-expertise">
-                  Explore our expertise <ArrowDown size={15} />
+                <a href="#expertise" className="inline-flex min-h-[52px] items-center justify-center gap-2 px-3 text-sm font-medium text-[#326c68] transition hover:text-[#203039]" data-testid="link-hero-expertise">
+                  Explore consulting services <ArrowDown size={15} />
                 </a>
               </div>
-              <div className="mt-12 flex items-center gap-4 border-t border-[#cfc9bd] pt-5">
-                <span className="serif text-[25px] leading-none text-[#326c68]">30+</span>
-                <span className="max-w-[230px] text-[11px] leading-[1.5] tracking-[0.07em] text-[#6b7475]">YEARS OF EDITORIAL LEADERSHIP IN CLINICAL NUTRITION</span>
+              <p className="mt-5 text-[11px] text-[#7a807d]">Purchase securely through the official Payloadz link.</p>
+            </div>
+            <div className="order-2 flex min-h-[265px] items-center justify-center gap-8 border border-[#d5d0c5] bg-[#f0ede5]/65 px-5 py-8 sm:min-h-[310px] sm:gap-10 lg:order-2 lg:min-h-[425px] lg:px-8">
+              <div className="relative flex shrink-0 items-center justify-center">
+                <span className="absolute -inset-5 border border-[#c8c2b5]" aria-hidden="true" />
+                <img
+                  src={`${import.meta.env.BASE_URL}parenteral-micronutrition-cover.jpg`}
+                  alt="Cover of The Clinical Guide to Parenteral Micronutrition (Enhanced Third Edition-1,055 pages)"
+                  width="162"
+                  height="215"
+                  className="relative h-[215px] w-[162px] object-contain shadow-[8px_12px_24px_rgba(32,48,57,.18)]"
+                  data-testid="img-guide-cover"
+                />
+              </div>
+              <div className="hidden max-w-[160px] sm:block">
+                <p className="eyebrow text-[#326c68]">Clinical reference</p>
+                <p className="serif mt-4 text-[24px] leading-[1.15] text-[#26343b]">Parenteral micronutrition</p>
+                <p className="mt-3 text-[12px] leading-[1.7] text-[#687274]">Edited by Dr. Thomas G. Baumgartner, PharmD, MEd</p>
+                <div className="mt-5 h-px w-10 bg-[#326c68]" />
               </div>
             </div>
-            <div className="relative min-h-[360px] overflow-hidden bg-[#203039] sm:min-h-[470px] lg:min-h-full">
-              <img src={`${import.meta.env.BASE_URL}clinical-editorial.jpg`} alt="Clinical reference notes and glass ampoule arranged on a dark work surface" className="absolute inset-0 h-full w-full object-cover object-center" data-testid="img-hero-editorial" />
-              <div className="absolute inset-0 bg-gradient-to-r from-[#203039]/25 via-transparent to-[#203039]/20" />
-              <div className="absolute bottom-0 left-0 right-0 flex items-end justify-between bg-gradient-to-t from-[#17242a]/85 to-transparent px-6 pb-6 pt-24 sm:px-9 sm:pb-9">
-                <div className="max-w-[370px] text-[#f5f1e9]">
-                  <p className="eyebrow text-[#c6d8d1]">Independent thinking. Clinical depth.</p>
-                  <p className="serif mt-3 text-[25px] leading-[1.15] sm:text-[31px]">A specialist’s perspective, when the details matter.</p>
-                </div>
-                <span className="hidden border border-white/35 px-3 py-2 text-[10px] tracking-[0.14em] text-white/85 sm:block">EXPERT CONSULTATION</span>
-              </div>
+          </div>
+          <div className="border-t border-[#d5d0c5]">
+            <div className="mx-auto flex max-w-[1320px] flex-col gap-2 px-6 py-4 text-[11px] leading-relaxed text-[#687274] sm:flex-row sm:items-center sm:justify-between sm:px-10 lg:px-12">
+              <span>Edited by Dr. Thomas G. Baumgartner, PharmD, MEd</span>
+              <a href="#expertise" className="inline-flex items-center gap-2 font-semibold text-[#326c68] hover:text-[#203039]" data-testid="link-book-to-services">Looking for expert consultation? Explore services <ArrowRight size={13} /></a>
             </div>
           </div>
         </section>
@@ -289,18 +309,18 @@ function Home() {
         <section id="resources" className="scroll-mt-20 border-t border-[#ded9cf] bg-[#f4f1e8]">
           <div className="mx-auto grid max-w-[1320px] gap-10 px-6 py-16 sm:px-10 sm:py-20 lg:grid-cols-[.76fr_1.24fr] lg:items-center lg:px-12">
             <div>
-              <p className="eyebrow text-[#326c68]">A resource for the field</p>
-              <h2 className="serif mt-4 text-[clamp(2.5rem,4vw,3.7rem)] leading-[1.02] tracking-[-0.04em]">A practical guide to parenteral micronutrition.</h2>
+              <p className="eyebrow text-[#326c68]">Free educational resource</p>
+              <h2 className="serif mt-4 text-[clamp(2.5rem,4vw,3.7rem)] leading-[1.02] tracking-[-0.04em]">Electrolytes primer.</h2>
             </div>
             <div className="flex flex-col gap-6 border-l border-[#cfc9bd] pl-6 sm:pl-9 md:flex-row md:items-center md:justify-between">
               <div className="max-w-[510px]">
-                <div className="flex items-center gap-2 text-[#326c68]"><BookOpen size={16} /><span className="eyebrow">Educational resource</span></div>
+                <div className="flex items-center gap-2 text-[#326c68]"><BookOpen size={16} /><span className="eyebrow">Complimentary PDF</span></div>
                 <p className="mt-4 text-[14px] leading-[1.8] text-[#626d6f]">
-                  Explore the current guide on parenteral micronutrition as a starting point for learning—not a substitute for individualized clinical guidance.
+                  A free Electrolytes PDF is available as a secondary educational resource.
                 </p>
               </div>
-              <a href="mailto:consultantpharmacistsofamerica@gmail.com?subject=Parenteral%20micronutrition%20guide" className="cta-button inline-flex min-h-[48px] shrink-0 items-center justify-center gap-2 border border-[#326c68] px-5 text-[12px] font-semibold text-[#326c68] hover:bg-[#326c68] hover:text-[#f4f1e8]" data-testid="link-resource-inquire">
-                Request the guide <ArrowUpRight size={15} />
+              <a href="https://consultantpharmacistsofamerica.com/wp-content/uploads/2022/04/final-pdf-3.31.22-free-primer-electrolytes-.pdf" target="_blank" rel="noopener noreferrer" className="cta-button inline-flex min-h-[48px] shrink-0 items-center justify-center gap-2 border border-[#326c68] px-5 text-[12px] font-semibold text-[#326c68] hover:bg-[#326c68] hover:text-[#f4f1e8]" data-testid="link-resource-electrolytes">
+                Open free PDF <ArrowUpRight size={15} />
               </a>
             </div>
           </div>
