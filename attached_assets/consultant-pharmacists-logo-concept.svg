@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" viewBox="0 0 1000 210" role="img" aria-labelledby="title desc">
+  <title id="title">Consultant Pharmacists of America, Inc. logo concept</title>
+  <desc id="desc">A teal open C with a small clinical plus beside the company name in dark editorial lettering.</desc>
+  <g fill="none" stroke="#326c68">
+    <path d="M139 47a68 68 0 1 0 0 116" stroke-width="17" stroke-linecap="square"/>
+  </g>
+  <path d="M148 95h12v-12h10v12h12v10h-12v12h-10v-12h-12z" fill="#326c68"/>
+  <text x="226" y="97" fill="#203039" font-family="Newsreader, Georgia, serif" font-size="57" font-weight="400" letter-spacing="-2">Consultant Pharmacists</text>
+  <path d="M228 121h692" stroke="#a9bdb6" stroke-width="1.5"/>
+  <text x="228" y="156" fill="#326c68" font-family="DM Sans, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="6">OF AMERICA, INC.</text>
+</svg>

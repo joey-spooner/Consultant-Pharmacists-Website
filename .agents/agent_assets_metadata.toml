@@ -28,3 +28,45 @@ mtime_ms = 1790764190493
 storage_uri = "gcs://replit-rams-assets-kira/rams/assets/repl:4a15b134-b1c9-4a82-bd61-293c28f6d96d/f9b5603b-d39b-4794-be8f-db4d02b135ae/88011880-c2a3-409f-bad2-06f81627e3a0"
 storage_version_token = "1790764650004083"
 content_type = "image/jpeg"
+
+[[outputs]]
+id = "VBbzH709G58PY9lgxyuzo"
+uri = "file://attached_assets/consultant-pharmacists-logo-concept.png"
+type = "image"
+title = "Consultant Pharmacists logo — preview"
+description = "Transparent PNG of the first C-plus logo concept."
+logical_id = "de07820a-9b94-4692-acc8-70070751a16e"
+content_hash = "sha256:9fbc24449dc21c3338e6c873bf26bb4a179dfda1f4040fde31dd3f24338676ca"
+size = 232091
+mtime_ms = 1790768560142
+storage_uri = "gcs://replit-rams-assets-kira/rams/assets/repl:4a15b134-b1c9-4a82-bd61-293c28f6d96d/de07820a-9b94-4692-acc8-70070751a16e/81586814-8c13-41c2-9a37-dda4f6e6d2ab"
+storage_version_token = "1790768566758601"
+content_type = "image/png"
+
+[[outputs]]
+id = "MSq5uMUR0JwsKFwna0ZPG"
+uri = "file://attached_assets/consultant-pharmacists-logo-concept.svg"
+type = "image"
+title = "Consultant Pharmacists logo — editable SVG"
+description = "Scalable vector wordmark with transparent background."
+logical_id = "51465d7e-5ab5-4ef7-a056-85788e0112da"
+content_hash = "sha256:e5a42f5bcf261fece9a87a34973ef90cb77e4f7e6182c12d861e9f0a2aafa823"
+size = 919
+mtime_ms = 1790768514857
+storage_uri = "gcs://replit-rams-assets-kira/rams/assets/repl:4a15b134-b1c9-4a82-bd61-293c28f6d96d/51465d7e-5ab5-4ef7-a056-85788e0112da/ce4ee360-419f-4ebf-8005-fd7ca1807d5a"
+storage_version_token = "1790768567645243"
+content_type = "image/svg+xml"
+
+[[outputs]]
+id = "bxM8v5FcKZXFuxXDr8Flh"
+uri = "file://attached_assets/consultant-pharmacists-logo-symbol.svg"
+type = "image"
+title = "C-plus symbol — editable SVG"
+description = "Standalone mark for small uses such as a favicon or social profile."
+logical_id = "5cd1a4dd-f5b7-4372-86f8-a5c9ea84547f"
+content_hash = "sha256:3eba53c943e505f5bef3795493b145c429b67ff096961b1ebaa90ab77459efbe"
+size = 456
+mtime_ms = 1790768516289
+storage_uri = "gcs://replit-rams-assets-kira/rams/assets/repl:4a15b134-b1c9-4a82-bd61-293c28f6d96d/5cd1a4dd-f5b7-4372-86f8-a5c9ea84547f/77a803fd-ec2e-4d5c-a10d-0a32ad9c8c3a"
+storage_version_token = "1790768568428334"
+content_type = "image/svg+xml"
