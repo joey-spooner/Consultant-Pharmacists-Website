@@ -1,0 +1,98 @@
+Erika Hall is useful here, but I’d frame her less as “here are the ingredients of a UI design system” and more as “here is what makes a system worth designing in the first place.”
+
+Her recurring idea is that a good design system should encode purpose and decisions, not just standardize appearance. In her work, she keeps coming back to understanding the people involved, the goals of the system, the language it uses, the incentives surrounding it, and the evidence behind design choices. She explicitly argues that models and diagrams should communicate the salient information needed to make a decision; if the representation becomes more complicated than what it represents, it has failed.  
+
+That gives you something like this as an “Erika Hall-ish” design system:
+
+* Purpose: What is this system supposed to help someone accomplish?
+* People: Who uses it, operates it, pays for it, and is affected by it?
+* Language: What do things mean? Consistent naming matters enormously.
+* Rules and constraints: What can happen, what can’t happen, and why?
+* Reusable patterns: Only where repetition actually exists.
+* Evidence: Why do we believe a pattern/rule is useful?
+* Context and incentives: Why does the current system behave the way it does?
+* Feedback/research: A way to learn whether your assumptions are right.
+* Enough documentation to make decisions consistently, rather than documentation for its own sake.
+
+That last part is important. Hall’s whole “Just Enough Research” philosophy carries over nicely: you want just enough system to remove ambiguity and improve decisions, not a cathedral of governance.
+
+Nathan Curtis is more explicit about conventional digital design systems. His definition starts with reusable, interconnected parts: visual styles such as typography, spacing and color, composable components, working code, and documentation. He also includes things like accessibility, page layout, editorial guidance, UX patterns and data visualization where they are needed.  
+
+Dieter Rams is actually very relevant
+
+And I think Rams may be especially relevant to what you’re doing with Circles and Lines.
+
+Rams wasn’t talking about software design systems, but he was absolutely thinking in systems. In his 1976 Vitsœ talk he said that arrangement, shape, size and color should arise from a thoroughly planned system, and that this system becomes the “language” of the design. He stresses order, proportion, understandability and simplicity.  
+
+His principles translate extremely well:
+
+Rams	Applied to your visual system
+Useful	Every circle/line property communicates something useful
+Understandable	Someone can infer what the diagram means
+Unobtrusive	The visualization doesn’t compete with the information
+Honest	Size/thickness/color don’t exaggerate reality
+Long-lasting	Avoid fashionable visual gimmicks
+Thorough	Same rule means the same thing everywhere
+As little design as possible	Don’t encode data unless it helps a decision
+
+His shorthand, “less, but better,” is probably an excellent governing principle for Circles and Lines.  
+
+There are a few other people I’d put in your reading stack.
+
+Edward Tufte is probably the most important next person for your specific project. Hall herself points people toward Tufte when discussing models and diagrams. His obsession is the ratio between information and graphical decoration: encode data clearly, eliminate visual noise, show relationships, don’t distort quantities.  
+
+Don Norman gives you the cognitive side: affordances, signifiers, mappings, constraints, feedback and conceptual models. If somebody sees a thick line, what do they think thickness means? If they click a circle, what do they expect to happen? Norman gives you language for testing that.
+
+Richard Saul Wurman is worth looking at because his work is fundamentally about making complex information understandable. His idea of information architecture predates websites. He is very concerned with deciding what information belongs together and what organizational structure helps someone comprehend it.
+
+John Maeda is useful for intentional reduction. The Laws of Simplicity is partly about removing things but also about organizing complexity so it feels simpler without pretending the underlying complexity disappeared.
+
+Massimo Vignelli is another strong fit. His philosophy was essentially that you don’t need an infinite visual vocabulary. Establish a very small number of typography, grid, scale and spacing rules and use them rigorously. That mentality maps directly to a visual notation system.
+
+And there’s an important distinction I would make for what you’re building:
+
+You’re probably not really building a “design system” in the Figma/Material Design sense.
+
+You’re building something closer to a visual language or visual grammar for representing organizational systems.
+
+That means the closest intellectual lineage may actually be:
+
+Rams → Tufte → Norman → Hall → systems thinkers like Forrester
+
+rather than:
+
+Material Design → Figma → component libraries.
+
+For Circles and Lines, I’d reduce your system to maybe six foundational questions:
+
+1. What entities exist?
+2. What relationships exist between them?
+3. What quantities can be encoded?
+4. What visual variable represents each quantity?
+5. What interactions let someone reveal more detail?
+6. What decisions should seeing the picture enable?
+
+Everything else should have to justify its existence.
+
+For example, instead of starting with:
+
+circle size = amount
+circle color = stability
+line color = request volume
+line width = value
+animation = flow
+halo = AI
+border = risk
+etc.
+
+I’d start with:
+
+What are the three things someone absolutely must notice within five seconds?
+
+Then assign visual variables to those. Everything else belongs in drill-down, hover, filters or secondary views.
+
+That is very Rams + Tufte + Hall: don’t represent everything merely because you have the data. Represent what helps someone understand and act.
+
+And there’s one Rams statement I think is almost a direct design brief for Circles and Lines: good design should clarify a product’s structure so well that, ideally, it becomes self-explanatory.  
+
+That is probably a better test for your system than “is it visually impressive?”
