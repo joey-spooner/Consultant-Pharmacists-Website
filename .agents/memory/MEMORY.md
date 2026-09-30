@@ -1,1 +1,2 @@
 - [Transparent black logo previews](transparent-black-logo-previews.md) — inspect a flattened preview before judging transparent black PNGs; some viewers show a black rectangle.
+- [Amazon-first book purchase](amazon-first-purchase.md) — use the confirmed Kindle listing as the primary buy path; avoid carrying the older guide’s price into Amazon checkout copy.

@@ -5,6 +5,7 @@ import { webinarDivisions } from '@/data/webinars';
 
 const base = import.meta.env.BASE_URL;
 const email = 'ConsultantPharmacistsofAmerica@gmail.com';
+const amazonUrl = 'https://www.amazon.com/dp/B0BM39YRRR';
 const navItems = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
@@ -95,7 +96,7 @@ function Home() {
     <section className="home-hero">
       <div className="wrap home-intro fade-up">
         <div><span className="section-kicker">Independent clinical advisory firm</span><h1 className="display">Consultant Pharmacists <em className="font-normal text-[#326c68]">of America</em></h1></div>
-        <div><p className="positioning">Excellence in Parenteral Nutrition, Micronutrition, and Clinical Pharmacy.</p><div className="mt-7 flex flex-wrap items-center gap-4"><button className="button-primary" type="button" disabled title="Verified purchase link pending" data-testid="button-hero-purchase-pending">Book purchase · $15.99 <ArrowUpRight size={16} /></button><span className="text-[11px] leading-[1.5] text-[#536064]">Verified checkout link pending</span></div><p className="body-copy mt-5 max-w-[500px] text-[13px]">A comprehensive, evidence-based reference for healthcare professionals involved in the administration of parenteral nutrition, especially in hospital and home settings. Covers formulation, monitoring, and administration of micronutrients (electrolytes, trace elements, vitamins) in Total Parenteral Nutrition.</p></div>
+        <div><p className="positioning">Excellence in Parenteral Nutrition, Micronutrition, and Clinical Pharmacy.</p><div className="mt-7 flex flex-wrap items-center gap-4"><a className="button-primary" href={amazonUrl} target="_blank" rel="noopener noreferrer" data-testid="link-hero-amazon">Buy Kindle edition on Amazon <ArrowUpRight size={16} /></a><span className="text-[11px] leading-[1.5] text-[#536064]">Price and checkout on Amazon</span></div><p className="body-copy mt-5 max-w-[500px] text-[13px]">A comprehensive, evidence-based reference for healthcare professionals involved in the administration of parenteral nutrition, especially in hospital and home settings. Covers formulation, monitoring, and administration of micronutrients (electrolytes, trace elements, vitamins) in Total Parenteral Nutrition.</p></div>
       </div>
     </section>
     <section className="feature-book" aria-labelledby="book-title">
@@ -107,10 +108,9 @@ function Home() {
           <p className="mb-5 text-[13px] font-semibold text-[#536064]">Edited by Dr. Thomas G. Baumgartner</p>
           <p className="body-copy max-w-[580px]">Structured in four chapter groups: Review chapters (PN overview, pediatric PN, home PN), Electrolytes (Ch. 5–11), Trace Elements (Ch. 12–20), and Vitamins (Ch. 21–33), plus Special Topics (Carnitine) and Appendices (customizable TPN handbooks, teaching materials). Designed for pharmacists, physicians, dietitians, nurses, and clinical support teams.</p>
           <div className="mt-7 flex flex-wrap items-center gap-4">
-            <button className="button-primary" type="button" disabled title="Verified purchase link pending" data-testid="button-purchase-pending">Purchase guide · $15.99 <ArrowUpRight size={16} /></button>
-            <span className="text-[12px] text-[#536064]">Amazon / Kindle listing link pending</span>
+            <a className="button-primary" href={amazonUrl} target="_blank" rel="noopener noreferrer" data-testid="link-book-amazon">View Kindle edition on Amazon <ArrowUpRight size={16} /></a>
           </div>
-          <p className="book-note mt-3 max-w-[490px]">Purchase links are awaiting verification. Checkout is not available from this draft.</p>
+          <p className="book-note mt-3 max-w-[490px]">Amazon handles the purchase, current price, and delivery of the Kindle edition.</p>
         </div>
       </div>
     </section>
