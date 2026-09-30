@@ -1,0 +1,85 @@
+Build Brief for Replit — Consultant Pharmacists of America Website
+Updated 2026-09-30, post-call with Tom. This replaces the earlier version — several things changed. Full background in spec.md and TOM-LOG.md in this same folder.
+
+What to build
+A static, responsive 5-page marketing/sales site for a clinical pharmacy advisory firm, replacing an outdated WordPress.com site. Plain HTML/CSS/JS (or a minimal static-site approach), no CMS, no backend beyond a third-party form handler and links out to Gumroad for checkout.
+
+Pages (exactly these 5, no more)
+Home
+About
+Client Relationships
+Webinars
+Contact
+Home page
+Hero: firm name + one-line positioning ("Excellence in Parenteral Nutrition, Micronutrition, and Clinical Pharmacy"). Not a blog post, not dated.
+Primary CTA above the fold: link to the main book's Gumroad product page. This replaces a broken PayloadZ checkout link, the single most important element on the page.
+A short 2-3 sentence excerpt from the book description (below) placed near that CTA.
+New: "used as a reference over 100,000 times" claim. Word it exactly like that, a citation count in workplace/educational settings, not "100,000 copies sold." Don't imply a sales figure.
+New: link out to the existing Amazon/Kindle listing as an additional way to buy, the book is already listed there (URL TBD from Tom, placeholder until provided).
+Secondary section: brief pointers/links to About, Client Relationships, and Webinars.
+No social share buttons (confirmed dropped).
+About page
+Use this content as-is (reorganize into scannable sections: Credentials / Recognition / Experience — do not rewrite the substance):
+
+Dr. Thomas G. Baumgartner, Pharm.D. (University of the Pacific, cum laude), M.Ed. (Stetson University), B.S. Chemistry/Pharmacy (Rutgers)
+FASHP Fellow; Florida Society of Health-Systems Pharmacists' "Health-Systems Pharmacist of the Year"; National Academy of Pharmacy Practice; 100+ publications; 30+ years' experience
+Firm positioning: "an independent advisory firm specializing in parenteral products, clinical pharmacy and clinical nutrition." Services: medical chart review, expert legal consultation, healthcare writing/publishing.
+Client Relationships page
+Keep this exact list of 17 client/facility types (no new copy), grouped into scannable clusters (not a flat bullet list):
+
+Acute & Ambulatory Care: acute care hospitals, ambulatory medical centers, surgical centers
+Long-Term & Residential Care: assisted living facilities, continuing care retirement communities, nursing facilities, boarding homes, senior centers
+Home & Transitional Care: home health care, hospice services, transitional care facilities
+Pharmacy & Institutional: community pharmacies, wholesale/retail pharmacies, correctional institutions, dialysis centers
+Private Patients
+No testimonials or logos exist for this page, keep it text/icon based, not photo-based.
+
+Webinars page — content source changed
+Use Webinars Reorganization.rtf (this folder) directly as the source of truth. Tom did his own reorganization: 10 major divisions, 26 subcategories (Foundations of Clinical Nutrition; Parenteral Nutrition/TPN; Parenteral Micronutrients & Trace Elements; Electrolytes, Acid-Base & Metabolism; Enteral Nutrition; Nutrition by Disease State; Medication-Nutrient & Drug Interactions; Clinical Pharmacy & Pharmacotherapy; Laboratory Monitoring, Assessment & Clinical Evaluation; Home Care, Administration, Education & Professional Practice). Build the page around this exact structure, don't invent categories.
+
+Layout: accordion, tabs, or sectioned cards, your call on the pattern, but it needs to handle 10 top-level divisions with subcategories underneath cleanly.
+
+This is a credibility/portfolio page only — no sign-up form, no attendee capture.
+
+New: guest-speaking is now a priced menu item at the bottom, not just an open CTA. List a higher anchor price (~$4,000-5,000/session) with copy inviting inquiries ("limited availability, contact for details"). Do not build a checkout/booking flow for this, it's a "contact me" item, routes to the Contact form.
+
+Contact page
+Rebuild this exact form (fields only, wire to Formspree or Getform free tier):
+
+Name (required)
+Email (required)
+Services (checkboxes): Medico-legal, General consultation, Medical/Pharmacy Writing, Webinars, Other
+Message (textarea)
+Submit
+Contact info to display: phone 352-642-3005, email ConsultantPharmacistsofAmerica@gmail.com.
+
+Address — resolved, use this exact one: 1616 SW 77th Terrace, Gainesville, FL 32607. Do not use any other address, an office address was considered and explicitly rejected.
+
+Book product content (for the Home teaser + linking out to Gumroad)
+The Clinical Guide to Parenteral Micronutrition (Enhanced Third Edition), edited by Dr. Thomas G. Baumgartner:
+
+A comprehensive, evidence-based reference for healthcare professionals involved in the administration of parenteral nutrition, especially in hospital and home settings. Covers formulation, monitoring, and administration of micronutrients (electrolytes, trace elements, vitamins) in Total Parenteral Nutrition. Structured in four chapter groups: Review chapters (PN overview, pediatric PN, home PN), Electrolytes (Ch. 5-11), Trace Elements (Ch. 12-20), Vitamins (Ch. 21-33), plus Special Topics (Carnitine) and Appendices (customizable TPN handbooks, teaching materials). Designed for pharmacists, physicians, dietitians, nurses, and clinical support teams.
+
+Prices to display (actual checkout/pricing lives in Gumroad, not in site code): primary reference $15.99, other titles $9.99 each, electrolyte primer free (it's specifically Chapters 5-11 of the main guide, describe it as an excerpt, not standalone content).
+
+Testimonials: not ready yet. Tom says the book's actual front-matter Preface has positive contributor comments, but they haven't been located/extracted from the 1,055-page PDF yet, don't build a testimonials section expecting this content, it's a follow-up item.
+
+Design direction
+Quietly professional and clinical, not flashy, institutional rather than trendy.
+Free stock photography only (clinical/healthcare themed), no custom photography/illustration.
+Client Relationships and Webinars need the most visual rework (both were walls of text).
+Logo: not finalized. New directions are being explored separately, don't build the site around a specific logo file yet, use the firm name as text if nothing is ready in time.
+Technical requirements
+Fully static, responsive across desktop/mobile/tablet.
+Custom favicon, per-page titles + meta descriptions, Open Graph preview image, sitemap.
+No CMS, no blog, no database.
+Build here in Replit; will be published to GitHub Pages afterward, then the domain redirected (via Cloudflare — not a site-build concern, handled separately).
+Explicitly do NOT build
+Any attendee sign-up/registration system on the Webinars page
+New Amazon Kindle/print formatting (link to the existing listing instead, don't rebuild it)
+Any address other than 1616 SW 77th Terrace
+Social share buttons (confirmed dropped)
+A booking/checkout flow for guest-speaking (contact-form routing only)
+An institutional site-license purchase flow (real interest, but not scoped yet, don't build anything for it in this pass)
+PDF watermarking/protection logic (Gumroad-side setting, handled later, not a site task)
+Anything beyond these 5 pages
