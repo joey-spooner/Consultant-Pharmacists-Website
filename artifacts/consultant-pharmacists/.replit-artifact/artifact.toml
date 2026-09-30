@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Consultant Pharmacists of America"
+description = "A conversion-focused website for Consultant Pharmacists of America, helping healthcare organizations, legal teams, and clinical partners understand its advisory, expert consultation, writing, and webinar services and make contact."
+version = "1.0.0"
+id = "artifacts/consultant-pharmacists"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19975
+
+[services.development]
+run = "pnpm --filter @workspace/consultant-pharmacists run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/consultant-pharmacists", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/consultant-pharmacists/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19975"
+BASE_PATH = "/"
