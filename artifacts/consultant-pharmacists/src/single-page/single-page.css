@@ -53,14 +53,6 @@
 .sp-rv.in { opacity: 1; transform: none; }
 .sp-sec { padding: 96px 0; }
 .sp-sh h2 { font-size: clamp(2.1rem,4vw,3.6rem); line-height: 1.06; max-width: 760px; }
-.sp-qs { list-style: none; margin: 48px 0 28px; padding: 0; border-top: 2px solid var(--ink); }
-.sp-q { display: grid; grid-template-columns: 70px 1fr; gap: 16px; padding: 28px 0; border-bottom: 1px solid #c6bfa8; transition: background .25s, padding .25s; }
-.sp-q:hover { background: var(--paper2); padding-inline: 14px; }
-.sp-qn { font-family: var(--app-font-serif); font-size: 32px; color: var(--copper-d); }
-.sp-q h3 { font-size: clamp(1.25rem,2.1vw,1.8rem); line-height: 1.2; max-width: 780px; }
-.sp-map { margin: 12px 0 0; font-size: 14px; line-height: 1.65; color: var(--muted); max-width: 720px; }
-.sp-map strong { color: var(--teal); }
-.sp-src { margin: 6px 0 0; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: #7b857f; }
 .sp-guide { background: var(--deep); color: var(--paper); padding: 90px 0; }
 .sp-guide-top { display: flex; justify-content: space-between; align-items: end; gap: 40px; flex-wrap: wrap; }
 .sp-guide h2 { font-size: clamp(2.1rem,4vw,3.4rem); max-width: 620px; line-height: 1.06; }
@@ -112,7 +104,6 @@
   .sp-logo img { width: 160px; }
   .sp-hero { padding: 40px 0 56px; }
   .sp-sec, .sp-guide, .sp-author { padding: 64px 0; }
-  .sp-q { grid-template-columns: 44px 1fr; }
   .sp-parts { grid-template-columns: 1fr; }
   .sp-btn { width: 100%; }
 }

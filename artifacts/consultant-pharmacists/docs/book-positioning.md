@@ -27,3 +27,13 @@ Avoid outcome guarantees such as “prevents refeeding syndrome,” “eliminate
 The free file contains 29 physical pages of self-assessments plus front/contents material. It is not the full seven electrolyte chapters. Use “Download the free Chapters 5–11 self-assessment” and explain “Electrolyte questions and answers from the guide; not the full chapter text.”
 
 The confirmed Amazon Kindle listing is https://www.amazon.com/dp/B0BM39YRRR. Do not equate the Kindle listing's pagination with the supplied printed contents or hardcode its price.
+
+## Dudrick quotation provenance
+
+The user supplied this wording and attribution on 2026-10-01:
+
+> “Widely acclaimed and accepted as the ‘Gold Standard’ of parenteral micronutrition.”
+>
+> — Dr. Stanley J. Dudrick, M.D., F.A.C.S., pioneer of total parenteral nutrition (1968), Clinical Professor of Surgery, Yale University School of Medicine
+
+The supplied sample's table of contents identifies Stanley J. Dudrick as the preface author, but does not include the preface or this quotation. A public search did not independently locate the exact wording. Preserve the user's quotation as an attributed statement, not an official standard designation or an endorsement by Yale. Retain/confirm the complete source during final publication review.

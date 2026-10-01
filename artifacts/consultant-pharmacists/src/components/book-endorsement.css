@@ -1,0 +1,25 @@
+.book-endorsement {
+  margin: 28px 0 0;
+  padding: 8px 0 8px 24px;
+  border-left: 3px solid var(--teal);
+  scroll-margin-top: 100px;
+}
+.book-endorsement blockquote { margin: 0; }
+.book-endorsement .book-endorsement-quote {
+  margin: 0 0 18px;
+  font-family: var(--app-font-serif);
+  font-size: clamp(1.45rem, 2.2vw, 2rem);
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -.02em;
+  color: var(--ink);
+}
+.book-endorsement figcaption { display: grid; gap: 6px; }
+.book-endorsement-name { font-size: 13px; font-weight: 600; line-height: 1.5; color: var(--ink); }
+.book-endorsement-role { max-width: 640px; font-size: 12px; line-height: 1.7; color: var(--ink-soft); }
+.book-endorsement--single { margin-top: 40px; max-width: 900px; border-color: var(--copper); }
+.book-endorsement--single .book-endorsement-quote, .book-endorsement--single .book-endorsement-name { color: var(--paper); }
+.book-endorsement--single .book-endorsement-role { color: #c3d9d1; }
+@media (max-width: 560px) {
+  .book-endorsement { padding-left: 18px; }
+}

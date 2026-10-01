@@ -3,6 +3,8 @@ import { ArrowDownToLine, ArrowRight, ArrowUpRight, Mail, MapPin, Menu, Phone, P
 import { Link, Route, Switch, useLocation, Router as WouterRouter } from 'wouter';
 import { webinarDivisions } from '@/data/webinars';
 import SinglePage from '@/single-page/SinglePage';
+import GuidePurpose from '@/components/GuidePurpose';
+import BookEndorsement from '@/components/BookEndorsement';
 
 const base = import.meta.env.BASE_URL;
 const email = 'ConsultantPharmacistsofAmerica@gmail.com';
@@ -108,6 +110,7 @@ function Home() {
           <h2 id="book-title" className="display">The Clinical Guide to Parenteral Micronutrition</h2>
           <p className="mb-5 text-[13px] font-semibold text-[#536064]">Edited by Dr. Thomas G. Baumgartner</p>
           <p className="body-copy max-w-[580px]">Structured in four chapter groups: Review chapters (PN overview, pediatric PN, home PN), Electrolytes (Ch. 5–11), Trace Elements (Ch. 12–20), and Vitamins (Ch. 21–33), plus Special Topics (Carnitine) and Appendices (customizable TPN handbooks, teaching materials). Designed for pharmacists, physicians, dietitians, nurses, and clinical support teams.</p>
+          <BookEndorsement variant="multi" />
           <div className="mt-7 flex flex-wrap items-center gap-4">
             <a className="button-primary" href={amazonUrl} target="_blank" rel="noopener noreferrer" data-testid="link-book-amazon">View Kindle edition on Amazon <ArrowUpRight size={16} /></a>
           </div>
@@ -115,6 +118,7 @@ function Home() {
         </div>
       </div>
     </section>
+    <GuidePurpose variant="multi" />
     <section className="stat-band" aria-label="Reference use"><div className="wrap stat-inner"><strong>Used as a reference over 100,000 times</strong><span>In workplace and educational settings. This is a reference-use figure, not a sales figure.</span></div></section>
     <section className="wrap page-links" aria-labelledby="explore-title">
       <div className="page-links-head"><div><span className="section-kicker">The practice</span><h2 id="explore-title" className="section-title mt-4">Explore the work.</h2></div><span className="hidden text-[12px] text-[#74817f] sm:block">Clinical expertise, organized for the question at hand.</span></div>

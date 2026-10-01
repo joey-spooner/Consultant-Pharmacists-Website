@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { ArrowDownToLine, ArrowUpRight, Mail, Menu, X } from 'lucide-react';
+import GuidePurpose from '@/components/GuidePurpose';
+import BookEndorsement from '@/components/BookEndorsement';
 import './single-page.css';
 
 const base = import.meta.env.BASE_URL;
@@ -21,19 +23,11 @@ const speakingMail = mail(
 );
 
 const nav = [
-  { id: 'questions', label: 'Questions' },
+  { id: 'why-guide', label: 'Why this guide' },
   { id: 'guide', label: 'The guide' },
   { id: 'sample', label: 'Free sample' },
   { id: 'author', label: 'Author' },
   { id: 'work-with', label: 'Webinars and speaking' },
-];
-
-const questions = [
-  { q: 'The electrolyte labs keep moving. What should we be watching, and when?', map: 'Electrolytes, Chapters 5–11, and the monitoring summaries in the appendices.', src: 'Context: ASPEN consensus on refeeding syndrome' },
-  { q: 'Needs are shifting with ongoing losses, or with kidney or liver dysfunction. What changes in how we think about micronutrients?', map: 'Trace elements (Chapters 12–20) and vitamins (Chapters 21–33), with interactions in the appendices.', src: 'Context: ESPEN 2022 micronutrient guideline' },
-  { q: 'Is this deficiency, excess, or a lab value that needs context?', map: 'Chapter-by-chapter references across electrolytes, trace elements and vitamins, plus carnitine (Chapter 34).', src: 'Context: ESPEN 2022 micronutrient guideline' },
-  { q: 'We are moving a patient to home PN. What does the team need to line up?', map: 'Home parenteral nutrition, Chapter 35.', src: '' },
-  { q: 'How is a formula developed and compounded, and what interacts with what?', map: 'Appendices: formula development, compounding guidance, and interaction tables.', src: '' },
 ];
 
 const parts = [
@@ -65,7 +59,11 @@ export default function SinglePage() {
     set('meta[name="twitter:description"]', description);
     set('meta[name="twitter:image"]', image);
     document.querySelector<HTMLLinkElement>('link[rel="canonical"]')?.setAttribute('href', canonical);
-    window.scrollTo(0, 0);
+    if (window.location.hash) {
+      requestAnimationFrame(() => document.getElementById(window.location.hash.slice(1))?.scrollIntoView());
+    } else {
+      window.scrollTo(0, 0);
+    }
   }, []);
 
   useEffect(() => {
@@ -123,20 +121,7 @@ export default function SinglePage() {
           </div>
         </section>
 
-        <section className="sp-sec" id="questions" aria-labelledby="sp-q">
-          <div className="sp-w">
-            <div className="sp-rv sp-sh"><p className="sp-kick sp-kick-dark">Start from the question</p><h2 id="sp-q">Real questions, and where the guide goes with them.</h2></div>
-            <ol className="sp-qs">
-              {questions.map((x, i) => (
-                <li key={x.q} className="sp-rv sp-q" style={{ ['--d' as string]: `${i * 50}ms` }}>
-                  <span className="sp-qn" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
-                  <div><h3>{x.q}</h3><p className="sp-map"><strong>Where to look:</strong> {x.map}</p>{x.src && <p className="sp-src">{x.src}</p>}</div>
-                </li>
-              ))}
-            </ol>
-            <p className="sp-rv sp-fine sp-dark">A reference to support clinical judgment. It does not replace it, and nothing here is dosing or patient-specific advice.</p>
-          </div>
-        </section>
+        <GuidePurpose variant="single" />
 
         <section className="sp-guide" id="guide" aria-labelledby="sp-g">
           <div className="sp-w">
@@ -151,6 +136,7 @@ export default function SinglePage() {
                 </li>
               ))}
             </ul>
+            <BookEndorsement variant="single" />
           </div>
         </section>
 

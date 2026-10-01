@@ -40,6 +40,7 @@ _Populate as you build — explicit user instructions worth remembering across s
 
 ## Gotchas
 
+- Keep book positioning practical and problem-focused, but distinguish verified topic coverage from promised treatment outcomes or bedside protocols. The supplied orange-juice/cardiac-medication anecdote needs a named drug and credible source before publication; use general interaction copy meanwhile. Describe individualization as “one formula doesn’t fit every patient,” not a claim that every patient requires a unique formula.
 - Present the free electrolyte download under the guide's Electrolytes (Chapters 5–11) section. The supplied file has 29 physical PDF pages, including self-assessment questions/answers and contents/appendices listings, not the full text of those chapters; do not claim it contains all seven chapters or present it as a separate title. A previous eight-page description was incorrect.
 - The supplied full-book PDF is not encrypted or permission-restricted despite any "ReadOnly" filename. Do not put the full PDF in public web assets or claim it is protected; Gumroad watermarking is expected to be applied on upload, not by this site.
 
