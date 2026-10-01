@@ -5,11 +5,8 @@ import BookEndorsement from '@/components/BookEndorsement';
 import './single-page.css';
 
 const base = import.meta.env.BASE_URL;
-const email = 'ConsultantPharmacistsofAmerica@gmail.com';
+const email = 'info@consultantpharmacistsofamerica.com';
 const amazonUrl = 'https://www.amazon.com/dp/B0BM39YRRR';
-const espenUrl = 'https://www.espen.org/files/ESPEN-Guidelines/ESPEN_micronutrient_guideline.pdf';
-const aspenUrl = 'https://aspenjournals.onlinelibrary.wiley.com/doi/10.1002/ncp.10474';
-
 const mail = (subject: string, body: string) =>
   `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
@@ -46,8 +43,9 @@ export default function SinglePage() {
   useEffect(() => {
     const title = 'The Clinical Guide to Parenteral Micronutrition | Consultant Pharmacists of America';
     const description = 'A practical clinical reference for hospital and home nutrition teams, by pharmacist educator Dr. Thomas G. Baumgartner. Get the Kindle edition or the free Chapters 5–11 self-assessment.';
-    const canonical = new URL(`${base.replace(/\/$/, '')}/single-page/`, window.location.origin).href;
-    const image = new URL(`${base}parenteral-micronutrition-cover-enhanced.jpg`, window.location.origin).href;
+    const origin = import.meta.env.VITE_SITE_URL || window.location.origin;
+    const canonical = new URL(base, origin).href;
+    const image = new URL(`${base}parenteral-micronutrition-cover-enhanced.jpg`, origin).href;
     document.title = title;
     const set = (s: string, c: string) => document.querySelector<HTMLMetaElement>(s)?.setAttribute('content', c);
     set('meta[name="description"]', description);
@@ -58,6 +56,7 @@ export default function SinglePage() {
     set('meta[name="twitter:title"]', title);
     set('meta[name="twitter:description"]', description);
     set('meta[name="twitter:image"]', image);
+    set('meta[name="robots"]', 'index, follow');
     document.querySelector<HTMLLinkElement>('link[rel="canonical"]')?.setAttribute('href', canonical);
     if (window.location.hash) {
       requestAnimationFrame(() => document.getElementById(window.location.hash.slice(1))?.scrollIntoView());
@@ -129,6 +128,14 @@ export default function SinglePage() {
               <div><p className="sp-kick">The guide</p><h2 id="sp-g">Organized by what you are looking up.</h2></div>
               <div className="sp-guide-buy"><p>Kindle edition. Amazon handles current price, format details and delivery.</p><Buy id="link-guide-amazon" label="View on Amazon" /></div>
             </div>
+            <figure className="sp-rv sp-endorsement">
+              <blockquote>“Widely acclaimed and accepted as the ‘Gold Standard’ of parenteral micronutrition.”</blockquote>
+              <figcaption>
+                <strong>— Dr. Stanley J. Dudrick, M.D., F.A.C.S.</strong>
+                <span>Pioneer of total parenteral nutrition (1968), Clinical Professor of Surgery, Yale University School of Medicine</span>
+                <cite>From the book preface; titles reflect the attribution at that time.</cite>
+              </figcaption>
+            </figure>
             <ul className="sp-parts">
               {parts.map((p, i) => (
                 <li key={p.t} className="sp-rv sp-part" style={{ ['--d' as string]: `${i * 60}ms` }}>
@@ -145,7 +152,7 @@ export default function SinglePage() {
             <div className="sp-rv">
               <p className="sp-kick sp-kick-dark">Free, no sign-up</p>
               <h2 id="sp-s">Try the electrolytes self-assessment first.</h2>
-              <p className="sp-body">A 29-page PDF of self-assessment questions for Chapters 5–11, plus contents. It is a way to test your own recall and see how the guide is organized. It does not contain the full chapter text.</p>
+              <p className="sp-body">A 29-page PDF of self-assessment questions for Chapters 5–11, plus contents. It is a way to test your own recall and see how the guide is organized.</p>
               <Free id="link-sample-download" />
             </div>
             <div className="sp-rv sp-sheet" aria-hidden="true">
@@ -199,7 +206,6 @@ export default function SinglePage() {
           <div className="sp-foot-cta"><p>Get the guide, or start with the free self-assessment.</p><div className="sp-cta"><Buy id="link-footer-amazon" label="Kindle edition on Amazon" /><Free id="link-footer-sample" ghost /></div></div>
           <div className="sp-foot-grid">
             <div><strong>Consultant Pharmacists of America, Inc.</strong><br />1616 SW 77th Terrace, Gainesville, FL 32607<br /><a href="tel:+13526423005">352-642-3005</a> · <a href={`mailto:${email}`}>{email}</a></div>
-            <div className="sp-sources"><span>Background reading, not endorsements of this book:</span><a href={espenUrl} target="_blank" rel="noopener noreferrer">ESPEN micronutrient guideline (PDF)</a><a href={aspenUrl} target="_blank" rel="noopener noreferrer">ASPEN refeeding syndrome consensus</a></div>
           </div>
           <p className="sp-fine">© {new Date().getFullYear()} Consultant Pharmacists of America, Inc. Guideline citations provide clinical context, not evidence of endorsement. For educational reference only.</p>
         </div>

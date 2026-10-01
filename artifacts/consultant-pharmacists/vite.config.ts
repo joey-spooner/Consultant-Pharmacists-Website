@@ -29,6 +29,9 @@ if (!basePath) {
 
 export default defineConfig({
   base: basePath,
+  define: {
+    'import.meta.env.VITE_SITE_URL': JSON.stringify(process.env.SITE_URL || ''),
+  },
   plugins: [
     react(),
     tailwindcss(),

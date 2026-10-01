@@ -171,6 +171,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
 }
 
 .site-shell { min-height: 100dvh; background: var(--paper); overflow-x: clip; }
+.review-banner { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px 24px; padding: 12px 24px; background: #fff0b5; color: #302913; border-bottom: 1px solid #d5bc66; font-family: 'DM Sans', sans-serif; font-size: 13px; line-height: 1.5; text-align: center; }
+.review-banner strong { font-weight: 700; }
+.review-banner a { color: inherit; text-decoration: underline; text-underline-offset: 3px; font-weight: 600; }
 .wrap { width: min(100% - 48px, 1280px); margin-inline: auto; }
 .masthead { position: sticky; top: 0; z-index: 40; background: rgba(244,241,232,.97); border-bottom: 1px solid var(--rule); backdrop-filter: blur(12px); }
 .masthead-inner { min-height: 85px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }

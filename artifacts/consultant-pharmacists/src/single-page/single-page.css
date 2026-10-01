@@ -1,4 +1,4 @@
-.sp { --ink:#0f2a2b; --deep:#143c3d; --teal:#1f6a63; --mint:#bfe0d2; --copper:#d98a4e; --copper-d:#a8571f; --paper:#f3efe4; --paper2:#e8e3d3; --muted:#4b5f5c;
+.sp { --ink:#0f2a2b; --deep:#143c3d; --teal:#1f6a63; --mint:#bfe0d2; --copper:#cbb66c; --copper-d:#78601f; --paper:#f3efe4; --paper2:#e8e3d3; --muted:#4b5f5c;
   background: var(--paper); color: var(--ink); font-family: var(--app-font-sans); overflow-x: clip; min-height: 100dvh; }
 .sp * { box-sizing: border-box; }
 .sp a { color: inherit; }
@@ -28,7 +28,7 @@
 .sp-btn svg { transition: transform .2s; flex: none; }
 .sp-btn:hover svg { transform: translate(2px,-2px); }
 .sp-btn-buy { background: var(--copper); color: var(--ink); }
-.sp-btn-buy:hover { background: #f0a468; }
+.sp-btn-buy:hover { background: #decc8d; }
 .sp-btn-free { background: var(--deep); color: var(--paper); }
 .sp-btn-free:hover { background: var(--ink); }
 .sp-btn-ghost { border-color: rgba(243,239,228,.55); color: var(--paper); }
@@ -58,6 +58,11 @@
 .sp-guide h2 { font-size: clamp(2.1rem,4vw,3.4rem); max-width: 620px; line-height: 1.06; }
 .sp-guide-buy { max-width: 340px; display: grid; gap: 14px; font-size: 13px; line-height: 1.6; color: #c3d9d1; }
 .sp-guide-buy p { margin: 0; }
+.sp-endorsement { margin: 40px 0 0; padding: 12px 0 12px 28px; border-left: 3px solid var(--copper); max-width: 950px; }
+.sp-endorsement blockquote { margin: 0 0 20px; font-family: var(--app-font-serif); font-size: clamp(1.6rem, 2.8vw, 2.5rem); line-height: 1.25; color: var(--copper); }
+.sp-endorsement figcaption { display: grid; gap: 6px; font-size: 13px; line-height: 1.65; color: #c3d9d1; }
+.sp-endorsement figcaption strong { color: var(--paper); }
+.sp-endorsement cite { font-size: 12px; font-style: normal; }
 .sp-parts { list-style: none; padding: 0; margin: 52px 0 0; display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: rgba(191,224,210,.2); border: 1px solid rgba(191,224,210,.2); }
 .sp-part { background: var(--deep); padding: 28px 26px 32px; transition: background .25s, transform .25s; }
 .sp-part:hover { background: #1b4b4a; }

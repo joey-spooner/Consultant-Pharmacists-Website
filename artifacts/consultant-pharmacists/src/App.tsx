@@ -1,13 +1,14 @@
 import { useEffect, useState } from 'react';
 import { ArrowDownToLine, ArrowRight, ArrowUpRight, Mail, MapPin, Menu, Phone, Plus, X } from 'lucide-react';
-import { Link, Route, Switch, useLocation, Router as WouterRouter } from 'wouter';
 import { webinarDivisions } from '@/data/webinars';
 import SinglePage from '@/single-page/SinglePage';
+import ReviewBanner from '@/ReviewBanner';
 import GuidePurpose from '@/components/GuidePurpose';
 import BookEndorsement from '@/components/BookEndorsement';
+import { Link, Redirect, Route, Switch, useLocation, Router as WouterRouter } from 'wouter';
 
 const base = import.meta.env.BASE_URL;
-const email = 'ConsultantPharmacistsofAmerica@gmail.com';
+const email = 'info@consultantpharmacistsofamerica.com';
 const amazonUrl = 'https://www.amazon.com/dp/B0BM39YRRR';
 const navItems = [
   { href: '/', label: 'Home' },
@@ -119,7 +120,7 @@ function Home() {
       </div>
     </section>
     <GuidePurpose variant="multi" />
-    <section className="stat-band" aria-label="Reference use"><div className="wrap stat-inner"><strong>Used as a reference over 100,000 times</strong><span>In workplace and educational settings. This is a reference-use figure, not a sales figure.</span></div></section>
+    <section className="stat-band" aria-label="Reference use"><div className="wrap stat-inner"><strong>Referenced over 100,000 times by leading institutions and medical professionals like you.</strong></div></section>
     <section className="wrap page-links" aria-labelledby="explore-title">
       <div className="page-links-head"><div><span className="section-kicker">The practice</span><h2 id="explore-title" className="section-title mt-4">Explore the work.</h2></div><span className="hidden text-[12px] text-[#74817f] sm:block">Clinical expertise, organized for the question at hand.</span></div>
       <div className="page-links-grid">
@@ -216,8 +217,9 @@ function RoutedSite() {
       description: 'Return to Consultant Pharmacists of America to explore clinical pharmacy advisory services.',
     };
     document.title = title;
-    const canonical = new URL(`${base.replace(/\/$/, '')}${location}`, window.location.origin).href;
-    const image = new URL(`${base}og-preview.png`, window.location.origin).href;
+    const origin = import.meta.env.VITE_SITE_URL || window.location.origin;
+    const canonical = new URL(`${base}option-a${normalizedPath === '/' ? '/' : `${normalizedPath}/`}`, origin).href;
+    const image = new URL(`${base}og-preview.png`, origin).href;
     const update = (selector: string, content: string) => {
       document.querySelector<HTMLMetaElement>(selector)?.setAttribute('content', content);
     };
@@ -229,9 +231,10 @@ function RoutedSite() {
     update('meta[name="twitter:title"]', title);
     update('meta[name="twitter:description"]', description);
     update('meta[name="twitter:image"]', image);
+    update('meta[name="robots"]', 'noindex, follow');
     document.querySelector<HTMLLinkElement>('link[rel="canonical"]')?.setAttribute('href', canonical);
   }, [location]);
-  return <div className="site-shell"><Header /><Switch>
+  return <div className="site-shell"><ReviewBanner option="A" /><Header /><Switch>
     <Route path="/" component={Home} />
     <Route path="/about" component={About} />
     <Route path="/about/" component={About} />
@@ -247,9 +250,15 @@ function RoutedSite() {
 
 function App() {
   return <WouterRouter base={base.replace(/\/$/, '')}><Switch>
+    <Route path="/" component={SinglePage} />
     <Route path="/single-page" component={SinglePage} />
     <Route path="/single-page/" component={SinglePage} />
-    <Route component={RoutedSite} />
+    <Route path="/option-a" nest><RoutedSite /></Route>
+    {['about', 'client-relationships', 'webinars', 'contact'].flatMap(path => [
+      <Route key={path} path={`/${path}`}><Redirect to={`/option-a/${path}/`} replace /></Route>,
+      <Route key={`${path}/`} path={`/${path}/`}><Redirect to={`/option-a/${path}/`} replace /></Route>,
+    ])}
+    <Route component={NotFound} />
   </Switch></WouterRouter>;
 }
 

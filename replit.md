@@ -30,7 +30,11 @@ _Populate as you build — non-obvious choices a reader couldn't infer from the 
 
 ## Product
 
-Keep the existing five-page website while developing a book-focused single-page alternative for comparison. The user intends GitHub Pages to be the long-term host, but hosting migration should wait for design approval.
+The user approved Option B for publication. Use the book-focused single-page version as the public homepage, without its temporary review banner. Preserve the five-page Option A at /option-a/ for review. The user plans to configure the GitHub Pages repository themselves later; do not claim GitHub Pages is live until a deployment is confirmed.
+
+The user expects the free self-assessment download to request name and email only before delivery; the current direct download does not yet implement this. Publishing approval does not mean that form is connected.
+
+Use muted gold rather than orange for Option B's accents, keeping its green palette.
 
 The alternative must prominently offer the free electrolyte self-assessment, keep the webinar list out of its public content, provide separate webinar-list and speaking-request CTAs, omit speaking fees, and integrate About. Form-to-email handling is deferred until design approval; Formspree is the user's suggested service, not an already configured integration. Do not claim requests are submitted or that webinar-list replies are automated until that behavior is connected and verified.
 
