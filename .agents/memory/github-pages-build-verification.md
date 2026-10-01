@@ -16,3 +16,9 @@ Do not assume the GitHub integration's `repo` scope permits uploading Actions wo
 **Why:** Repository metadata can report full write access while creating a Git tree containing an Actions workflow returns 404. An otherwise identical tree without the workflow can succeed. The standard connector's configured scope set may omit `workflow`, so repeating its OAuth authorization cannot add the missing permission.
 
 **How to apply:** Diagnose ambiguous write failures before requesting another authorization. If the configured scopes cannot grant workflow access, repair the native Git-provider connection or explain the missing permission rather than repeatedly reconnecting the same integration. Preparing Git objects through the API does not update a branch; report success only after verifying the branch reference advanced.
+
+Do not infer divergent history from the Git pane's generic `PUSH_REJECTED` message.
+
+**Why:** The pane can suggest missing remote commits even when a fresh fetch shows the remote is an ancestor of local HEAD and the actual push fails with invalid GitHub credentials.
+
+**How to apply:** Fetch first, compare ahead/behind counts, and inspect the underlying Git error. Never pull, reset, or force-push merely to address this generic UI message when authentication is the real blocker.
