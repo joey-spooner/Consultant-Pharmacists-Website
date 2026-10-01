@@ -9,9 +9,10 @@
 .guide-purpose-kicker {
   margin: 0 0 16px;
   color: var(--teal);
-  font-size: 10px;
+  font-size: var(--text-supporting);
+  line-height: 1.5;
   font-weight: 700;
-  letter-spacing: .18em;
+  letter-spacing: .15em;
   text-transform: uppercase;
 }
 .guide-purpose h2 {
@@ -24,7 +25,7 @@
 }
 .guide-purpose-reasons { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 36px; margin-top: 40px; }
 .guide-purpose-reason { border-top: 2px solid var(--teal); padding-top: 20px; }
-.guide-purpose-number { display: block; margin-bottom: 16px; color: var(--teal); font-size: 12px; font-weight: 700; letter-spacing: .1em; }
+.guide-purpose-number { display: block; margin-bottom: 16px; color: var(--teal); font-size: var(--text-supporting); font-weight: 700; letter-spacing: .1em; }
 .guide-purpose .guide-purpose-heading {
   margin: 0 0 16px;
   font-family: var(--app-font-serif);
@@ -33,7 +34,7 @@
   letter-spacing: -.02em;
   line-height: 1.18;
 }
-.guide-purpose-description { margin: 0; color: var(--ink-soft, #4b5f5c); font-size: 14px; line-height: 1.8; }
+.guide-purpose-description { margin: 0; color: var(--ink-soft, #4b5f5c); font-size: var(--text-body); line-height: var(--reading-line-height); }
 .guide-purpose--single .guide-purpose-kicker, .guide-purpose--single .guide-purpose-number { color: var(--copper-d); }
 .guide-purpose--single .guide-purpose-description { color: var(--muted); }
 @media (max-width: 760px) {

@@ -15,8 +15,8 @@
   color: var(--ink);
 }
 .book-endorsement figcaption { display: grid; gap: 6px; }
-.book-endorsement-name { font-size: 13px; font-weight: 600; line-height: 1.5; color: var(--ink); }
-.book-endorsement-role { max-width: 640px; font-size: 12px; line-height: 1.7; color: var(--ink-soft); }
+.book-endorsement-name { font-size: var(--text-control); font-weight: 600; line-height: 1.5; color: var(--ink); }
+.book-endorsement-role { max-width: 640px; font-size: var(--text-supporting); line-height: 1.7; color: var(--ink-soft); }
 .book-endorsement--single { margin-top: 40px; max-width: 900px; border-color: var(--copper); }
 .book-endorsement--single .book-endorsement-quote, .book-endorsement--single .book-endorsement-name { color: var(--paper); }
 .book-endorsement--single .book-endorsement-role { color: #c3d9d1; }

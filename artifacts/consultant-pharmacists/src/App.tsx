@@ -75,12 +75,12 @@ function Footer() {
           <p className="section-kicker !text-[#a9c4bc]">Consultant Pharmacists of America</p>
           <p className="serif mt-5 max-w-[390px] text-[28px] leading-[1.2]">Excellence in Parenteral Nutrition, Micronutrition, and Clinical Pharmacy.</p>
         </div>
-        <nav aria-label="Footer navigation" className="flex flex-col items-start gap-3 text-[13px]">
-          <span className="mb-2 text-[10px] font-bold uppercase tracking-[.18em] text-[#9fb8b2]">Explore</span>
+        <nav aria-label="Footer navigation" className="flex flex-col items-start gap-3 text-[16px]">
+          <span className="mb-2 text-[14px] font-bold uppercase tracking-[.15em] text-[#9fb8b2]">Explore</span>
           {navItems.map(item => <Link key={item.href} href={item.href} data-testid={`link-footer-${item.label.toLowerCase().replaceAll(' ', '-')}`}>{item.label}</Link>)}
         </nav>
-        <div className="text-[13px] leading-[1.8]">
-          <span className="mb-4 block text-[10px] font-bold uppercase tracking-[.18em] text-[#9fb8b2]">Contact</span>
+        <div className="text-[16px] leading-[1.7]">
+          <span className="mb-4 block text-[14px] font-bold uppercase tracking-[.15em] text-[#9fb8b2]">Contact</span>
           <a href="tel:+13526423005" data-testid="link-footer-phone">352-642-3005</a><br />
           <a href={`mailto:${email}`} className="break-all" data-testid="link-footer-email">{email}</a>
           <p className="mt-4 text-[#cad4cf]">1616 SW 77th Terrace<br />Gainesville, FL 32607</p>
@@ -100,7 +100,7 @@ function Home() {
     <section className="home-hero">
       <div className="wrap home-intro fade-up">
         <div><span className="section-kicker">Independent clinical advisory firm</span><h1 className="display">Consultant Pharmacists <em className="font-normal text-[#326c68]">of America</em></h1></div>
-        <div><p className="positioning">Excellence in Parenteral Nutrition, Micronutrition, and Clinical Pharmacy.</p><div className="mt-7 flex flex-wrap items-center gap-4"><a className="button-primary" href={amazonUrl} target="_blank" rel="noopener noreferrer" data-testid="link-hero-amazon">Buy Kindle edition on Amazon <ArrowUpRight size={16} /></a><span className="text-[11px] leading-[1.5] text-[#536064]">Price and checkout on Amazon</span></div><p className="body-copy mt-5 max-w-[500px] text-[13px]">A comprehensive, evidence-based reference for healthcare professionals involved in the administration of parenteral nutrition, especially in hospital and home settings. Covers formulation, monitoring, and administration of micronutrients (electrolytes, trace elements, vitamins) in Total Parenteral Nutrition.</p></div>
+        <div><p className="positioning">Excellence in Parenteral Nutrition, Micronutrition, and Clinical Pharmacy.</p><div className="mt-7 flex flex-wrap items-center gap-4"><a className="button-primary" href={amazonUrl} target="_blank" rel="noopener noreferrer" data-testid="link-hero-amazon">Buy Kindle edition on Amazon <ArrowUpRight size={16} /></a><span className="text-[14px] leading-[1.6] text-[#536064]">Price and checkout on Amazon</span></div><p className="body-copy mt-5 max-w-[500px]">A comprehensive, evidence-based reference for healthcare professionals involved in the administration of parenteral nutrition, especially in hospital and home settings. Covers formulation, monitoring, and administration of micronutrients (electrolytes, trace elements, vitamins) in Total Parenteral Nutrition.</p></div>
       </div>
     </section>
     <section className="feature-book" aria-labelledby="book-title">
@@ -109,7 +109,7 @@ function Home() {
         <div className="book-content">
           <span className="section-kicker">The clinical reference · Enhanced third edition</span>
           <h2 id="book-title" className="display">The Clinical Guide to Parenteral Micronutrition</h2>
-          <p className="mb-5 text-[13px] font-semibold text-[#536064]">Edited by Dr. Thomas G. Baumgartner</p>
+          <p className="mb-5 text-[16px] font-semibold text-[#536064]">Edited by Dr. Thomas G. Baumgartner</p>
           <p className="body-copy max-w-[580px]">Structured in four chapter groups: Review chapters (PN overview, pediatric PN, home PN), Electrolytes (Ch. 5–11), Trace Elements (Ch. 12–20), and Vitamins (Ch. 21–33), plus Special Topics (Carnitine) and Appendices (customizable TPN handbooks, teaching materials). Designed for pharmacists, physicians, dietitians, nurses, and clinical support teams.</p>
           <BookEndorsement variant="multi" />
           <div className="mt-7 flex flex-wrap items-center gap-4">
@@ -122,7 +122,7 @@ function Home() {
     <GuidePurpose variant="multi" />
     <section className="stat-band" aria-label="Reference use"><div className="wrap stat-inner"><strong>Referenced over 100,000 times by leading institutions and medical professionals like you.</strong></div></section>
     <section className="wrap page-links" aria-labelledby="explore-title">
-      <div className="page-links-head"><div><span className="section-kicker">The practice</span><h2 id="explore-title" className="section-title mt-4">Explore the work.</h2></div><span className="hidden text-[12px] text-[#74817f] sm:block">Clinical expertise, organized for the question at hand.</span></div>
+      <div className="page-links-head"><div><span className="section-kicker">The practice</span><h2 id="explore-title" className="section-title mt-4">Explore the work.</h2></div><span className="hidden text-[14px] text-[#74817f] sm:block">Clinical expertise, organized for the question at hand.</span></div>
       <div className="page-links-grid">
         <Link className="page-card" href="/about" data-testid="link-home-about"><span className="number">01 / Background</span><h3>About Dr. Baumgartner</h3><p>Credentials, professional recognition, and experience.</p><ArrowRight size={20} aria-hidden="true" /></Link>
         <Link className="page-card" href="/client-relationships" data-testid="link-home-clients"><span className="number">02 / Relationships</span><h3>Client Relationships</h3><p>The facilities, organizations, and patients served by the practice.</p><ArrowRight size={20} aria-hidden="true" /></Link>
@@ -186,14 +186,14 @@ function Contact() {
     <div className="wrap contact-grid">
       <aside className="contact-info"><span className="section-kicker">Direct contact</span><h2 className="section-title mt-4 max-w-[400px]">Reach the practice.</h2>
         <div className="contact-detail mt-8"><span className="section-kicker mb-2"><Phone size={13} className="inline mr-2" />Phone</span><a href="tel:+13526423005" className="serif text-[23px]" data-testid="link-contact-phone">352-642-3005</a></div>
-        <div className="contact-detail"><span className="section-kicker mb-2"><Mail size={13} className="inline mr-2" />Email</span><a href={`mailto:${email}`} className="text-[14px]" data-testid="link-contact-email">{email}</a></div>
-        <div className="contact-detail"><span className="section-kicker mb-2"><MapPin size={13} className="inline mr-2" />Address</span><address className="not-italic text-[14px] leading-[1.7]">1616 SW 77th Terrace<br />Gainesville, FL 32607</address></div>
+        <div className="contact-detail"><span className="section-kicker mb-2"><Mail size={13} className="inline mr-2" />Email</span><a href={`mailto:${email}`} className="text-[18px]" data-testid="link-contact-email">{email}</a></div>
+        <div className="contact-detail"><span className="section-kicker mb-2"><MapPin size={13} className="inline mr-2" />Address</span><address className="not-italic text-[18px] leading-[1.7]">1616 SW 77th Terrace<br />Gainesville, FL 32607</address></div>
       </aside>
       <section aria-labelledby="inquiry-title"><span className="section-kicker">Inquiry form</span><h2 className="serif mt-3 mb-2 text-[34px]" id="inquiry-title">Your inquiry</h2><p className="body-copy mb-8">The form is displayed for review. Submission is unavailable until a secure form endpoint is connected. Please use the email or phone links to get in touch.</p>
         <form onSubmit={event => event.preventDefault()}>
           <fieldset disabled aria-label="Inquiry form awaiting a submission service">
           <div className="grid gap-x-5 sm:grid-cols-2"><label className="field">Name <span aria-label="required">*</span><input name="name" type="text" required autoComplete="name" data-testid="input-contact-name" /></label><label className="field">Email <span aria-label="required">*</span><input name="email" type="email" required autoComplete="email" data-testid="input-contact-email" /></label></div>
-          <fieldset><legend className="text-[12px] font-bold text-[#344b4e]">Services</legend><div className="check-grid">{services.map((service, index) => <label className="check-option" key={service}><input type="checkbox" name="services" value={service} data-testid={`checkbox-service-${index + 1}`} /><span>{service}</span></label>)}</div></fieldset>
+          <fieldset><legend className="text-[16px] font-bold text-[#344b4e]">Services</legend><div className="check-grid">{services.map((service, index) => <label className="check-option" key={service}><input type="checkbox" name="services" value={service} data-testid={`checkbox-service-${index + 1}`} /><span>{service}</span></label>)}</div></fieldset>
           <label className="field">Message<textarea name="message" rows={5} data-testid="input-contact-message" /></label>
           <button type="submit" disabled className="button-primary" data-testid="button-contact-submit">Submit <ArrowRight size={16} /></button>
           </fieldset>
