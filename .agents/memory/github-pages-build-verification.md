@@ -22,3 +22,9 @@ Do not infer divergent history from the Git pane's generic `PUSH_REJECTED` messa
 **Why:** The pane can suggest missing remote commits even when a fresh fetch shows the remote is an ancestor of local HEAD and the actual push fails with invalid GitHub credentials.
 
 **How to apply:** Fetch first, compare ahead/behind counts, and inspect the underlying Git error. Never pull, reset, or force-push merely to address this generic UI message when authentication is the real blocker.
+
+When the Git-provider connection remains broken and the connector cannot grant workflow access, GitHub CLI browser authorization with the additional `workflow` scope is a viable alternative.
+
+**Why:** Reconnecting the integration and Git-provider account did not restore native Git authentication, but user-completed GitHub CLI authorization followed by configuring its credential helper allowed the workflow-inclusive push to succeed.
+
+**How to apply:** Have the user complete `gh auth login --hostname github.com --git-protocol https --web --scopes workflow` themselves, then use `gh auth setup-git --hostname github.com`. Use the system Git binary if needed, verify the remote branch and workflow afterward, and never read or display stored credentials.
