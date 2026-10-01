@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { ArrowDownToLine, ArrowRight, ArrowUpRight, Mail, MapPin, Menu, Phone, Plus, X } from 'lucide-react';
 import { Link, Route, Switch, useLocation, Router as WouterRouter } from 'wouter';
 import { webinarDivisions } from '@/data/webinars';
+import SinglePage from '@/single-page/SinglePage';
 
 const base = import.meta.env.BASE_URL;
 const email = 'ConsultantPharmacistsofAmerica@gmail.com';
@@ -241,7 +242,11 @@ function RoutedSite() {
 }
 
 function App() {
-  return <WouterRouter base={base.replace(/\/$/, '')}><RoutedSite /></WouterRouter>;
+  return <WouterRouter base={base.replace(/\/$/, '')}><Switch>
+    <Route path="/single-page" component={SinglePage} />
+    <Route path="/single-page/" component={SinglePage} />
+    <Route component={RoutedSite} />
+  </Switch></WouterRouter>;
 }
 
 export default App;

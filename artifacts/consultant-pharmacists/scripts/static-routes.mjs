@@ -38,6 +38,12 @@ const pages = [
     title: 'Contact | Consultant Pharmacists of America',
     description: 'Contact Consultant Pharmacists of America about clinical consultation, medico-legal expertise, healthcare writing, and guest speaking.',
   },
+  {
+    route: 'single-page',
+    title: 'The Clinical Guide to Parenteral Micronutrition | Consultant Pharmacists of America',
+    description: 'A practical clinical reference for hospital and home nutrition teams, by pharmacist educator Dr. Thomas G. Baumgartner. Get the Kindle edition or the free Chapters 5–11 self-assessment.',
+    image: 'parenteral-micronutrition-cover-enhanced.jpg',
+  },
 ];
 
 const escapeHtml = value => value.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;');
@@ -47,6 +53,7 @@ function replaceTag(html, pattern, replacement) {
 }
 function renderPage(page) {
   const url = new URL(page.route ? `${page.route}/` : '', rootUrl).href;
+  const pageImageUrl = page.image ? new URL(page.image, rootUrl).href : imageUrl;
   let html = shell;
   html = replaceTag(html, /<title>[^<]*<\/title>/, `<title>${escapeHtml(page.title)}</title>`);
   html = replaceTag(html, /<link rel="canonical" href="[^"]*" \/>/, `<link rel="canonical" href="${escapeHtml(url)}" />`);
@@ -55,10 +62,10 @@ function renderPage(page) {
     ['property="og:title"', page.title],
     ['property="og:description"', page.description],
     ['property="og:url"', url],
-    ['property="og:image"', imageUrl],
+    ['property="og:image"', pageImageUrl],
     ['name="twitter:title"', page.title],
     ['name="twitter:description"', page.description],
-    ['name="twitter:image"', imageUrl],
+    ['name="twitter:image"', pageImageUrl],
   ]) {
     const pattern = new RegExp(`<meta ${selector} content="[^"]*" \\/>`);
     html = replaceTag(html, pattern, `<meta ${selector} content="${escapeHtml(content)}" />`);
