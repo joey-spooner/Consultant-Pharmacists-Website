@@ -1,0 +1,335 @@
+import { useEffect, type ReactNode } from 'react';
+import { webinarDivisions } from '../data/webinars';
+import cvSource from './cv-content.md?raw';
+import { siteConfig as cfg } from './config';
+import { trackEvent } from './analytics';
+import { Markdown } from './markdown';
+import { TpnBagSvg, bagIngredients } from './TpnBag';
+import { chapterFormat, contents, painPoints, preface, quotes, services } from './content';
+import './option-c.css';
+
+type Page = 'home' | 'contact' | 'webinars' | 'cv';
+const base = import.meta.env.BASE_URL;
+const oc = `${base}option-c/`;
+const buyProps = { target: '_blank', rel: 'noopener noreferrer' } as const;
+
+const titles: Record<Page, string> = {
+  home: 'Clinical Guide to Parenteral Micronutrition — Enhanced Third Edition | Consultant Pharmacists of America',
+  contact: 'Contact | Consultant Pharmacists of America',
+  webinars: 'Webinar topics | Consultant Pharmacists of America',
+  cv: 'Curriculum Vitae, Thomas G. Baumgartner | Consultant Pharmacists of America',
+};
+
+const descriptions: Record<Page, string> = {
+  home: 'Compatibility, dosing and monitoring for every TPN micronutrient, in one reference you can search. For multidiscipline clinical nutritionists, particularly hospital and home nutrition teams.',
+  contact: 'Contact Consultant Pharmacists of America about clinical consultation, healthcare writing, and classroom pricing.',
+  webinars: 'Explore the complete clinical nutrition, parenteral nutrition, and pharmacy education topic catalog.',
+  cv: 'Curriculum vitae of Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, BCNSP, President and CEO of Consultant Pharmacists of America, Inc.',
+};
+
+function Header({ page }: { page: Page }) {
+  const links: [Page, string, string][] = [
+    ['home', 'Home', oc],
+    ['webinars', 'Webinars', `${oc}webinars/`],
+    ['cv', 'CV', `${base}cv/`],
+    ['contact', 'Contact', `${oc}contact/`],
+  ];
+  return (
+    <>
+      <a className="oc-skip" href="#main">Skip to content</a>
+      <aside className="oc-banner" aria-label="Temporary design review banner">
+        <strong>Option C: Clinical reference</strong>
+        <span>Temporary banner for design review</span>
+        <span><a href={base}>View Option B</a> · <a href={`${base}option-a/`}>View Option A</a></span>
+      </aside>
+      <header className="oc-head">
+        <div className="oc-wrap">
+          <a href={oc} aria-label="Consultant Pharmacists of America home"><img src={cfg.images.logo} alt="Consultant Pharmacists of America" /></a>
+          <nav className="oc-nav" aria-label="Main navigation">
+            {links.map(([k, l, h]) => <a key={k} href={h} aria-current={page === k ? 'page' : undefined}>{l}</a>)}
+            <a href={`${oc}#about`}>About</a>
+          </nav>
+        </div>
+      </header>
+    </>
+  );
+}
+
+function Footer() {
+  return (
+    <footer className="oc-foot">
+      <div className="oc-wrap">
+        <div className="oc-foot-grid">
+          <div><h2>Consultant Pharmacists of America</h2><p className="serif" style={{ fontSize: 22 }}>Excellence in Parenteral Nutrition, Micronutrition, and Clinical Pharmacy.</p></div>
+          <nav aria-label="Footer navigation"><h2>Explore</h2><ul>
+            <li><a href={oc}>Home</a></li><li><a href={`${oc}webinars/`}>Webinars</a></li><li><a href={`${base}cv/`}>Curriculum vitae</a></li><li><a href={`${oc}contact/`}>Contact</a></li>
+          </ul></nav>
+          <div><h2>Contact</h2>
+            <a href="tel:+13526423005">352-642-3005</a><br />
+            <a href={`mailto:${cfg.email}`} style={{ wordBreak: 'break-all' }}>{cfg.email}</a>
+            <p>1616 SW 77th Terrace<br />Gainesville, FL 32607</p>
+          </div>
+        </div>
+        <p className="legal">© {new Date().getFullYear()} Consultant Pharmacists of America, Inc.</p>
+      </div>
+    </footer>
+  );
+}
+
+function BuyBlock({ id }: { id?: string }) {
+  const b = cfg.products.book;
+  return (
+    <div id={id}>
+      <div className="oc-buy">
+        <span className="oc-price" aria-label={`Price ${b.price}`}>{b.price}</span>
+        <a className="oc-btn" href={b.url} {...buyProps}>Buy the PDF, {b.price}</a>
+      </div>
+      <p className="oc-small">One PDF. Delivered through Gumroad. <span className="oc-ph">(Placeholder link until the Gumroad product is live.)</span></p>
+      <p className="oc-small"><a href={`${oc}contact/`}>Teaching a course? Ask about classroom pricing.</a></p>
+    </div>
+  );
+}
+
+function Det({ label, event, children }: { label: string; event: string; children: ReactNode }) {
+  return (
+    <details className="oc-det" onToggle={e => { if (e.currentTarget.open) trackEvent(event); }}>
+      <summary>{label}</summary>
+      <div className="body">{children}</div>
+    </details>
+  );
+}
+
+function Home() {
+  const { electrolyte, traceVitamin, book } = cfg.products;
+  const mac = bagIngredients[0];
+  const [el, tr, vi] = [bagIngredients[1], bagIngredients[2], bagIngredients[3]];
+  return (
+    <main id="main">
+      <section className="oc-hero">
+        <div className="oc-wrap">
+          <h1 className="oc-rise">Compatibility, dosing and monitoring for every TPN micronutrient, in one reference you can search.</h1>
+          <p className="sub oc-rise d1">For multidiscipline clinical nutritionists, particularly hospital and home nutrition teams.</p>
+          <div className="oc-hero-grid oc-rise d2">
+            <TpnBagSvg />
+            <div className="oc-ing">
+              <h2>Intravenous Total Parenteral Nutrition</h2>
+              <dl>
+                <div><dt>{mac.group}</dt><dd>{mac.items.join(', ')}</dd></div>
+                <div><dt>Micronutrients</dt>
+                  <dd className="nest">
+                    <span><b>{el.group}:</b> {el.items.join(', ')}</span>
+                    <span><b>{tr.group}:</b> {tr.items.join(', ')}</span>
+                    <span><b>{vi.group}:</b> {vi.items.join('; ').replace('(fat soluble);', '(fat soluble);')}</span>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="oc-sec" aria-labelledby="pain-h">
+        <div className="oc-wrap">
+          <p className="oc-kick">The questions at the bedside and the bench</p>
+          <h2 id="pain-h">Four questions, and where the book answers them.</h2>
+          <ol className="oc-pain">
+            {painPoints.map(p => (
+              <li key={p.pain}><q>{p.pain}</q><p><span className="ans">The book: </span>{p.answer}</p></li>
+            ))}
+          </ol>
+          <BuyBlock />
+        </div>
+      </section>
+
+      <section className="oc-sec oc-tint" aria-labelledby="book-title">
+        <div className="oc-wrap oc-book">
+          <div><img className="oc-cover" src={cfg.images.cover} alt={cfg.images.coverAlt} /></div>
+          <div>
+            <h2 id="book-title">{cfg.title}</h2>
+            <p className="oc-badge">ENHANCED</p>
+            <p className="serif" style={{ fontSize: 22 }}>{cfg.editionLabel}</p>
+            <p className="oc-pages">{cfg.pageCountLine}</p>
+            <p className="oc-small">{cfg.editor}</p>
+            <BuyBlock id="buy" />
+            <Det label="Sample chapter: Calcium (Chapter 5)" event="open_sample_chapter">
+              <p>Every chapter follows this format.</p>
+              {chapterFormat.map(s => (
+                <div key={s.head}>
+                  <h3>{s.head}</h3>
+                  {s.items.length > 0 && <ul>{s.items.map(i => <li key={i}>{i}</li>)}</ul>}
+                </div>
+              ))}
+            </Det>
+            <Det label="Preface and full contents" event="open_full_contents">
+              {preface.map(t => <p key={t}>{t}</p>)}
+              {contents.map(g => (
+                <div key={g.group}>
+                  <h3>{g.group}</h3>
+                  <ul className="chl">{g.chapters.map(([n, t]) => <li key={n}><span className="num">{n}</span> {t}</li>)}</ul>
+                </div>
+              ))}
+              <h3>Appendices</h3>
+            </Det>
+          </div>
+        </div>
+      </section>
+
+      <section className="oc-sec" aria-labelledby="ladder-h">
+        <div className="oc-wrap">
+          <p className="oc-kick">Choose your starting point</p>
+          <h2 id="ladder-h">From a free primer to the full text.</h2>
+          <div className="oc-ladder">
+            <div className="oc-step"><span className="n">Step 1</span><h3>{electrolyte.name}</h3><p className="oc-small">Excerpt of Chapters 5 to 11. Gumroad asks for your email address.</p><span className="p">{electrolyte.price}</span><a className="oc-btn alt" href={electrolyte.url} {...buyProps}>Get the free primer</a></div>
+            <div className="oc-step"><span className="n">Step 2</span><h3>{traceVitamin.name}</h3><p className="oc-small">Question and answer sets for trace elements and vitamins.</p><span className="p">{traceVitamin.price}</span><a className="oc-btn alt" href={traceVitamin.url} {...buyProps}>Buy the primer, {traceVitamin.price}</a></div>
+            <div className="oc-step"><span className="n">Or the full book</span><h3>Enhanced Third Edition PDF</h3><p className="oc-small">The complete text.</p><span className="p">{book.price}</span><a className="oc-btn" href={book.url} {...buyProps}>Buy the PDF, {book.price}</a></div>
+          </div>
+          <p style={{ marginTop: 18, fontWeight: 600 }}>{cfg.ladderLine}</p>
+          <p className="oc-ph">Gumroad links are placeholders.</p>
+        </div>
+      </section>
+
+      <section className="oc-sec oc-tint" aria-labelledby="q-h">
+        <div className="oc-wrap">
+          <h2 id="q-h">From the clinicians who know the field.</h2>
+          <div className="oc-quotes">
+            {quotes.map(q => (
+              <figure key={q.name} style={{ margin: 0 }}><blockquote><p>{q.text}</p><footer><cite>{q.name}</cite><small>{q.role}</small></footer></blockquote></figure>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="oc-ref" aria-label="Reference use"><p>{cfg.reference}</p></section>
+
+      <section className="oc-sec" id="about" aria-labelledby="about-h">
+        <div className="oc-wrap oc-about">
+          <img className="oc-photo" src={cfg.images.portrait} width={cfg.images.portraitWidth} height={cfg.images.portraitHeight} alt="Dr. Thomas G. Baumgartner" />
+          <div>
+            <p className="oc-kick">About</p>
+            <h2 id="about-h">Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, BCNSP</h2>
+            <p className="serif" style={{ fontSize: 21, marginBottom: 12 }}>President and CEO, Consultant Pharmacists of America, Inc.</p>
+            <p>Clinical Professor, University of Florida Colleges of Pharmacy, Medicine, Nursing and Dentistry, in Gainesville, Florida.</p>
+            <p><a className="oc-btn alt" href={`${base}cv/`}>Read the full curriculum vitae</a></p>
+          </div>
+        </div>
+      </section>
+
+      <section className="oc-sec oc-tint" aria-labelledby="web-h">
+        <div className="oc-wrap">
+          <h2 id="web-h">Webinar topics</h2>
+          <p>Browse the clinical education catalog by division and subject.</p>
+          <a className="oc-btn" href={`${oc}webinars/`}>View the Webinars page</a>
+        </div>
+      </section>
+    </main>
+  );
+}
+
+function Webinars() {
+  return (
+    <main id="main">
+      <section className="oc-page-head"><div className="oc-wrap"><h1>Webinar topics.</h1><p>Browse the clinical education catalog by division and subject. Expand a category to see its topics.</p></div></section>
+      <section className="oc-sec"><div className="oc-wrap oc-web">
+        <nav aria-label="Webinar divisions"><p className="oc-kick">Divisions</p>
+          {webinarDivisions.map((d, i) => <a key={d.title} href={`#division-${i + 1}`}>{String(i + 1).padStart(2, '0')} {d.title}</a>)}
+        </nav>
+        <div>
+          {webinarDivisions.map((d, i) => (
+            <section className="oc-div" id={`division-${i + 1}`} key={d.title} aria-labelledby={`dt-${i}`}>
+              <h2 id={`dt-${i}`}>{d.title}</h2>
+              {d.categories.map((c, ci) => (
+                <details className="oc-det" key={`${c.title}-${ci}`}>
+                  <summary>{c.title} ({c.topics.length})</summary>
+                  <div className="body"><ul>{c.topics.map((t, ti) => <li key={`${t}-${ti}`}>{t}</li>)}</ul></div>
+                </details>
+              ))}
+            </section>
+          ))}
+        </div>
+      </div></section>
+    </main>
+  );
+}
+
+function Contact() {
+  return (
+    <main id="main">
+      <section className="oc-page-head"><div className="oc-wrap"><h1>Start a conversation.</h1><p>For clinical consultation, legal expertise, healthcare writing, webinars, and classroom pricing.</p></div></section>
+      <section className="oc-sec"><div className="oc-wrap oc-contact">
+        <div>
+          <p className="oc-kick">Direct contact</p>
+          <h2>Reach the practice.</h2>
+          <p><strong>Phone</strong><br /><a href="tel:+13526423005">352-642-3005</a></p>
+          <p><strong>Email</strong><br /><a href={`mailto:${cfg.email}`} style={{ wordBreak: 'break-all' }}>{cfg.email}</a></p>
+          <address style={{ fontStyle: 'normal' }}><strong>Address</strong><br />1616 SW 77th Terrace<br />Gainesville, FL 32607</address>
+        </div>
+        <div>
+          <p className="oc-kick">Inquiry form</p>
+          <h2>Your inquiry</h2>
+          <p className="oc-notice" role="status">The form is displayed for review. Submission is unavailable until a secure form endpoint is connected. Please use the email or phone links to get in touch.</p>
+          <form className="oc-form" onSubmit={e => e.preventDefault()}>
+            <fieldset disabled aria-label="Inquiry form, currently unavailable">
+              <label className="oc-field">Name *<input name="name" type="text" autoComplete="name" /></label>
+              <label className="oc-field">Email *<input name="email" type="email" autoComplete="email" /></label>
+              <fieldset><legend style={{ fontWeight: 700, fontSize: 16 }}>Services</legend>
+                <div className="oc-checks">{services.map(s => <label key={s}><input type="checkbox" name="services" value={s} />{s}</label>)}</div>
+              </fieldset>
+              <label className="oc-field">Message<textarea name="message" rows={5} /></label>
+              <button type="submit" className="oc-btn" disabled>Submit unavailable</button>
+            </fieldset>
+            <p className="oc-small">Do not include sensitive patient information.</p>
+          </form>
+        </div>
+      </div></section>
+    </main>
+  );
+}
+
+function Cv() {
+  // Preserve the supplied source; omit only the three publisher credits to
+  // honor the brief's explicit removal of visible retailer mentions.
+  const displayCv = cvSource
+    .replace(/^#\s+Curriculum Vitae\s*\n/, '')
+    .replace(/,\s*Amazon-Kindle(?=,)/g, '');
+  return (
+    <main id="main">
+      <section className="oc-page-head"><div className="oc-wrap"><p style={{ margin: 0, color: '#FBEFEF', fontSize: 14, letterSpacing: '.12em', textTransform: 'uppercase' }}>President and CEO</p><h1>Curriculum Vitae</h1><p><a href={oc} style={{ color: '#fff' }}>Back to the clinical guide</a></p></div></section>
+      <section className="oc-sec"><div className="oc-wrap"><article className="oc-cv"><Markdown source={displayCv} /></article></div></section>
+    </main>
+  );
+}
+
+export default function OptionC({ page = 'home' }: { page?: Page }) {
+  useEffect(() => {
+    document.title = titles[page];
+    const origin = import.meta.env.VITE_SITE_URL || window.location.origin;
+    const route = page === 'cv' ? 'cv/' : `option-c/${page === 'home' ? '' : `${page}/`}`;
+    const canonical = new URL(`${base}${route}`, origin).href;
+    const image = new URL(page === 'cv' ? cfg.images.portrait : cfg.images.cover, origin).href;
+    for (const [selector, content] of [
+      ['meta[name="description"]', descriptions[page]],
+      ['meta[property="og:title"]', titles[page]],
+      ['meta[property="og:description"]', descriptions[page]],
+      ['meta[property="og:url"]', canonical],
+      ['meta[property="og:image"]', image],
+      ['meta[name="twitter:title"]', titles[page]],
+      ['meta[name="twitter:description"]', descriptions[page]],
+      ['meta[name="twitter:image"]', image],
+    ]) document.querySelector<HTMLMetaElement>(selector)?.setAttribute('content', content);
+    document.querySelector<HTMLLinkElement>('link[rel="canonical"]')?.setAttribute('href', canonical);
+    const robots = document.querySelector<HTMLMetaElement>('meta[name="robots"]');
+    robots?.setAttribute('content', 'noindex, follow');
+    if (page === 'home' && window.location.hash) document.getElementById(window.location.hash.slice(1))?.scrollIntoView();
+    else window.scrollTo(0, 0);
+  }, [page]);
+  return (
+    <div className="oc">
+      <Header page={page} />
+      {page === 'home' && <Home />}
+      {page === 'webinars' && <Webinars />}
+      {page === 'contact' && <Contact />}
+      {page === 'cv' && <Cv />}
+      <Footer />
+    </div>
+  );
+}

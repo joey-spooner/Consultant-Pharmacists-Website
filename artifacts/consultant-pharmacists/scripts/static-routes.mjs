@@ -51,6 +51,37 @@ const pages = [
     description: 'A practical clinical reference for hospital and home nutrition teams, by pharmacist educator Dr. Thomas G. Baumgartner. Get the Kindle edition or the free Chapters 5–11 self-assessment.',
     image: 'parenteral-micronutrition-cover-enhanced.jpg',
   },
+  {
+    route: 'option-c',
+    title: 'Clinical Guide to Parenteral Micronutrition — Enhanced Third Edition | Consultant Pharmacists of America',
+    description: 'Compatibility, dosing and monitoring for every TPN micronutrient, in one reference you can search. For multidiscipline clinical nutritionists, particularly hospital and home nutrition teams.',
+    image: 'option-c-cover.png',
+  },
+  {
+    route: 'option-c/contact',
+    title: 'Contact and Classroom Pricing | Consultant Pharmacists of America',
+    description: 'Contact Consultant Pharmacists of America about clinical consultation, healthcare writing, and classroom pricing.',
+    image: 'option-c-cover.png',
+  },
+  {
+    route: 'option-c/webinars',
+    title: 'Clinical Webinar Topics | Consultant Pharmacists of America',
+    description: 'Explore the complete clinical nutrition, parenteral nutrition, and pharmacy education topic catalog.',
+    image: 'option-c-cover.png',
+  },
+  {
+    route: 'cv',
+    title: 'Thomas G. Baumgartner — Curriculum Vitae | Consultant Pharmacists of America',
+    description: 'Curriculum vitae of Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, BCNSP, President and CEO of Consultant Pharmacists of America, Inc.',
+    image: 'option-c-baumgartner.jpg',
+  },
+  {
+    route: 'option-c/cv',
+    canonicalRoute: 'cv',
+    title: 'Thomas G. Baumgartner — Curriculum Vitae | Consultant Pharmacists of America',
+    description: 'Curriculum vitae of Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, BCNSP, President and CEO of Consultant Pharmacists of America, Inc.',
+    image: 'option-c-baumgartner.jpg',
+  },
 ];
 // Preserve old direct links; React redirects these to the review version.
 for (const page of [...pages]) {

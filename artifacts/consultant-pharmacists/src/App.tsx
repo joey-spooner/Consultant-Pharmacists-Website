@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { ArrowDownToLine, ArrowRight, ArrowUpRight, Mail, MapPin, Menu, Phone, Plus, X } from 'lucide-react';
 import { webinarDivisions } from '@/data/webinars';
 import SinglePage from '@/single-page/SinglePage';
+import OptionC from '@/option-c/OptionC';
 import ReviewBanner from '@/ReviewBanner';
 import GuidePurpose from '@/components/GuidePurpose';
 import BookEndorsement from '@/components/BookEndorsement';
@@ -253,6 +254,16 @@ function App() {
     <Route path="/" component={SinglePage} />
     <Route path="/single-page" component={SinglePage} />
     <Route path="/single-page/" component={SinglePage} />
+    <Route path="/option-c"><OptionC /></Route>
+    <Route path="/option-c/"><OptionC /></Route>
+    <Route path="/option-c/contact"><OptionC page="contact" /></Route>
+    <Route path="/option-c/contact/"><OptionC page="contact" /></Route>
+    <Route path="/option-c/webinars"><OptionC page="webinars" /></Route>
+    <Route path="/option-c/webinars/"><OptionC page="webinars" /></Route>
+    <Route path="/cv"><OptionC page="cv" /></Route>
+    <Route path="/cv/"><OptionC page="cv" /></Route>
+    <Route path="/option-c/cv"><OptionC page="cv" /></Route>
+    <Route path="/option-c/cv/"><OptionC page="cv" /></Route>
     <Route path="/option-a" nest><RoutedSite /></Route>
     {['about', 'client-relationships', 'webinars', 'contact'].flatMap(path => [
       <Route key={path} path={`/${path}`}><Redirect to={`/option-a/${path}/`} replace /></Route>,
