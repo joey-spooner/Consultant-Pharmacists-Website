@@ -28,3 +28,9 @@ When the Git-provider connection remains broken and the connector cannot grant w
 **Why:** Reconnecting the integration and Git-provider account did not restore native Git authentication, but user-completed GitHub CLI authorization followed by configuring its credential helper allowed the workflow-inclusive push to succeed.
 
 **How to apply:** Have the user complete `gh auth login --hostname github.com --git-protocol https --web --scopes workflow` themselves, then use `gh auth setup-git --hostname github.com`. Use the system Git binary if needed, verify the remote branch and workflow afterward, and never read or display stored credentials.
+
+If `gh api` confirms repository write access but an ordinary HTTPS push rejects credentials, try a command-scoped GitHub CLI credential helper before asking the user to reconnect.
+
+**Why:** The workspace can have stale Git HTTPS credentials even when GitHub CLI is authenticated with the required repository and workflow permissions. A one-time helper override successfully pushed without exposing a token, editing the remote, or changing global Git configuration.
+
+**How to apply:** First fetch and verify the remote is an ancestor of the local branch. With `GIT_TERMINAL_PROMPT=0`, use `git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push origin HEAD:main` to clear earlier helpers for that command only. Never force-push or print credentials.
