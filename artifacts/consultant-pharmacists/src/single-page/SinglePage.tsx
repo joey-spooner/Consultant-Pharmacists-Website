@@ -44,7 +44,7 @@ export default function SinglePage() {
     const title = 'The Clinical Guide to Parenteral Micronutrition | Consultant Pharmacists of America';
     const description = 'A practical clinical reference for hospital and home nutrition teams, by pharmacist educator Dr. Thomas G. Baumgartner. Get the Kindle edition or the free Chapters 5–11 self-assessment.';
     const origin = import.meta.env.VITE_SITE_URL || window.location.origin;
-    const canonical = new URL(base, origin).href;
+    const canonical = new URL(`${base}single-page/`, origin).href;
     const image = new URL(`${base}parenteral-micronutrition-cover-enhanced.jpg`, origin).href;
     document.title = title;
     const set = (s: string, c: string) => document.querySelector<HTMLMetaElement>(s)?.setAttribute('content', c);
@@ -56,7 +56,7 @@ export default function SinglePage() {
     set('meta[name="twitter:title"]', title);
     set('meta[name="twitter:description"]', description);
     set('meta[name="twitter:image"]', image);
-    set('meta[name="robots"]', 'index, follow');
+    set('meta[name="robots"]', 'noindex, follow');
     document.querySelector<HTMLLinkElement>('link[rel="canonical"]')?.setAttribute('href', canonical);
     if (window.location.hash) {
       requestAnimationFrame(() => document.getElementById(window.location.hash.slice(1))?.scrollIntoView());

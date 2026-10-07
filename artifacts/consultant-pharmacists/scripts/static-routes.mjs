@@ -15,9 +15,9 @@ const shell = await readFile(path.join(output, 'index.html'), 'utf8');
 const pages = [
   {
     route: '',
-    title: 'The Clinical Guide to Parenteral Micronutrition | Consultant Pharmacists of America',
-    description: 'A practical clinical reference for hospital and home nutrition teams, by pharmacist educator Dr. Thomas G. Baumgartner. Get the Kindle edition or the free Chapters 5–11 self-assessment.',
-    image: 'parenteral-micronutrition-cover-enhanced.jpg',
+    title: 'Clinical Guide to Parenteral Micronutrition — Enhanced Third Edition | Consultant Pharmacists of America',
+    description: 'Compatibility, dosing and monitoring for every TPN micronutrient, in one reference you can search. For multidiscipline clinical nutritionists, particularly hospital and home nutrition teams.',
+    image: 'option-c-cover.png',
   },
   {
     route: 'option-a',
@@ -46,13 +46,13 @@ const pages = [
   },
   {
     route: 'single-page',
-    canonicalRoute: '',
     title: 'The Clinical Guide to Parenteral Micronutrition | Consultant Pharmacists of America',
     description: 'A practical clinical reference for hospital and home nutrition teams, by pharmacist educator Dr. Thomas G. Baumgartner. Get the Kindle edition or the free Chapters 5–11 self-assessment.',
     image: 'parenteral-micronutrition-cover-enhanced.jpg',
   },
   {
     route: 'option-c',
+    canonicalRoute: '',
     title: 'Clinical Guide to Parenteral Micronutrition — Enhanced Third Edition | Consultant Pharmacists of America',
     description: 'Compatibility, dosing and monitoring for every TPN micronutrient, in one reference you can search. For multidiscipline clinical nutritionists, particularly hospital and home nutrition teams.',
     image: 'option-c-cover.png',

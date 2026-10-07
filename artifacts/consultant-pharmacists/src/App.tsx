@@ -251,7 +251,7 @@ function RoutedSite() {
 
 function App() {
   return <WouterRouter base={base.replace(/\/$/, '')}><Switch>
-    <Route path="/" component={SinglePage} />
+    <Route path="/"><OptionC /></Route>
     <Route path="/single-page" component={SinglePage} />
     <Route path="/single-page/" component={SinglePage} />
     <Route path="/option-c"><OptionC /></Route>

@@ -29,7 +29,7 @@ const descriptions: Record<Page, string> = {
 
 function Header({ page }: { page: Page }) {
   const links: [Page, string, string][] = [
-    ['home', 'Home', oc],
+    ['home', 'Home', base],
     ['webinars', 'Webinars', `${oc}webinars/`],
     ['cv', 'CV', `${base}cv/`],
     ['contact', 'Contact', `${oc}contact/`],
@@ -40,14 +40,14 @@ function Header({ page }: { page: Page }) {
       <aside className="oc-banner" aria-label="Temporary design review banner">
         <strong>Option C: Clinical reference</strong>
         <span>Temporary banner for design review</span>
-        <span><a href={base}>View Option B</a> · <a href={`${base}option-a/`}>View Option A</a></span>
+        <span><a href={`${base}single-page/`}>View Option B</a> · <a href={`${base}option-a/`}>View Option A</a></span>
       </aside>
       <header className="oc-head">
         <div className="oc-wrap">
-          <a href={oc} aria-label="Consultant Pharmacists of America home"><img src={cfg.images.logo} alt="Consultant Pharmacists of America" /></a>
+          <a href={base} aria-label="Consultant Pharmacists of America home"><img src={cfg.images.logo} alt="Consultant Pharmacists of America" /></a>
           <nav className="oc-nav" aria-label="Main navigation">
             {links.map(([k, l, h]) => <a key={k} href={h} aria-current={page === k ? 'page' : undefined}>{l}</a>)}
-            <a href={`${oc}#about`}>About</a>
+            <a href={`${base}#about`}>About</a>
           </nav>
         </div>
       </header>
@@ -62,7 +62,7 @@ function Footer() {
         <div className="oc-foot-grid">
           <div><h2>Consultant Pharmacists of America</h2><p className="serif" style={{ fontSize: 22 }}>Excellence in Parenteral Nutrition, Micronutrition, and Clinical Pharmacy.</p></div>
           <nav aria-label="Footer navigation"><h2>Explore</h2><ul>
-            <li><a href={oc}>Home</a></li><li><a href={`${oc}webinars/`}>Webinars</a></li><li><a href={`${base}cv/`}>Curriculum vitae</a></li><li><a href={`${oc}contact/`}>Contact</a></li>
+             <li><a href={base}>Home</a></li><li><a href={`${oc}webinars/`}>Webinars</a></li><li><a href={`${base}cv/`}>Curriculum vitae</a></li><li><a href={`${oc}contact/`}>Contact</a></li>
           </ul></nav>
           <div><h2>Contact</h2>
             <a href="tel:+13526423005">352-642-3005</a><br />
@@ -209,7 +209,7 @@ function Home() {
             <h2 id="about-h">Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, BCNSP</h2>
             <p className="serif" style={{ fontSize: 21, marginBottom: 12 }}>President and CEO, Consultant Pharmacists of America, Inc.</p>
             <p>Clinical Professor, University of Florida Colleges of Pharmacy, Medicine, Nursing and Dentistry, in Gainesville, Florida.</p>
-            <p><a className="oc-btn alt" href={`${base}cv/`}>Read the full curriculum vitae</a></p>
+             <p><a className="oc-btn alt" href={`${base}cv/`}>Read the full curriculum vitae</a></p>
           </div>
         </div>
       </section>
@@ -293,7 +293,7 @@ function Cv() {
     .replace(/,\s*Amazon-Kindle(?=,)/g, '');
   return (
     <main id="main">
-      <section className="oc-page-head"><div className="oc-wrap"><p style={{ margin: 0, color: '#FBEFEF', fontSize: 14, letterSpacing: '.12em', textTransform: 'uppercase' }}>President and CEO</p><h1>Curriculum Vitae</h1><p><a href={oc} style={{ color: '#fff' }}>Back to the clinical guide</a></p></div></section>
+       <section className="oc-page-head"><div className="oc-wrap"><p style={{ margin: 0, color: '#FBEFEF', fontSize: 14, letterSpacing: '.12em', textTransform: 'uppercase' }}>President and CEO</p><h1>Curriculum Vitae</h1><p><a href={base} style={{ color: '#fff' }}>Back to the clinical guide</a></p></div></section>
       <section className="oc-sec"><div className="oc-wrap"><article className="oc-cv"><Markdown source={displayCv} /></article></div></section>
     </main>
   );
@@ -303,7 +303,7 @@ export default function OptionC({ page = 'home' }: { page?: Page }) {
   useEffect(() => {
     document.title = titles[page];
     const origin = import.meta.env.VITE_SITE_URL || window.location.origin;
-    const route = page === 'cv' ? 'cv/' : `option-c/${page === 'home' ? '' : `${page}/`}`;
+    const route = page === 'cv' ? 'cv/' : page === 'home' ? '' : `option-c/${page}/`;
     const canonical = new URL(`${base}${route}`, origin).href;
     const image = new URL(page === 'cv' ? cfg.images.portrait : cfg.images.cover, origin).href;
     for (const [selector, content] of [
@@ -318,7 +318,7 @@ export default function OptionC({ page = 'home' }: { page?: Page }) {
     ]) document.querySelector<HTMLMetaElement>(selector)?.setAttribute('content', content);
     document.querySelector<HTMLLinkElement>('link[rel="canonical"]')?.setAttribute('href', canonical);
     const robots = document.querySelector<HTMLMetaElement>('meta[name="robots"]');
-    robots?.setAttribute('content', 'noindex, follow');
+    robots?.setAttribute('content', page === 'home' && window.location.pathname === base ? 'index, follow' : 'noindex, follow');
     if (page === 'home' && window.location.hash) document.getElementById(window.location.hash.slice(1))?.scrollIntoView();
     else window.scrollTo(0, 0);
   }, [page]);

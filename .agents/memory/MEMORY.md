@@ -1,4 +1,4 @@
 - [Transparent black logo previews](transparent-black-logo-previews.md) — inspect a flattened preview before judging transparent black PNGs; some viewers show a black rectangle.
 - [Amazon-first book purchase](amazon-first-purchase.md) — use the confirmed Kindle listing as the primary buy path; avoid carrying the older guide’s price into Amazon checkout copy.
 - [GitHub Pages build verification](github-pages-build-verification.md) — an automatic Pages build can succeed while a Vite site returns 404; verify the custom workflow reached GitHub.
-- [Option C scope](option-c-scope.md) — C is a separate third version; the user explicitly requested leaving A and B unchanged.
+- [Option C scope](option-c-scope.md) — C is the primary GitHub Pages homepage; A/B remain visually intact at their direct review URLs.

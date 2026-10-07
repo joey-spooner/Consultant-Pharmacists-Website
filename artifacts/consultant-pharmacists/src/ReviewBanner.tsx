@@ -6,7 +6,7 @@ export default function ReviewBanner({ option }: ReviewBannerProps) {
     <aside className="review-banner" aria-label="Temporary design review banner">
       <strong>Option {option} — {option === 'A' ? 'Five-page site' : 'Single-page site'}</strong>
       <span>Temporary banner for design review</span>
-      <a href={option === 'A' ? base : `${base}option-a/`}>
+      <a href={option === 'A' ? `${base}single-page/` : `${base}option-a/`}>
         View Option {option === 'A' ? 'B' : 'A'}
       </a>
     </aside>
