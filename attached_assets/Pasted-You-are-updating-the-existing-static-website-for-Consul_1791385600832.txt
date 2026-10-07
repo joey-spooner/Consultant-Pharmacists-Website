@@ -1,0 +1,33 @@
+You are updating the existing static website for Consultant Pharmacists of America, Inc. (Dr. Thomas G. Baumgartner). The site sells one main product, a PDF of "Clinical Guide to Parenteral Micronutrition, Enhanced Third Edition," and this round applies the client's latest feedback. The goal of every change is to help a visitor buy the book. Do not rewrite things that are not listed here.
+
+Attached files: replit-content-pack-2026-10-07.md (all copy, lists and colors), Baumgartner Photo JPEG.jpg, Cover .png, and CV-Baumgartner-website-draft.md.
+
+Step 1: look first, then tell me the plan
+Read the repo before changing anything. Reply with a short plan that says which files you will touch and how you will handle the two versions: the single page at the root URL (the main target) and the five page version under /option-a/. Then make the changes. Apply the shared items (colors, prices, removals, CV, Jeejeebhoy) to both versions, but do not restructure /option-a/. If a change would break it, say so instead of guessing.
+
+Step 2: the changes
+Headline. Replace the page 1 headline and subline with the ones in the content pack. Remove the line "The micronutrient question on your desk, worked through."
+Pain first. Under the headline, add the four pain lines from the content pack, each followed by the book as the answer, then the Buy button with the price beside it. This replaces the "Why This Guide Exists" section.
+Infusion bag. Draw a TPN bag as an inline SVG at the top of the page with the ingredients from the content pack listed beside it. Keep it clean and readable on a phone. Make it easy for me to replace later.
+Products and prices. Put prices and Gumroad URLs in one config file so I can change them in one place. Use placeholder URLs for now.
+Book PDF: $12.99
+Trace Element/Vitamin Q&A Primer: $5.99
+Electrolyte Q&A Primer: free, with a link that will go to a free Gumroad product that collects an email address Show them as a clear ladder: free primer first, then the $5.99 primer or the full book. Add the required line: "All three micronutrient Q&A sets are also included in the full text PDF." Remove the second free download for trace elements and anything that mentions a free email a week later.
+Edition wording. Use "Enhanced Third Edition" everywhere, with ENHANCED clearly visible. Never write "Fourth Edition." Add "Over 1,000 pages" under the title, kept in one place because the number is not confirmed. Use Cover .png as the book image for now, in a slot I can swap later.
+Two expandables under the Buy button, using accessible details and summary or equivalent. Labels and content are in the content pack.
+"Sample chapter: Calcium (Chapter 5)" shows the chapter format outline.
+"Preface and full contents" shows the existing preface text, then the full contents. Replace the old preface and Calcium expandables. Also add a tiny trackEvent(name) function that does nothing yet, and call it with open_sample_chapter and open_full_contents when each expandable opens. Do not choose or install an analytics service.
+Dr. Jeejeebhoy. Add his quote next to Dr. Dudrick's, in the same style, exactly as in the content pack.
+Remove Amazon and Kindle. Take out every Amazon and Kindle link and mention from the site. Do not add them back.
+Remove speaking engagements. Delete the guest speaking menu item and its price from the Webinars page and anywhere else it appears. Keep the Webinars page and the full webinar list. On the single page, make sure there is a link to the Webinars page near the bottom. Do not add webinar sign up or any free webinar content.
+Classroom pricing. Add the line "Teaching a course? Ask about classroom pricing" near the Buy button, linking to the Contact page, and add a "Classroom pricing" checkbox to the Contact form services list. Leave the other checkboxes as they are.
+About and CV. Use the photo Baumgartner Photo JPEG.jpg and display it at or below its natural size of 290 by 300 pixels. Do not stretch it. Add a short bio on the About section, and a separate CV page at /cv built from CV-Baumgartner-website-draft.md, linked from the bio. Use the title "President and CEO." Keep the CV text as written, grouped under its own headings.
+Red. The client loves red. Use it as the main brand color, including the hero and footer backgrounds, buttons, and headings, with the tokens in the content pack. Keep long body text on white or the light tint so it stays readable. Check that text meets WCAG AA contrast. The look should stay quietly professional and clinical, not flashy.
+Keep the claim as it is. If the site says the book is "used as a reference over 100,000 times," leave that wording. Do not change it to copies sold.
+Do not do
+Do not build checkout, email sequences, bulk purchase flows, watermarking, attendee sign up, or an institutional license.
+Do not remove the temporary design review banner.
+Do not change the contact address (1616 SW 77th Terrace, Gainesville, FL 32607), the phone number, or the Formspree wiring.
+Do not delete the webinar data or any page.
+When you finish
+Tell me what changed in each file, which items you could not finish and why, and anything in the repo that surprised you.
