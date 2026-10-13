@@ -1,6 +1,7 @@
 import { useEffect, type ReactNode } from 'react';
 import { webinarDivisions } from '../data/webinars';
 import cvSource from './cv-content.md?raw';
+import sampleQaSource from './sample-qa.md?raw';
 import { siteConfig as cfg } from './config';
 import { trackEvent } from './analytics';
 import { Markdown } from './markdown';
@@ -24,7 +25,7 @@ const descriptions: Record<Page, string> = {
   home: 'Compatibility, dosing and monitoring for every TPN micronutrient, in one reference you can search. For multidiscipline clinical nutritionists, particularly hospital and home nutrition teams.',
   contact: 'Contact Consultant Pharmacists of America about clinical consultation, healthcare writing, and classroom pricing.',
   webinars: 'Explore the complete clinical nutrition, parenteral nutrition, and pharmacy education topic catalog.',
-  cv: 'Curriculum vitae of Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, BCNSP, President and CEO of Consultant Pharmacists of America, Inc.',
+  cv: 'Curriculum vitae of Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, FASPEN, R.Ph., President and CEO of Consultant Pharmacists of America, Inc.',
 };
 
 function Header({ page }: { page: Page }) {
@@ -99,6 +100,24 @@ function Det({ label, event, children }: { label: string; event: string; childre
   );
 }
 
+function SampleQa() {
+  // Match only numbered items; keep the source and spelling notes in the file, off the page.
+  const items = Array.from(sampleQaSource.matchAll(/^(\d+)\. (.+)\\\r?\n\*\*Answer:\*\* ([^\r\n]+)\r?$/gm));
+  if (items.length !== 36 || items.some((item, i) => Number(item[1]) !== i + 1)) {
+    throw new Error('The Calcium sample must contain 36 consecutive questions with answers.');
+  }
+  return (
+    <ol style={{ listStyleType: 'decimal' }}>
+      {items.map(([, number, question, answer]) => (
+        <li key={number} style={{ marginBottom: 20, overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
+          <p>{question}</p>
+          <p><strong>Answer:</strong> {answer}</p>
+        </li>
+      ))}
+    </ol>
+  );
+}
+
 function Home() {
   const { electrolyte, traceVitamin, book } = cfg.products;
   const mac = bagIngredients[0];
@@ -160,6 +179,10 @@ function Home() {
                 </div>
               ))}
             </Det>
+            <Det label="Sample Q&A: Calcium (Chapter 5 self assessment)" event="open_sample_qa">
+              <p>Self assessment questions with answers follow every micronutrient chapter. They are useful for teaching and for exam preparation.</p>
+              <SampleQa />
+            </Det>
             <Det label="Preface and full contents" event="open_full_contents">
               {preface.map(t => <p key={t}>{t}</p>)}
               {contents.map(g => (
@@ -206,9 +229,8 @@ function Home() {
           <img className="oc-photo" src={cfg.images.portrait} width={cfg.images.portraitWidth} height={cfg.images.portraitHeight} alt="Dr. Thomas G. Baumgartner" />
           <div>
             <p className="oc-kick">About</p>
-            <h2 id="about-h">Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, BCNSP</h2>
-            <p className="serif" style={{ fontSize: 21, marginBottom: 12 }}>President and CEO, Consultant Pharmacists of America, Inc.</p>
-            <p>Clinical Professor, University of Florida Colleges of Pharmacy, Medicine, Nursing and Dentistry, in Gainesville, Florida.</p>
+            <h2 id="about-h">Thomas G. Baumgartner, <span style={{ display: 'inline-block', whiteSpace: 'nowrap', fontSize: 'clamp(0.8125rem, calc((100vw - 3rem) / 20), 1.25rem)' }}>Pharm.D., M.Ed., FASHP, FASPEN, R.Ph.</span></h2>
+            <p>President and CEO of Consultant Pharmacists of America, Inc., and a Fellow of the American Society for Parenteral and Enteral Nutrition. Former Clinical Professor at the University of Florida Colleges of Pharmacy, Medicine, Nursing and Dentistry in Gainesville, Florida.</p>
              <p><a className="oc-btn alt" href={`${base}cv/`}>Read the full curriculum vitae</a></p>
           </div>
         </div>

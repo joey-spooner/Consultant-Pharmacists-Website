@@ -72,14 +72,14 @@ const pages = [
   {
     route: 'cv',
     title: 'Thomas G. Baumgartner — Curriculum Vitae | Consultant Pharmacists of America',
-    description: 'Curriculum vitae of Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, BCNSP, President and CEO of Consultant Pharmacists of America, Inc.',
+    description: 'Curriculum vitae of Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, FASPEN, R.Ph., President and CEO of Consultant Pharmacists of America, Inc.',
     image: 'option-c-baumgartner.jpg',
   },
   {
     route: 'option-c/cv',
     canonicalRoute: 'cv',
     title: 'Thomas G. Baumgartner — Curriculum Vitae | Consultant Pharmacists of America',
-    description: 'Curriculum vitae of Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, BCNSP, President and CEO of Consultant Pharmacists of America, Inc.',
+    description: 'Curriculum vitae of Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, FASPEN, R.Ph., President and CEO of Consultant Pharmacists of America, Inc.',
     image: 'option-c-baumgartner.jpg',
   },
 ];

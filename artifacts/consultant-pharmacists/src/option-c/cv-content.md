@@ -1,8 +1,8 @@
 # Curriculum Vitae
 
-**Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, BCNSP**\
+**Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, FASPEN, R.Ph.**\
 President and CEO, Consultant Pharmacists of America, Inc.\
-Clinical Professor, University of Florida Colleges of Pharmacy, Medicine, Nursing and Dentistry\
+Former Clinical Professor, University of Florida Colleges of Pharmacy, Medicine, Nursing and Dentistry\
 Gainesville, Florida\
 Phone: (352) 642-3005\
 Email: ConsultantPharmacistsofAmerica@gmail.com\
@@ -48,17 +48,17 @@ Website: consultantpharmacistsofamerica.com
 - Pharmacy Nutritional Support Fellow Preceptor American Society of Hospital Pharmacists; Research & Education Foundation,'84-'85
 - American Society of Hospital Pharmacists' Research & Education Foundation Selection Panelist Pharm. Nutrit. Supp.,1984-86 & 1988-89; 1990-1993
 - External Reviewer/ Total Parenteral Nutrition Centers For Disease Control, Atlanta, Ga., 1984, 1985
-- Undergraduate Chapter Grand Council Deputy Gamma Sigma Chapter Univ of Fla,1985 - 1995
-- Fla Graduate Chapter Regent Kappa Psi Pharmaceutical Fraternity, 1985
+- Undergraduate Chapter Grand Council Deputy Gamma Sigma Chapter Univ of FL,1985 - 1995
+- FL Graduate Chapter Regent Kappa Psi Pharmaceutical Fraternity, 1985
 - Hospital Pharmacist of the Year Florida Society of Hospital Pharmacy, 1983
 - Pharmacist of the Month Florida Society of Hospital Pharmacists, 9/72
-- Highest Academic Average In Graduate School Stetson University; Deland, Fl, 1971
+- Highest Academic Average In Graduate School Stetson University; DeLand, FL, 1971
 - Man of the Year (Kappa Psi Omega Pharmaceutical Fraternity); Rutgers University, 6/66
 - Academic Scholarships Rutgers University, 1965 and 1966
 
 ## Experience
 
-- **2011 to present:** President/CEO, Consultant Pharmacists of America, Inc. Patents, prepatents, expert witness, consultant.
+- **2011 to present:** President/CEO, Consultant Pharmacists of America, Inc. Patents, prepatents, expert witness, consultant, writer.
 - **1984 to 2011:** Clinical Pharmacy Specialist, Total Parenteral Nutrition/Metabolic Support Consult Services, Division of Gastroenterology, Hepatology and Nutrition/Pharmacy Services, Shands HealthCare at the University of Florida, Gainesville. Clinical Professor, University of Florida, Colleges of Pharmacy (Department of Pharmacy Practice), Medicine (Department of Medicine/Gastroenterology), Dentistry and Nursing; Graduate Faculty.
   - Primary medicine consultant, nutritional/pharmacy consultant, and research coordinator for the Total Parenteral Nutrition/Metabolic Support Team. Supervisor of Pharmacy Nutritional Support Services. Created and edited the Nutritional Support Services (NSS) Housestaff Manual. Proposed and budgeted the first NSS team in Florida. Initiator of NSS consult services. Developer of a model cybernetic program for nutritional support therapy monitoring.
   - Teaching and research collaboration across the Colleges of Pharmacy, Medicine, Nursing, Dentistry, Food Science and Human Nutrition, and Nuclear Engineering. Preceptor for pharmacy nutritional support fellows, Pharm.D. clerkship students, pharmacy residents, and GI, medical and surgical fellows, residents, interns and medical students.
@@ -69,7 +69,7 @@ Website: consultantpharmacistsofamerica.com
 
 ## Hospital and Academic Teaching Experience
 
-- Clinical Professor, cross appointments to the University of Florida Colleges of Pharmacy, Medicine, Dentistry and Nursing, 1995 to present
+- Former Clinical Professor, cross appointments to the University of Florida Colleges of Pharmacy, Medicine, Dentistry and Nursing, appointed 1995
 - Clinical Associate Professor, College of Pharmacy (1976), College of Medicine (7/85), College of Dentistry (6/82), College of Nursing (4/80); Graduate Faculty appointment 9/84 to present
 - Course coordinator and lecturer: Parenteral Micronutrient Therapy (Medical C 65); Clinical Nutrition (PHA 4771); Pharmacotherapeutics in Nursing Practice (NUR 3145)
 - Course participant and lecturer: Dispensing and Compounding (PHA 4301C); Therapeutics (Pharmacy)
@@ -85,7 +85,7 @@ Website: consultantpharmacistsofamerica.com
 
 - Registered Pharmacist: New York (since 1967), New Jersey (since 1967), Florida (since 1968)
 - Consultant Pharmacist: Florida (since 1972)
-- Board Certified Nutrition Support Pharmacist (BCNSP), Board of Pharmaceutical Specialties
+- Previously board certified in nutrition support pharmacy by the Board of Pharmaceutical Specialties (not renewed)
 - Florida Department of Education Teacher Certificate, Instructor Level 5
 - Instructor in cardiopulmonary resuscitation, first aid (American Red Cross) and basic life support (American Heart Association); American Red Cross vital signs instructor
 
@@ -108,12 +108,12 @@ Website: consultantpharmacistsofamerica.com
 - Florida Association for Nutritional Support; President - 1989-90; President-Elect 1988-89; Past President 1990-91; Editor-in-Chief Newsletter (1991–Present).
 - Florida Society for Parenteral and Enteral Nutrition; Past President 1990-91; Editor-in-Chief Newsletter (1991–Present); President - 1989-90; President-Elect 1988-89.
 - Florida Pharmaceutical Association; Member since 1967
-- Florida Society of Hospital Pharmacists Education Committee Chairman 1978-79; Clinical Pharmacy Committee 1979–80; Elected Florida Delegate to ASHP Annual Meeting 1980; President-elect-elect nominee 1981; Fla. Speaker's Bureau - Hypertension Screening 1982; Fla. Journal of Hospital Pharmacy - Editor-in- Chief 1981 - 92; Board of Directors 1982 - 84; Communications Council Chairman 1985-87. Member since '67
+- Florida Society of Hospital Pharmacists Education Committee Chairman 1978-79; Clinical Pharmacy Committee 1979–80; Elected Florida Delegate to ASHP Annual Meeting 1980; President-elect-elect nominee 1981; FL. Speaker's Bureau - Hypertension Screening 1982; FL. Journal of Hospital Pharmacy - Editor-in- Chief 1981 - 92; Board of Directors 1982 - 84; Communications Council Chairman 1985-87. Member since '67
 - Kappa Psi Professional Fraternity Regent of Florida Graduate Chapter 1985; Faculty Advisor (Grand Council Deputy) for the Gamma Sigma Undergraduate Chapter at the University of Florida College of Pharmacy (1985-96).
 - North Central Florida Society of Hospital Pharmacists Secretary 1977-78; FSHP Liaison 1978-79; President-Elect 1978-79; President 1979-80; Executive Comm. Member 1981; FSHP Annual Meeting delegate 1980 and 1981, member 76-87.
 - Science Advisory Board - Advisor; Arlington, Va
 - Smithsonian Associate - member
-- Southeastern Residents/Graduate Students Conference Steering Committee Member (Fla), 1984-86; Chairman-elect 1985, Chairman 1986.
+- Southeastern Residents/Graduate Students Conference Steering Committee Member (FL), 1984-86; Chairman-elect 1985, Chairman 1986.
 - Student American Pharmaceutical Association Hospital Pharmacy SIG Faculty Advisor UF College of Pharmacy
 
 ## Publications
@@ -121,65 +121,65 @@ Website: consultantpharmacistsofamerica.com
 - BAUMGARTNER TG, More on Prescription Writing, Drug Therapy, 2(5):28; May 1972.
 - BAUMGARTNER TG, Ophthalmic Administration, Hosp Pharm 9(10):411, 1974.
 - BAUMGARTNER TG, Hyperpigmentation After Cancer Chemotherapy, The Lancet, II(7925):128, July 19, 1975.
-- BAUMGARTNER TG, What Does Anaphylactic Shock Mean to You? Fla Pharm J 39:16-18, 1975.
-- BAUMGARTNER TG, Clinical Extensions to the Emergency Room, Fla Pharm J, May, 1975.
+- BAUMGARTNER TG, What Does Anaphylactic Shock Mean to You? FL Pharm J 39:16-18, 1975.
+- BAUMGARTNER TG, Clinical Extensions to the Emergency Room, FL Pharm J, May, 1975.
 - BAUMGARTNER TG, Potassium Iodide and Iodermata, Amer J of Hosp Pharm 33 (6):601-603, June 1976.
 - BAUMGARTNER TG, Drug-induced Elevations of CPK Activity, Drug Therapy, p.19, Sept. 1977.
 - BAUMGARTNER TG, TPN Standardized Electrolyte Additives, Hosp Pharm 12(5):243, 1977.
-- BAUMGARTNER TG, Clinical Abstracts, Fla Soc of Hosp Pharm Newsletter, July 1979.
+- BAUMGARTNER TG, Clinical Abstracts, FL Soc of Hosp Pharm Newsletter, July 1979.
 - BAUMGARTNER TG, More Mnemonics, Hosp Pharm 14:285, August 1979.
 - BAUMGARTNER TG, Administration of Hydroxyzine Injection, Amer J of Hosp Pharm 36(12):1660, Dec. 1979.
 - BAUMGARTNER TG, Oncology Medication Dose Chart, A.S.H.P. Newsletter (Signal), p. 6, April 1980.
-- BAUMGARTNER TG, Federal Register Updates, Fla Soc of Hosp Pharm Newsletter, June 1980.
+- BAUMGARTNER TG, Federal Register Updates, FL Soc of Hosp Pharm Newsletter, June 1980.
 - BAUMGARTNER TG. The pharmacist and disaster planning.Hosp Pharm. 1981 Jan;16(1):4-5.
-- BAUMGARTNER TG, Renal Medication Pharmacology and Therapeutics, Fla Soc of Hosp Pharm Newsletter, Jan. 1981.
+- BAUMGARTNER TG, Renal Medication Pharmacology and Therapeutics, FL Soc of Hosp Pharm Newsletter, Jan. 1981.
 - BAUMGARTNER TG, Lockwood, A, Munyer, T.O., Semiquantitative Testing for Glucose Concentration in Parenteral Nutrition Solutions, Amer Journ of Hosp Pharm 38(3):383-4, Mar. 1981.
-- BAUMGARTNER TG, What about those Joint Commission on the Accreditation of Hospitals' Standards for Pharmaceutical Services? (Ed). Fla J of Hosp Pharm, 1(1):iv, 1981.
-- Gentile, D., BAUMGARTNER TG, Antibiotics, Fla J Hosp Pharm, 1(1):19-20, 1981.
-- BAUMGARTNER TG, Risk Factors in Coronary Heart Disease, Fla J Hosp Pharm, 1(1):30, 1981.
-- BAUMGARTNER TG, Compliance-oriented prescribing: Simplifying Drug Regimens, Fla J Hosp Pharm, 1(1):31-34, 1981.
-- BAUMGARTNER TG, Laboratory Reference Ranges, Fla J Hosp Pharm, 1(1):26-7, 1981.
+- BAUMGARTNER TG, What about those Joint Commission on the Accreditation of Hospitals' Standards for Pharmaceutical Services? (Ed). FL J of Hosp Pharm, 1(1):iv, 1981.
+- Gentile, D., BAUMGARTNER TG, Antibiotics, FL J Hosp Pharm, 1(1):19-20, 1981.
+- BAUMGARTNER TG, Risk Factors in Coronary Heart Disease, FL J Hosp Pharm, 1(1):30, 1981.
+- BAUMGARTNER TG, Compliance-oriented prescribing: Simplifying Drug Regimens, FL J Hosp Pharm, 1(1):31-34, 1981.
+- BAUMGARTNER TG, Laboratory Reference Ranges, FL J Hosp Pharm, 1(1):26-7, 1981.
 - BAUMGARTNER TG, Petersen, E.D., Comment on Intravenous Fat Emulsion Compatibility, (Let), Drug Intell and Clin Pharm, 15:908, 1981.
-- BAUMGARTNER TG, Code Blue or Not - Here We Come!...or Not? (Ed), Fla J Hosp Pharm, 2(1):2, 1982.
-- BAUMGARTNER TG, Renal Disease, Fla J Hosp Pharm, 2(1):48, 1982.
+- BAUMGARTNER TG, Code Blue or Not - Here We Come!...or Not? (Ed), FL J Hosp Pharm, 2(1):2, 1982.
+- BAUMGARTNER TG, Renal Disease, FL J Hosp Pharm, 2(1):48, 1982.
 - BAUMGARTNER TG, Guild, R., Kitchens, C., Mahoney, M., Management of Catheter Occlusions, Drugs & Therapy Newsletter, Shands Teaching Hosp & Clin, Inc., May/June, 1982.
 - BAUMGARTNER TG, Management of Metabolic Complications of TPN, Drugs and Therapy Newsletter, Shands Teaching Hosp & Clin, Inc., May/June, 1982.
 - Cerda, J.J., BAUMGARTNER TG, Trace Element Requirements During Total Parenteral Nutrition, Amer Soc of Parenteral and Enteral Nutrition Newsletter Update, 4(2), July, 1982.
-- BAUMGARTNER TG, Does Better Patient Care Demand Decentralization of Pharmacy Services? (Ed). Fla J Hosp Pharm 2(3):ii, 1982.
-- BAUMGARTNER TG, 1982 - That Was the Year That Was,(Ed). Fla J Hosp Pharm 2(3):iii, 1982.
+- BAUMGARTNER TG, Does Better Patient Care Demand Decentralization of Pharmacy Services? (Ed). FL J Hosp Pharm 2(3):ii, 1982.
+- BAUMGARTNER TG, 1982 - That Was the Year That Was,(Ed). FL J Hosp Pharm 2(3):iii, 1982.
 - BAUMGARTNER TG, Davis RG. Streptokinase-induced anaphylactic reaction. Clin Pharm. 1982 Sep-Oct;1(5):470-1.
 - BAUMGARTNER TG, Russell, W.L., Trimethoprim-Sulfamethoxazole Precipitation, Am J of IV Ther & Clin Nutr, Feb. 1983.
 - BAUMGARTNER TG, Laskin, J., Harman, E., Suspected Anaphylaxis from Methylprednisolone Injection: Case Report and Literature Review; Am J of IV Ther & Clin Nutr, pp 44-54, April, 1983.
-- BAUMGARTNER TG, The Pharmacy Charge for 1983: Cash in on Journal Interaction, (Ed). Fla J Hosp Pharm 3(1):iv, 1983.
-- BAUMGARTNER TG, What is the Hospital Pharmacist?, (Ed). Fla J of Hosp Pharm 3(2):iv, 1983.
-- BAUMGARTNER TG, Shoff, C.M., Pharmacy Implications: Intramuscular Injections, Fla J of Hosp Pharm, 3(2):75-85, 1983.
-- BAUMGARTNER TG, One For All And All For One, (Ed). Fla J of Hosp Pharm, 3(3):v, 1983.
+- BAUMGARTNER TG, The Pharmacy Charge for 1983: Cash in on Journal Interaction, (Ed). FL J Hosp Pharm 3(1):iv, 1983.
+- BAUMGARTNER TG, What is the Hospital Pharmacist?, (Ed). FL J of Hosp Pharm 3(2):iv, 1983.
+- BAUMGARTNER TG, Shoff, C.M., Pharmacy Implications: Intramuscular Injections, FL J of Hosp Pharm, 3(2):75-85, 1983.
+- BAUMGARTNER TG, One For All And All For One, (Ed). FL J of Hosp Pharm, 3(3):v, 1983.
 - BAUMGARTNER TG, Minimizing Phlebitis Due to Peripheral Hyperalimentation, Drugs and Therapy Newsletter, Shands Hospital and Clinic, November 1983.
 - Stacpoole, P., Harman, E., Curry S., BAUMGARTNER TG, Misbin, R., Treatment of Lactic Acidosis in Humans with Dichloroacetate, New England Journal of Medicine, 309(7):390-6, August 18, 1983.
 - BAUMGARTNER TG. DRGs and the great compromise. JPEN J Parenter Enteral Nutr. 8(5):590-1, 1984.
-- BAUMGARTNER TG, Practice Standards, (Ed), Fla J of Hosp Pharm, 4(1):v, 1984.
-- BAUMGARTNER TG, Home Care Therapy, (Ed), Fla J of Hosp Pharm, 4 (2):v, 1984.
-- BAUMGARTNER TG, Petersen, E., Cerda, J., Total Parenteral Nutrition Solution Osmolality Approximations, Fla J of Hosp Pharm, 4(2):55, 1984.
-- BAUMGARTNER TG, Home Health Care, (Ed). Fla J of Hosp Pharm 4(2):xi, 1984.
+- BAUMGARTNER TG, Practice Standards, (Ed), FL J of Hosp Pharm, 4(1):v, 1984.
+- BAUMGARTNER TG, Home Care Therapy, (Ed), FL J of Hosp Pharm, 4 (2):v, 1984.
+- BAUMGARTNER TG, Petersen, E., Cerda, J., Total Parenteral Nutrition Solution Osmolality Approximations, FL J of Hosp Pharm, 4(2):55, 1984.
+- BAUMGARTNER TG, Home Health Care, (Ed). FL J of Hosp Pharm 4(2):xi, 1984.
 - BAUMGARTNER TG, Prima non Docere - First, Do No Harm, (Ed), FlaJ of Hosp Pharm, 4 (3):vi, 1984.
-- BAUMGARTNER TG, Pharmacy Distribution Systems and the "Feather Bedding" Phenomenon, (Ed). Fla J Hosp Phar, 4(4):ix, 1984.
+- BAUMGARTNER TG, Pharmacy Distribution Systems and the "Feather Bedding" Phenomenon, (Ed). FL J Hosp Phar, 4(4):ix, 1984.
 - Mahaffey, S.M., Copeland, E.M., Talbert, J.L., BAUMGARTNER TG, and Sitren, H.S., Parenteral Nutrition in the Swiss Mouse. Fed Proc 43:848, 1984.
-- BAUMGARTNER TG, Where is the Hospital Pharmacist Going? (Ed). Fla J Hosp Pharm 5(1):vii, 1985.
+- BAUMGARTNER TG, Where is the Hospital Pharmacist Going? (Ed). FL J Hosp Pharm 5(1):vii, 1985.
 - BAUMGARTNER TG, Sitren, H.S., Hall, J., Lottenberg, R., The Stability of Urokinase in Hyperalimentation Solutions, J of Nutri Support Serv. 5(1):41-6, Jan. 1985.
 - Curry, S.H., Chu, P., BAUMGARTNER TG, Stacpoole, P.W., Plasma Concentrations and Metabolic Effects of Intravenous Sodium Dichloroacetate Clin Pharm and Therapeut 37(1):89-93, 1985.
 - BAUMGARTNER TG, Steroids and Nutritional Implications, Microlink Update Newsletter, 1(2), 1985.
-- BAUMGARTNER TG, Joint Commission on Pharmacy Practitioners (JCPP) - (Ed). Fla J Hosp Pharm 5(2):vii, 1985.
-- BAUMGARTNER TG, Primary Care and the Prescribing Privilege - (Ed). Fla J Hosp Pharm 5(3):3, 1985.
-- BAUMGARTNER TG, Happenings in Hospital Pharmacy - The Communications Council of the Florida Society of Hospital Pharmacists (Guest Ed). Fla Phar J 10/85.
-- BAUMGARTNER TG, Sensitivity and Caring Committees (Ed); Fla J Hosp Pharm 5(4): vii, 1985.
-- Angorn, R. and BAUMGARTNER TG, Legal Implications: Parenteral Injections, Fla J of Hosp Pharm 5(4):9-17, 1985.
+- BAUMGARTNER TG, Joint Commission on Pharmacy Practitioners (JCPP) - (Ed). FL J Hosp Pharm 5(2):vii, 1985.
+- BAUMGARTNER TG, Primary Care and the Prescribing Privilege - (Ed). FL J Hosp Pharm 5(3):3, 1985.
+- BAUMGARTNER TG, Happenings in Hospital Pharmacy - The Communications Council of the Florida Society of Hospital Pharmacists (Guest Ed). FL Phar J 10/85.
+- BAUMGARTNER TG, Sensitivity and Caring Committees (Ed); FL J Hosp Pharm 5(4): vii, 1985.
+- Angorn, R. and BAUMGARTNER TG, Legal Implications: Parenteral Injections, FL J of Hosp Pharm 5(4):9-17, 1985.
 - BAUMGARTNER TG, and Schmidt, G.S., Filters and their Implications in Health Care, Nutritional Support Services Journal, 5(9):7-26, 1985.
 - BAUMGARTNER TG, Phosphate, Nutritional Support Services Journal, 5(2):22, 1985.
 - Mahaffey, S.M., Copeland III, E.M., Economides, E., Talbert, J.L., BAUMGARTNER TG, Sitren, H.S., Host and Tumor Compositional Changes Due to Qualitative Nutritional Manipulation in TPN Fed Mice, JPEN, 9:112, 1985.
 - Sitren, H.S., Heller, P.A., Bailey, L.B., BAUMGARTNER TG, Cerda, J.J., Total Parenteral Nutrition in the Mouse: Body Composition and Plasma Chemistries, J. Parent. Enteral Nutr. 9(5): 600-05, 1985.
 - Mahaffey, S.M., Copeland III, E.M., Economides, E, Talbert, J.L., BAUMGARTNER TG, Sitren, H.S., The Effect of Energy Substrate Manipulation on Tumor and Metastasis and Intermediary Metabolism in the Parenterally Fed Mouse, J. of Ped. Surg. 20(6):775-84, 1985.
 - BAUMGARTNER TG, Trace Elements in Parenteral Nutrition - A Review, Drugs of Today, 21(12):555-61, 1985.
-- BAUMGARTNER TG, Sensitivity and Caring Committees (Ed), Fla J of Hosp Pharm 5(4): ix-xi, 1985.
+- BAUMGARTNER TG, Sensitivity and Caring Committees (Ed), FL J of Hosp Pharm 5(4): ix-xi, 1985.
 - Mahaffey, S.M., Copeland III, E.M., Talbert, J.L., BAUMGARTNER TG, Sitren, H.S., Further Studies of a Technique for Total Parenteral Nutrition in the Mouse, Nutrition Res 5:1121-30, 1985.
 - Economides E, Mahaffey S.M., Sitren H.S., BAUMGARTNER TG, Tumor and host compositional Studies in Mice Fed High Fat vs. High Carbohydrate Diets. Fed Proc 44:1340, 1985.
 - Economides E, Mahaffey SM, Sitren HS, BAUMGARTNER TG, Altered Tumor and Liver Composition in Mice Fed High Fat vs. High Carbohydrate Diets. JPEN 9:108, 1985.
@@ -192,10 +192,10 @@ Website: consultantpharmacistsofamerica.com
 - BAUMGARTNER TG, Schmidt, GS, Sitren, H.S., and Cerda JJ. Injectable Precaution: Particulate Introduction, Lippincott's Hospital Pharmacy, 1986.
 - BAUMGARTNER TG, Schmidt, G.S., Thakker, K.M., Sitren, H.S., Cerda, J.J., Mahaffey, S.M., Copeland III, E.M., Bacterial Endotoxin Retention by Inline Intravenous Filters, Amer J Hosp Pharm, 43:681-4, 1986.
 - BAUMGARTNER TG, Schmidt GL, Sitren HS, Cerda JJ. Parenteral handling precaution: particulate introduction resulting from needle sheath contamination. Hosp Pharm. 21(4):323-6, 1986.
-- BAUMGARTNER TG, Who is the Technical Expert in Pharmacy? (Ed), Fla J Hosp Pharm 6(1):xv,xvi, 1986.
-- BAUMGARTNER TG, Who's Wearing Blinders? (Ed), Fla J Hosp Pharm 6(2):ix-xii, 1986.
-- BAUMGARTNER TG, The Florida Self-Care Consultant Law Revisited (More on Chapter 465.186 FS/Rule 215-18, (Ed) Fla J of Hosp Pharm 6(3):xi-xix, 1986.
-- BAUMGARTNER TG, More on the Florida Self-Care Consulting Law (Ed), Fla J of Hosp Pharm 6(4):ix, 1986.
+- BAUMGARTNER TG, Who is the Technical Expert in Pharmacy? (Ed), FL J Hosp Pharm 6(1):xv,xvi, 1986.
+- BAUMGARTNER TG, Who's Wearing Blinders? (Ed), FL J Hosp Pharm 6(2):ix-xii, 1986.
+- BAUMGARTNER TG, The Florida Self-Care Consultant Law Revisited (More on Chapter 465.186 FS/Rule 215-18, (Ed) FL J of Hosp Pharm 6(3):xi-xix, 1986.
+- BAUMGARTNER TG, More on the Florida Self-Care Consulting Law (Ed), FL J of Hosp Pharm 6(4):ix, 1986.
 - BAUMGARTNER TG, Folic Acid:Part I, Nutr Support Serv 6(9):33,34, 1986.
 - BAUMGARTNER TG, Folic Acid:Part II, Nutr Support Serv 6(10):25,26, 1986.
 - Schmidt GL, BAUMGARTNER TG, Fischlschweiger W, Sitren HS, Thakker KM, Cerda JJ. Cost containment using cysteine HCl acidification to increase calcium/phosphate solubility in hyperalimentation solutions. JPEN J Parenter Enteral Nutr. 10(2):203-7, 1986.
@@ -206,17 +206,17 @@ Website: consultantpharmacistsofamerica.com
 - Ellis LM, Bryant MS, Copeland EM 3rd, Bland KI, BAUMGARTNER TG, Kao KJ, Sitren HS. Postoperative enteral versus total parenteral nutrition immediately after partial hepatectomy: effects on hepatic regeneration and function. Curr Surg. 44(6):470-2, 1987.
 - Bryant, M.S., Copeland, E.M., Sinclair, K.G.A., Mahaffey, S.M., BAUMGARTNER TG, Sitren, H.S., Causative Factors for Decreased Pulmonary Metastasis in Parenterally Fed Rats, J. Surg Res 42:467-74, 1987.
 - Mahaffey SM, Copeland EM 3rd, Economides E, Talbert JL, BAUMGARTNER TG, Sitren HS. Decreased lung metastasis and tumor growth in parenterally fed mice. J Surg Res. 42(2):159-65, 1987.
-- BAUMGARTNER TG, Red Alert (Ed); Fla J Hosp Pharm 6(1):vii, 1987.
+- BAUMGARTNER TG, Red Alert (Ed); FL J Hosp Pharm 6(1):vii, 1987.
 - BAUMGARTNER TG. More cost-containment literature needed. JPEN J Parenter Enteral Nutr. 11(3):330-1, 1987.
-- BAUMGARTNER TG, Professional Compensation (Ed) Fla J Hosp Pharm 6(2):vii, 1987.
-- BAUMGARTNER TG, The Pharmacy Retreat: A Place of Resort to Discuss Pharmacy (Ed); Fla J Hosp Pharm 6(4):xi, 1987.
+- BAUMGARTNER TG, Professional Compensation (Ed) FL J Hosp Pharm 6(2):vii, 1987.
+- BAUMGARTNER TG, The Pharmacy Retreat: A Place of Resort to Discuss Pharmacy (Ed); FL J Hosp Pharm 6(4):xi, 1987.
 - BAUMGARTNER TG, and Sitren, H.S., Oncology and Circadian Rhythm Considerations, Alachua Onc Nurses Newsletter, Winter, 1987.
 - Pessa ME, Sitren HS, Copeland EM 3rd, Talbert JL, Schmidt G, BAUMGARTNER TG. Nutritional support by intraperitoneal dialysis in the rat: maintenance of body weight with normal liver and plasma chemistries. JPEN J Parenter Enteral Nutr. 112(1):63-7, 1988.
 - Cerda, J.J., Robbins, F.L., Burgin, C.W., BAUMGARTNER TG, Rice, R.W., The Effects of Grapefruit Pectin on Patients at Risk for Coronary Disease Without Altering Lifestyle, Clin Cardiol 11:589-94, 1988.
 - Cerda, J.J. and BAUMGARTNER TG, Crohn's Disease: Nutritional Issues; Practical Gastroenterology, XI (6):23-30, 1988.
 - BAUMGARTNER TG, Knudsen, A., Dunn, A.J., Kilroy, R, Norepinephrine Stability in Saline Solutions, Hosp Pharm, January, 1988.
 - Baekey PA, Cerda JJ, Burgin CW, Robbins FL, Rice RW, BAUMGARTNER TG. Grapefruit pectin inhibits hypercholesterolemia and atherosclerosis in miniature swine. Clin Cardiol. 11(9):597-600, 1988.
-- BAUMGARTNER TG, The Brain and Nutrition, Fla Assoc Nutri Supp Newsletter, Apr, 1988.
+- BAUMGARTNER TG, The Brain and Nutrition, FL Assoc Nutri Supp Newsletter, Apr, 1988.
 - BAUMGARTNER TG, Novamine 15% Amino Acids in the Bone Marrow Transplant Patient, Clintec Nutrition Newsletter, Deerfield, Il, 1988.
 - BAUMGARTNER TG, Brainstorming (Ed), FJHP 8(1):11, 1988.
 - BAUMGARTNER TG, Law and the Institutional Pharmacist, (Ed), FJHP 8(2):71, 1988.
@@ -270,12 +270,12 @@ Website: consultantpharmacistsofamerica.com
 ## Abstracts
 
 - BAUMGARTNER TG, Total Parenteral and Enteral Nutrition Team at UF; Amer. Soc. of Parenteral and Enteral Nutrition; 2/1/80.
-- BAUMGARTNER TG, Guild R., Cysteine HCl as an Antidote for Acetaminophen Poisoning; Fla. Soc. of Hosp. Pharm. Annual Meeting Proceedings; Daytona Beach; 10/24/80.
-- BAUMGARTNER TG, Total Parenteral and Enteral Nutrition Team at UF; Fla. Soc. of Hosp. Pharmacy Annual Meeting Proceedings; Daytona Beach, 10/24/80.
-- BAUMGARTNER TG, TPEN Team at Univ. of Fla.; ASPEN New Orleans, La., 2/3/81.
+- BAUMGARTNER TG, Guild R., Cysteine HCl as an Antidote for Acetaminophen Poisoning; FL. Soc. of Hosp. Pharm. Annual Meeting Proceedings; Daytona Beach; 10/24/80.
+- BAUMGARTNER TG, Total Parenteral and Enteral Nutrition Team at UF; FL. Soc. of Hosp. Pharmacy Annual Meeting Proceedings; Daytona Beach, 10/24/80.
+- BAUMGARTNER TG, TPEN Team at Univ. of FL.; ASPEN New Orleans, La., 2/3/81.
 - Finefrock, T., BAUMGARTNER TG, Guild, R.T., Misbin, R.I., Iodinated Insulin adsorption to Hyperalimentation Line Pall Filters; ASPEN New Orleans, La., 2/3/81.
 - BAUMGARTNER TG, Guild, R., Acetylcysteine Use in Acetaminophen Poisoning; ASHP, Chicago, IL., 6/9/81.
-- BAUMGARTNER TG, Geders, J.M., Finefrock, T.L., Garnica, A.D., Guild, R.T., Cerda, J.J., The Effect of Hyperalimentation Solution On-Line Filters an Manganese Trace Element Absorption; Fla. Soc. of Hosp. Pharm. Annual Meeting; Clearwater, Fla., 10/27/81.
+- BAUMGARTNER TG, Geders, J.M., Finefrock, T.L., Garnica, A.D., Guild, R.T., Cerda, J.J., The Effect of Hyperalimentation Solution On-Line Filters an Manganese Trace Element Absorption; FL. Soc. of Hosp. Pharm. Annual Meeting; Clearwater, FL., 10/27/81.
 - BAUMGARTNER TG, Geders, J.M., Finefrock, T.L., Garnica, A.D., Guild, R.T., Cerda, J.J., The Effect of Hyperalimentation Solution On-Line Filters and Copper Trace Element Adsorption; American Soc. of Parenteral and Enteral Nutrition, San Francisco, Calif., 2/5/82 [JPEN Vol. 5(6):580,1981].
 - Finefrock, T., BAUMGARTNER TG, Guild, R.T., and Misbin, R.T., Comparative Insulin Adsorption to Various On-Line Hyperalimentation On-Line Filters; Amer. Soc. of Parenteral and Enteral Nutrition; San Francisco, Calif., 2/5/82 [JPEN 5(6):580, 1981].
 - Sitren, H.S., Wahlquist, C., and BAUMGARTNER TG, Prehepatic Hyperalimentation in the Rat; Amer. Soc. of Parenteral and Enteral Nutrition; San Francisco, Calif., 2/5/82 [JPEN 5(6):565, 1982].
@@ -341,7 +341,7 @@ Website: consultantpharmacistsofamerica.com
 ## Texts
 
 - BAUMGARTNER TG (Editor/creator), Total Parenteral and Enteral Nutrition (TPEN), Virtual Housestaff Manual (www.health.ufl.edu/tpn), Edition 1-6; Copyright 2001-11.
-- BAUMGARTNER TG (Editor/creator), Total Parenteral and Enteral Nutrition (TPEN), Housestaff Manual (Shands Hospital, Inc., Univ. of Fla.), Editions 1-20; Copyright 1980-2000.
+- BAUMGARTNER TG (Editor/creator), Total Parenteral and Enteral Nutrition (TPEN), Housestaff Manual (Shands Hospital, Inc., Univ. of FL.), Editions 1-20; Copyright 1980-2000.
 - BAUMGARTNER TG, (Editor, Five Chapters and Enhanced Material), Clinical Guide to Parenteral Micronutrition, ENHANCED Third Edition. Consultant Pharmacists of America, Inc., Gainesville, FL 2012.
 - BAUMGARTNER TG, (Editor and Five Chapters), Clinical Guide to Parenteral Micronutrition, Third Edition. Lyphomed, Division of Fujisawa, Inc., Deerfield, Ill., 1997.
 - BAUMGARTNER TG, (Editor and Four Chapters), Clinical Guide to Parenteral Micronutrition, Second Edition. Lyphomed, Division of Fujisawa, Inc., Deerfield, Ill., 1991.
@@ -387,12 +387,12 @@ Website: consultantpharmacistsofamerica.com
 - CONTRIBUTING EDITOR - Advances in Gastroenterology, Hepatology and Nutrition, 1997 -
 - EDITOR-IN-CHIEF NEWSLETTER- 1990-Present. Florida Association of Nutritional Support/Florida Society of Parenteral and Enteral Nutrition
 - EDITOR - 1988-1992 Journal of Pharmacy Practice, WB Saunders Company, Philadelphia, PA
-- EDITOR-IN-CHIEF - 1981-1992. Fla J Hosp Pharm Florida Society of Hospital Pharmacy
+- EDITOR-IN-CHIEF - 1981-1992. FL J Hosp Pharm Florida Society of Hospital Pharmacy
 - EDITOR AND AUTHOR - Clinical Guide to Parenteral Micronutrition 3rd Ed, Consultant Pharmacists of America, Inc., 323 S. Franklin Bldg;Suite C-462; Chicago, IL 60606-7093; 1st Edition (1984).
 - EDITOR AND AUTHOR - Clinical Guide to Parenteral Micronutrition, 2nd Edition. Lyphomed, Division of Fujisawa, Deerfield, Ill. (1992).
 - EXTERNAL REVIEWER - Hyperalimentation Guidelines; Center for Disease Control; Atlanta, Ga., 1984, 1985 (JPEN 11/12, 1985).
 - EDITOR-IN-CHIEF NEWSLETTER - 1986/87 - Managing Ed of Newsletter, 1984-85. American Society of Nutritional Support Services.
-- Guest Editorial - BAUMGARTNER TG, Happenings in Hospital Pharmacy - The Communications Council, Fla Pharm J; Oct, 1985.
+- Guest Editorial - BAUMGARTNER TG, Happenings in Hospital Pharmacy - The Communications Council, FL Pharm J; Oct, 1985.
 - REVIEWER 1996 - present; Chest, American College of Chest Physicians.
 - REVIEWER 1982 - present; Journal of Parenteral and Enteral Nutrition; ASPEN - member of Self Assessment Exam Committee - 1988-89.
 - REVIEWER 1986 - present; Lippincott's Hospital Pharmacy.
@@ -594,24 +594,24 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "Investigational Medications and the Clinical Pharmacist" - S.A.Ph.A. Students, UF College of Pharmacy - 10/26/82
 - "Total Parenteral Nutrition Therapy - UF College of Pharmacy Course PHA 3631 -11/18/82
 - American Society of Nutritional Support Services, 2nd Annual Assembly Moderator, Washington, D.C. - 1/22/83
-- "Clinical Implications of Pediatric Total Parenteral Nutrition (MD's, RN's, RPh's), International Association of Hospital Central Sterile Managers, Orlando, Fla, 2/11/83
+- "Clinical Implications of Pediatric Total Parenteral Nutrition (MD's, RN's, RPh's), International Association of Hospital Central Sterile Managers, Orlando, FL, 2/11/83
 - "Training of Hospital Managers", 14th Annual Southeastern Conference for Post Graduate Pharmacy Education and Training, Athens, Ga, 3/13/83
-- "Total Parenteral Nutrition in Various Disease States", UF College of Pharmacy, Tampa, Fla, 5/21-22/83
-- "Nutrition in the Hospital and the Community", SWSHP/FSHP, St. Petersburg, Fla, 8/12-14/83
+- "Total Parenteral Nutrition in Various Disease States", UF College of Pharmacy, Tampa, FL, 5/21-22/83
+- "Nutrition in the Hospital and the Community", SWSHP/FSHP, St. Petersburg, FL, 8/12-14/83
 - "Evaluation of New Products", American Society of Nutritional Support Services, New Orleans, LA, 8/24/83
 - "Metabolic Potpourri - TPN Therapy", University of Mississippi (MD's, RN's, RD's and RPh's), Jackson, Miss., 11/16/83
 - "Micronutrient Trace Element Therapy", -LyphoMed Seminar - ASHP Midyear, Atlanta, Ga, 12/4/83
 - "Trace Element Pearls", American Society of Nutritional Support Services, Las Vegas, Nev., 1/28/84
 - "Laboratory Monitoring and the Home Nutrition Patient, Mercer University, Atlanta, Ga 4/13/84
 - "Pharmacy Implications of Parenteral Nutrition Therapy", Southeastern Society of Hospital Pharmacists, Athens, Ga, 4/14/84
-- "TPN and the Renal Patient", University of Florida College of Pharmacy, Tampa Fla 5/12/84
-- "Metabolic Considerations in Parenteral Nutrition Therapy", Jackson Memorial Hospital, Miami, Fla, 5/19/84
+- "TPN and the Renal Patient", University of Florida College of Pharmacy, Tampa FL 5/12/84
+- "Metabolic Considerations in Parenteral Nutrition Therapy", Jackson Memorial Hospital, Miami, FL, 5/19/84
 - "TPN Formulations and Compatibilities", American Society of Nutrition Support Services, Houston, Tex., 8/16/84
-- "Home Parenteral Therapy and Home Chemotherapy", University of Florida College of Pharmacy, Key Biscayne, Fla 9/24-25/84 (12 hour CE Coordinator)
-- "Anabolic Steroids and Protein Metabolism", Suncoast Seminar, Tampa, Fla 11/17/84
-- "Home Parenteral Therapy and Home Chemotherapy", University of Florida College of Pharmacy, Gainesville, Fla, 1/18/85
-- "Renal Therapeutics" (moderator); North Central Florida Society of Hospital Pharmacists/College of Pharmacy; Gainesville, Fla 1/18/85
-- "Home Therapy/Cost Containment - Why we're here", American Society of Nutritional Support Services, Miami, Fla, 1/20/85
+- "Home Parenteral Therapy and Home Chemotherapy", University of Florida College of Pharmacy, Key Biscayne, FL 9/24-25/84 (12 hour CE Coordinator)
+- "Anabolic Steroids and Protein Metabolism", Suncoast Seminar, Tampa, FL 11/17/84
+- "Home Parenteral Therapy and Home Chemotherapy", University of Florida College of Pharmacy, Gainesville, FL, 1/18/85
+- "Renal Therapeutics" (moderator); North Central Florida Society of Hospital Pharmacists/College of Pharmacy; Gainesville, FL 1/18/85
+- "Home Therapy/Cost Containment - Why we're here", American Society of Nutritional Support Services, Miami, FL, 1/20/85
 - "Role of the TPEN Pharmacist", College of Medicine Nutrition Course, University of Florida, 2/7/85
 - "Clinical Pharmacist Role in Total Parenteral Nutrition", (Medical Students) UF Medical College, 2/21/85
 - "Mean Arterial Blood Pressure Screening", (Pharmacy Students), UF College of Pharmacy, 2/28/85.
@@ -619,9 +619,9 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "Chemotherapy and Clinical Pharmacy", (Pharmacy Students), UF College of Pharmacy, 3/20/85.
 - "Parenteral Therapy Overview", (Pharmacy Students), UF College of Pharmacy, 3/27/85.
 - "TPEN Therapeutic", College of Pharmacy/University of Florida, Dispensing Course, 4/2/85
-- "Ambulatory Home Care Services", Seminar Coordinator and Lecturer (Parenteral Therapy Overview and Chemotherapy Services), UF College of Pharmacy, West Palm Beach, Fla, 5/11/85
+- "Ambulatory Home Care Services", Seminar Coordinator and Lecturer (Parenteral Therapy Overview and Chemotherapy Services), UF College of Pharmacy, West Palm Beach, FL, 5/11/85
 - "Ambulatory Nutrition Patient and Ancillary Services", Society of Nutritional Support Services, Anaheim, Calif., 8/12/85
-- "TPEN Therapeutics", Sunland Medical Center; Gainesville, Fla 8/29/85
+- "TPEN Therapeutics", Sunland Medical Center; Gainesville, FL 8/29/85
 - "Selenium and the Bone Marrow Transplant Patient", Division of Oncology/ Hematology, 9/12/85
 - "High Blood Pressure Measurement Methodologies", PHA 4764, College of Pharmacy, University of Florida, 9/26/85
 - "Micronutrient Therapy", Toronto General Hospital; Toronto, Canada, 10/18/85.
@@ -636,11 +636,11 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "Primary Therapeutics of Parenteral/Enteral Nutrition" - Critical Care Medicine, Shands Teaching Hospital, University of Florida, 1/31/86.
 - "Clinical Software Applications for Home Health Care Services", DataMed Clinical Support Services, 2/3/86.
 - "Ambulatory Care and Parenteral Therapy", Lecturer & Seminar Coordinator, College of Pharmacy, University of Florida, 3/1-2/86.
-- "Cholestasis and Total Parenteral Nutrition: Neonatal vs. Adult, Critical Care Medicine/Anesthesia/Cardiology/Pulmonology, Shands Teaching Hospital, Gainesville, Fla 4/8/86.
+- "Cholestasis and Total Parenteral Nutrition: Neonatal vs. Adult, Critical Care Medicine/Anesthesia/Cardiology/Pulmonology, Shands Teaching Hospital, Gainesville, FL 4/8/86.
 - "Ambulatory Care and Parenteral Therapy", Lecturer & Seminar Coordinator, College of Pharmacy, University of Florida, 5/31-6/1/86
 - "Home Infusion Roundtable", Harvard Club, 8/11/86.
 - "Nutrition and Disease Etiology", American Society of Nutritional Support Services, Boston, 8/12/86.
-- "Micronutrient Therapy: Parts 1 and 2", Florida Association for Nutritional Support, Orlando, Fla 9/12-13/86.
+- "Micronutrient Therapy: Parts 1 and 2", Florida Association for Nutritional Support, Orlando, FL 9/12-13/86.
 - "Acid-Base Implications in Nutritional Support", Beijing Surgical Staff; Beijing Medical Center; Beijing, China (People to People Delegation on IV Therapy), 9/20/86.
 - "Clinical Pharmacy", Medical and Pharmacy Staff, Hangjou Medical Center, Hanjhou, China, (People to People Delegation on IV Therapy), 10/24/86.
 - "Micronutrient Therapeutics", Illinois Society of Hospital Pharmacists, Chicago, 10/21/86.
@@ -649,13 +649,13 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "Vitamins and Trace Minerals", Harvard Medical School Department of Surgery, Advanced Course, 5/6-8/87.
 - "Pharmacy/Nutrient Implications", Graduate Students, Food Science & Human Nutrition, 6/24/87.
 - "Pharmacy Implications:TPN Therapy", Surgical Housestaff, College of Medicine, 7/23/87.
-- "Nutrition and the Cancer Patient", Oncology Nurses, Lake City VA Medical Center, Lake City, Fla, 8/14/87.
+- "Nutrition and the Cancer Patient", Oncology Nurses, Lake City VA Medical Center, Lake City, FL, 8/14/87.
 - "Iron and Sepsis"; UF Nutrition Journal Club; 1/20/87.
 - "Pharmacy-Nutrient Interaction"; Food Science and Human Nutrition Graduate Student Seminar; 6/24/87.
 - "Total Parenteral Nutrition"; Surgery Housestaff, UF College of Medicine; 6/30/87.
 - "Enteral/Parenteral Nutrition Therapy"; Surgery Housestaff; UF College of Medicine; 7/23/87.
-- "Nutritional Support in the Oncology Patient"; VA Medical Center; Lake City, Fla, 8/14/87.
-- "Oncology Medication Kinetics"; VA Medical Center; Lake City, Fla, 8/14/87.
+- "Nutritional Support in the Oncology Patient"; VA Medical Center; Lake City, FL, 8/14/87.
+- "Oncology Medication Kinetics"; VA Medical Center; Lake City, FL, 8/14/87.
 - "Monitoring TPN Therapy", CCM Nurses, UF College of Nursing, 9/1/87.
 - "Nutrition Therapy and the Burn Patient"; Research Conference; GI Division; 9/29/87.
 - "Interpretation of Laboratory Tests" VA Medical Center/Clinical Dietetic Staff10/7/87.
@@ -714,11 +714,11 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - " TPN Monitoring for the ICU Nurse", Shands SICU Nursing Staff, 8/23/89.
 - "Endotoxin and Filtration", IV Symposium, Hospital Satellite Network (900 Subscriber Hospitals), 9/14 &19/89.
 - "Nutritional Assessment", Critical Care Medicine, Shands Hospital, UF, 9/29/89.
-- " Nutritional Support of the Mechanically Ventilated Patient", Shands Respiratory Care Services; Holiday Inn; Gainesville, Fla, 10/6/89.
+- " Nutritional Support of the Mechanically Ventilated Patient", Shands Respiratory Care Services; Holiday Inn; Gainesville, FL, 10/6/89.
 - "Oxygen Consumption and Nutrition", Crit Care Medicine, 10/14/89.
 - "Aids and Nutrition, UF/Shands Nutrition Journal Club, 11/15/89.
-- "TPN in the Pediatric Patient", South Florida Chapter of the Intravenous Nurses Society, Sunrise, Fla, 11/16/89.
-- " Nutrition and Wound Healing ", Gainesville Nursing Association, Gainesville, Fl 11/20/89.
+- "TPN in the Pediatric Patient", South Florida Chapter of the Intravenous Nurses Society, Sunrise, FL, 11/16/89.
+- " Nutrition and Wound Healing ", Gainesville Nursing Association, Gainesville, FL 11/20/89.
 - "Nutrition and Calorimetry Research" Gastroenterology Research Conference, GI Division/Food, Science and Human Nutrition, 12/19/89.
 - " Calorimetry", Respiratory Therapists, Shands Hospital, 1/17/90.
 - " Complications of TPN" Gastroenterology Lecture Series, Tallahassee, 3/3/90.
@@ -729,7 +729,7 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "Total Parenteral Nutrition"/ "Role of the Clinical Pharmacist in IV Therapy", Compounding and Parenteral:PHA 4103C, College of Pharmacy, 4/10 and 4/11/90.
 - "Intravenous Therapy", 12 hours Laboratory, Compounding and Parenteral:PHA 4103C, College of Pharmacy, 4/12-14/90.
 - "Medications and Enteral Nutrition, Chattahoochie Medical Center, 6/20/90.
-- "Home Parenteral Therapy (2 hrs), Florida Pharmacy Association, Daytona Beach, Fl, 6/30/90.
+- "Home Parenteral Therapy (2 hrs), Florida Pharmacy Association, Daytona Beach, FL, 6/30/90.
 - "Clinical Nutrition in the 90's", Florida Association of Nutritional Support, Moderator, Clearwater Beach, 8/10-11/90.
 - "Computers and Clinical Nutrition", Moscow/Leningrad/Tbilisi/ Baku, USSR Delegation Leader, 7/23-8/5/90.
 - "Nutrition Perles for the Critically Ill Pulmonary Patient, Florida Association of Nutritional Support/Florida Society for Parenteral and Enteral Nutrition, Clearwater Beach, FL, 8/10/90.
@@ -740,7 +740,7 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "Clinical Nutrition - Microsubstrates". Critical Care Medicine, Shands Hospital, 9/7/90.
 - "Clinical Nutrition - Perles". Critical Care Medicine, Shands Hospital, 9/28/90.
 - "Trace Elements Physiology". Dragstedt Surgical Science Lecture Series. Surgical Staff, Shands Hospital, 10/12/90.
-- "IV Therapy Administration Perles", South Florida Chapter of the Intravenous Nurses Society, Sunrise, Fla, 11/27/90.
+- "IV Therapy Administration Perles", South Florida Chapter of the Intravenous Nurses Society, Sunrise, FL, 11/27/90.
 - "Fluid and Electrolyte Therapy", Intravenous Nurses Society, San Francisco, CA, 11/91.
 - "Electrolyte and Acid/Base Balance in Nutrition Support", South Florida Society of Hospital Pharmacists, Miami, 11/14/91.
 - "Indirect Calorimetry", Alachua County Respiratory Therapists, 12/91.
