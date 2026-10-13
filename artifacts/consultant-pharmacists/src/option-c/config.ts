@@ -3,7 +3,7 @@ const base = import.meta.env.BASE_URL;
 
 export const siteConfig = {
   // TOM TO CONFIRM: page count. Change here only.
-  pageCountLine: 'Over 1,000 pages',
+  pageCountLine: 'Over 800 pages',
   editionLabel: 'Enhanced Third Edition',
   title: 'Clinical Guide to Parenteral Micronutrition',
   editor: 'Edited by Dr. Thomas G. Baumgartner',
@@ -37,7 +37,7 @@ export const siteConfig = {
     },
   },
   ladderLine: 'All three micronutrient Q&A sets are also included in the full text PDF.',
-  reference: 'Referenced over 100,000 times by leading institutions and medical professionals like you.',
+  reference: 'The Clinical Guide to Parenteral Micronutrition has been used as a reference text by more than 100,000 multidisciplinary professionals.',
   phone: '(352) 642-3005',
   phoneHref: 'tel:+13526423005',
   email: 'info@consultantpharmacistsofamerica.com',

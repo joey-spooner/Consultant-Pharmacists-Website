@@ -14,3 +14,9 @@ Option C is now the primary GitHub Pages homepage. Keep B accessible at its orig
 **Why:** The user subsequently asked to “Make C the primary page for GitHub pages. Leave A and B in the background.” This changes which option owns the root URL, not the approval to preserve A/B as alternatives.
 
 **How to apply:** Point homepage and C navigation to the root; use root canonical/index metadata for C and background/noindex metadata for the review alternatives. Keep their direct links working.
+
+For C, preserve the client's reference-strip wording verbatim, with no qualifier or claims about copies sold. Use the conservative page-count wording the user approved.
+
+**Why:** The user says the edited PDF is 867 pages and could drop below 850 if the client removes more; the rounded lower bound is intentionally resilient to further edits.
+
+**How to apply:** Do not infer a higher page count from older materials or rewrite the approved reference claim when making later copy changes.

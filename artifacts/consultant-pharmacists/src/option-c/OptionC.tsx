@@ -112,7 +112,7 @@ function Home() {
           <div className="oc-hero-grid oc-rise d2">
             <TpnBagSvg />
             <div className="oc-ing">
-              <h2>Intravenous Total Parenteral Nutrition</h2>
+              <h2>Intravenous Total Parenteral Nutrition (TPN)</h2>
               <dl>
                 <div><dt>{mac.group}</dt><dd>{mac.items.join(', ')}</dd></div>
                 <div><dt>Micronutrients</dt>
