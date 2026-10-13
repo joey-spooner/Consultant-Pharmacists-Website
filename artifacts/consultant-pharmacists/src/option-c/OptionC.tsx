@@ -138,7 +138,14 @@ function Home() {
                   <dd className="nest">
                     <span><b>{el.group}:</b> {el.items.join(', ')}</span>
                     <span><b>{tr.group}:</b> {tr.items.join(', ')}</span>
-                    <span><b>{vi.group}:</b> {vi.items.join('; ').replace('(fat soluble);', '(fat soluble);')}</span>
+                    <span>
+                      <b>{vi.group}:</b>
+                      <span style={{ display: 'grid', gap: 8, marginTop: 8, marginLeft: 12 }}>
+                        {vi.items.map(({ group, items }) => (
+                          <span key={group}><b>{group}:</b> {items.join(', ')}</span>
+                        ))}
+                      </span>
+                    </span>
                   </dd>
                 </div>
               </dl>

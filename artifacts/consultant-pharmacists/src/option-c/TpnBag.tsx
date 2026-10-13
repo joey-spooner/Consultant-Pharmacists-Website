@@ -3,8 +3,12 @@ export const bagIngredients = [
   { group: 'Macronutrients', items: ['Amino acids', 'Carbohydrate', 'Lipid'] },
   { group: 'Electrolytes', parent: 'Micronutrients', items: ['Calcium', 'Magnesium', 'Potassium', 'Phosphate', 'Sodium'] },
   { group: 'Trace elements', items: ['Chromium', 'Copper', 'Iodide', 'Manganese', 'Molybdenum', 'Selenium', 'Zinc'] },
-  { group: 'Vitamins', items: ['A, D, E, K (fat soluble)', 'Ascorbic acid', 'Cyanocobalamin', 'Folic acid', 'Niacin', 'Pyridoxine', 'Riboflavin', 'Thiamine'] },
-];
+  { group: 'Vitamins', items: [
+    { group: 'Fat-soluble vitamins', items: ['A', 'D', 'E', 'K'] },
+    { group: 'B vitamins', items: ['B1 (Thiamine)', 'B2 (Riboflavin)', 'B3 (Niacin)', 'B6 (Pyridoxine)', 'B9 (Folic acid)', 'B12 (Cyanocobalamin)'] },
+    { group: 'Vitamin C', items: ['Ascorbic acid'] },
+  ] },
+] as const;
 
 export function TpnBagSvg() {
   return (
