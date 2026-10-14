@@ -60,14 +60,18 @@ function ContactBlock() {
   return (
     <div className="oc-contact-block">
       <div>Consultant Pharmacists of America</div>
-      <div>Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, FASPEN, R.Ph.</div>
+      <div>Thomas G. Baumgartner</div>
+      <div>Pharm.D., M.Ed., FASHP, FASPEN, R.Ph.</div>
       <div>President and Chief Executive Officer</div>
       <div>ORCID iD: <a href="https://orcid.org/0009-0007-1591-4269">0009-0007-1591-4269</a></div>
       <div>E-mail: <a href="mailto:ConsultantPharmacistsofAmerica@gmail.com">ConsultantPharmacistsofAmerica@gmail.com</a></div>
-      <div>Web site: <a href="https://consultantpharmacistsofamerica.com/">http://consultantpharmacistsofamerica.com/</a></div>
+      <div>Web site: <a href="https://consultantpharmacistsofamerica.com/">consultantpharmacistsofamerica.com</a></div>
       <div>Phone: <a href="tel:+13526423005">+1-352-642-3005</a></div>
-      <div>9200 NW 36th Place; Suite A-5, Gainesville, FL 32606</div>
-      <div>Preferred mailing address: 1616 SW 77th Terrace, Gainesville, FL 32607</div>
+      <div className="oc-contact-address">Office: 9200 NW 36th Place; Suite A-5, Gainesville, FL 32606</div>
+      <div className="oc-contact-address">
+        <div>Mailing address</div>
+        <div>1616 SW 77th Terrace, Gainesville, FL 32607</div>
+      </div>
     </div>
   );
 }
