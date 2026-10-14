@@ -96,7 +96,7 @@ font-size:18px;line-height:1.65;color:var(--ink);background:#fff;min-height:100d
 .oc-div h2{font-size:26px;margin-bottom:12px}
 .oc-div .oc-det summary{font-size:17px}
 .oc-div .oc-det li{padding:3px 0}
-.oc-contact{display:grid;grid-template-columns:1fr;gap:48px}
+.oc-contact{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:48px;align-items:start}
 .oc-field{display:block;margin-bottom:18px;font-weight:600;font-size:16px}
 .oc-field input,.oc-field textarea{display:block;width:100%;margin-top:6px;padding:12px;font:inherit;font-size:16px;border:1px solid #7a6a6a;background:#fff}
 .oc-form fieldset{border:0;padding:0;margin:0}
