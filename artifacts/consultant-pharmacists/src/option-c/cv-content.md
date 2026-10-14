@@ -1,7 +1,7 @@
 # Curriculum Vitae
 
 **Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, FASPEN, R.Ph.**\
-President and CEO, Consultant Pharmacists of America, Inc.\
+President and CEO, Consultant Pharmacists of America\
 Former Clinical Professor, University of Florida Colleges of Pharmacy, Medicine, Nursing and Dentistry\
 Gainesville, Florida\
 Phone: (352) 642-3005\
@@ -24,8 +24,8 @@ Website: consultantpharmacistsofamerica.com
 - Contributing editor - Advances in Gastroenterology, Hepatology and Nutrition, 1997 -
 - Technel Corporation, Computer Consultant, 1996 -
 - Shands Hospital at the University of Florida Information Management Systems Award - Technology Enhancement, 12/96.
-- Florida Society for Parenteral and Enteral Nutrition, President's Award ('93-'94) and Newsletter Editor-in-Chief, 1990 to present
-- Medical Advisory Board, Nutrition Institute of Louisiana, Methodist Health System Foundation and Pendleton Memorial Methodist Hospital, New Orleans. LA, 1993-96.
+- Florida Society for Parenteral and Enteral Nutrition, President's Award (1993 to 1994) and Newsletter Editor-in-Chief, 1990 to present
+- Medical Advisory Board, Nutrition Institute of Louisiana, Methodist Health System Foundation and Pendleton Memorial Methodist Hospital, New Orleans. LA, 1993 to 1996.
 - Phi Lambda Sigma National Pharmacy Leadership Society (UF Iota Chapter) - Faculty Designate, 1993.
 - Pharmacy 1994 Post Graduate Course Coordinator; American Society for Parenteral and Enteral Nutrition, San Antonio, TX, 1994;
 - Pharmacy Program Coordinator 1995, American Society for Parenteral and Enteral Nutrition, Miami Beach, FL.
@@ -35,20 +35,20 @@ Website: consultantpharmacistsofamerica.com
 - Distinguished Service Award Florida Society of Hospital Pharmacists, 1989.
 - President's Award; American Society of Nutritional Support Services, ('84-86)
 - Fellowship Status 1988 American Society of Hospital Pharmacists
-- Editor-in-Chief Florida Association of Nutritional Support/Florida Society for Parenteral and Enteral Nutrition Newsletter 1991–present
-- Editor Journal of Pharmacy Practice, 1988–1991
-- Editor-in-chief Florida Journal of Hospital Pharmacy, Florida Society of Hospital Pharmacists, 1981–1992.
+- Editor-in-Chief Florida Association of Nutritional Support/Florida Society for Parenteral and Enteral Nutrition Newsletter 1991 to present
+- Editor Journal of Pharmacy Practice, 1988 to 1991
+- Editor-in-chief Florida Journal of Hospital Pharmacy, Florida Society of Hospital Pharmacists, 1981 to 1992.
 - A.K. Whitney (Highest Award In Hospital Pharmacy) Nominee, Florida Society of Hospital Pharmacists, 1986
 - Citizen Ambassador Program (Dwight D. Eisenhower) Delegation Leader USSR - Moscow; Leningrad, Tbilisi, Baku, 1990
 - Citizen Ambassador Program (Dwight D. Eisenhower) Member China Delegation (By Invitation of the Chinese Medical Association) - Beijing, Nanjing, Hangzhou, 1986
 - International Biographical Centre (Cambridge, England) - Men of Achievement (15th Ed) 1991
 - Southeastern Pharmacy Resident's Conference Steering Board Chairman - American Society of Hospital Pharmacists 1986 (member since 1983)
 - Pharmacist of the Year 1986 - Kappa Psi (Gamma Sigma Chapter), Pharmaceutical Professional Fraternity/ University of Florida
-- President's Award ('85-'86) And Newsletter Managing Editor American Society of Nutritional Support Services, ('84-86)
-- Pharmacy Nutritional Support Fellow Preceptor American Society of Hospital Pharmacists; Research & Education Foundation,'84-'85
-- American Society of Hospital Pharmacists' Research & Education Foundation Selection Panelist Pharm. Nutrit. Supp.,1984-86 & 1988-89; 1990-1993
+- President's Award (1985 to 1986) And Newsletter Managing Editor American Society of Nutritional Support Services, ('84-86)
+- Pharmacy Nutritional Support Fellow Preceptor American Society of Hospital Pharmacists; Research & Education Foundation,1984 to 1985
+- American Society of Hospital Pharmacists' Research & Education Foundation Selection Panelist Pharm. Nutrit. Supp.,1984 to 1986 & 1988 to 1989; 1990 to 1993
 - External Reviewer/ Total Parenteral Nutrition Centers For Disease Control, Atlanta, Ga., 1984, 1985
-- Undergraduate Chapter Grand Council Deputy Gamma Sigma Chapter Univ of FL,1985 - 1995
+- Undergraduate Chapter Grand Council Deputy Gamma Sigma Chapter Univ of FL,1985 to 1995
 - FL Graduate Chapter Regent Kappa Psi Pharmaceutical Fraternity, 1985
 - Hospital Pharmacist of the Year Florida Society of Hospital Pharmacy, 1983
 - Pharmacist of the Month Florida Society of Hospital Pharmacists, 9/72
@@ -58,7 +58,7 @@ Website: consultantpharmacistsofamerica.com
 
 ## Experience
 
-- **2011 to present:** President/CEO, Consultant Pharmacists of America, Inc. Patents, prepatents, expert witness, consultant, writer.
+- **2011 to present:** President/CEO, Consultant Pharmacists of America. Patents, prepatents, expert witness, consultant, writer.
 - **1984 to 2011:** Clinical Pharmacy Specialist, Total Parenteral Nutrition/Metabolic Support Consult Services, Division of Gastroenterology, Hepatology and Nutrition/Pharmacy Services, Shands HealthCare at the University of Florida, Gainesville. Clinical Professor, University of Florida, Colleges of Pharmacy (Department of Pharmacy Practice), Medicine (Department of Medicine/Gastroenterology), Dentistry and Nursing; Graduate Faculty.
   - Primary medicine consultant, nutritional/pharmacy consultant, and research coordinator for the Total Parenteral Nutrition/Metabolic Support Team. Supervisor of Pharmacy Nutritional Support Services. Created and edited the Nutritional Support Services (NSS) Housestaff Manual. Proposed and budgeted the first NSS team in Florida. Initiator of NSS consult services. Developer of a model cybernetic program for nutritional support therapy monitoring.
   - Teaching and research collaboration across the Colleges of Pharmacy, Medicine, Nursing, Dentistry, Food Science and Human Nutrition, and Nuclear Engineering. Preceptor for pharmacy nutritional support fellows, Pharm.D. clerkship students, pharmacy residents, and GI, medical and surgical fellows, residents, interns and medical students.
@@ -70,7 +70,10 @@ Website: consultantpharmacistsofamerica.com
 ## Hospital and Academic Teaching Experience
 
 - Former Clinical Professor, cross appointments to the University of Florida Colleges of Pharmacy, Medicine, Dentistry and Nursing, appointed 1995
-- Clinical Associate Professor, College of Pharmacy (1976), College of Medicine (7/85), College of Dentistry (6/82), College of Nursing (4/80); Graduate Faculty appointment 9/84 to present
+- Clinical Associate Professor, College of Pharmacy (1976) and College of Medicine (7/85)
+  - College of Dentistry (6/82)
+  - College of Nursing (4/80)
+- Graduate Faculty Professor, appointed 9/84 to 2011
 - Course coordinator and lecturer: Parenteral Micronutrient Therapy (Medical C 65); Clinical Nutrition (PHA 4771); Pharmacotherapeutics in Nursing Practice (NUR 3145)
 - Course participant and lecturer: Dispensing and Compounding (PHA 4301C); Therapeutics (Pharmacy)
 - Chairman, Clinical Clerkship Documentation Committee, Department of Pharmacy Practice
@@ -79,7 +82,7 @@ Website: consultantpharmacistsofamerica.com
 - Inservice educator, Fish Memorial Hospital, DeLand, Florida, 1968 to 1975
 - Clinical Assistant Professor: College of Pharmacy 8/76 to 9/84; College of Dentistry 6/82 to 9/84; College of Nursing 4/80 to 9/84
 - Practicum liaison, Shands Pharmacy Department and University of Florida College of Pharmacy, 1976 to 9/84
-- Preceptor at Shands Teaching Hospital: interns and residents (1976 to present), Pharm.D. and B.S. clerkship students (1981 to present), fellowship preceptor with the American Society of Hospital Pharmacists (1984 to 1985)
+- Preceptor at Shands Teaching Hospital: interns and residents (1976 to 2011), Pharm.D. and B.S. clerkship students (1981 to 2011), fellowship preceptor with the American Society of Hospital Pharmacists (1984 to 1985)
 
 ## Licensure and Certification
 
@@ -101,19 +104,19 @@ Website: consultantpharmacistsofamerica.com
 - American Association of Colleges of Pharmacy - member 1989.
 - American College of Clinical Pharmacy - member 1989.
 - American Medical Writers Association - member 1988.
-- American Society for Parenteral/Enteral Nutrition - Regional Coordinator 1984-85; Self-Assessment Exam Committee member 1986, 1988 and 1989. Pharmacy Post Graduate Course Coordinator 1994; Pharmacy Program Coordinator, 1994. Fellowship (FASPEN) 2026.
-- American Society of Health Systems Pharmacists, Inc.: elected delegate from Florida–Annual Meeting 4/80; Special Interest Grp - Intravenous Therapy (1978–Present). Council of Clinical Affairs 1982 and 1983. Research and Education Foundation Nutritional Support Fellow Grant Evaluator; Coordinator of Chemotherapy Administration Literature Search Group/Special Interest Group Committee 1985-86.
-- Center for Nutritional Sciences;University of Florida - Board of Director 1989–92.
-- Compu Panel Consultant; Technel Corporation, Emeryville, CA, 1990-96.
-- Florida Association for Nutritional Support; President - 1989-90; President-Elect 1988-89; Past President 1990-91; Editor-in-Chief Newsletter (1991–Present).
-- Florida Society for Parenteral and Enteral Nutrition; Past President 1990-91; Editor-in-Chief Newsletter (1991–Present); President - 1989-90; President-Elect 1988-89.
+- American Society for Parenteral/Enteral Nutrition - Regional Coordinator 1984 to 1985; Self-Assessment Exam Committee member 1986, 1988 and 1989. Pharmacy Post Graduate Course Coordinator 1994; Pharmacy Program Coordinator, 1994. Fellowship (FASPEN), January 2026.
+- American Society of Health Systems Pharmacists, Inc.: elected delegate from Florida–Annual Meeting 4/80; Special Interest Grp - Intravenous Therapy (1978 to present). Council of Clinical Affairs 1982 and 1983. Research and Education Foundation Nutritional Support Fellow Grant Evaluator; Coordinator of Chemotherapy Administration Literature Search Group/Special Interest Group Committee 1985 to 1986.
+- Center for Nutritional Sciences;University of Florida - Board of Director 1989 to 1992.
+- Compu Panel Consultant; Technel Corporation, Emeryville, CA, 1990 to 1996.
+- Florida Association for Nutritional Support; President - 1989 to 1990; President-Elect 1988 to 1989; Past President 1990 to 1991; Editor-in-Chief Newsletter (1991 to present).
+- Florida Society for Parenteral and Enteral Nutrition; Past President 1990 to 1991; Editor-in-Chief Newsletter (1991 to present); President - 1989 to 1990; President-Elect 1988 to 1989.
 - Florida Pharmaceutical Association; Member since 1967
-- Florida Society of Hospital Pharmacists Education Committee Chairman 1978-79; Clinical Pharmacy Committee 1979–80; Elected Florida Delegate to ASHP Annual Meeting 1980; President-elect-elect nominee 1981; FL. Speaker's Bureau - Hypertension Screening 1982; FL. Journal of Hospital Pharmacy - Editor-in- Chief 1981 - 92; Board of Directors 1982 - 84; Communications Council Chairman 1985-87. Member since '67
+- Florida Society of Hospital Pharmacists Education Committee Chairman 1978 to 1979; Clinical Pharmacy Committee 1979 to 1980; Elected Florida Delegate to ASHP Annual Meeting 1980; President-elect-elect nominee 1981; FL. Speaker's Bureau - Hypertension Screening 1982; FL. Journal of Hospital Pharmacy - Editor-in- Chief 1981 to 1992; Board of Directors 1982 to 1984; Communications Council Chairman 1985 to 1987. Member since '67
 - Kappa Psi Professional Fraternity Regent of Florida Graduate Chapter 1985; Faculty Advisor (Grand Council Deputy) for the Gamma Sigma Undergraduate Chapter at the University of Florida College of Pharmacy (1985-96).
-- North Central Florida Society of Hospital Pharmacists Secretary 1977-78; FSHP Liaison 1978-79; President-Elect 1978-79; President 1979-80; Executive Comm. Member 1981; FSHP Annual Meeting delegate 1980 and 1981, member 76-87.
+- North Central Florida Society of Hospital Pharmacists Secretary 1977 to 1978; FSHP Liaison 1978 to 1979; President-Elect 1978 to 1979; President 1979 to 1980; Executive Comm. Member 1981; FSHP Annual Meeting delegate 1980 and 1981, member 76-87.
 - Science Advisory Board - Advisor; Arlington, Va
 - Smithsonian Associate - member
-- Southeastern Residents/Graduate Students Conference Steering Committee Member (FL), 1984-86; Chairman-elect 1985, Chairman 1986.
+- Southeastern Residents/Graduate Students Conference Steering Committee Member (FL), 1984 to 1986; Chairman-elect 1985, Chairman 1986.
 - Student American Pharmaceutical Association Hospital Pharmacy SIG Faculty Advisor UF College of Pharmacy
 
 ## Publications
@@ -286,7 +289,7 @@ Website: consultantpharmacistsofamerica.com
 - BAUMGARTNER TG, Sitren, H., Gudat, J., Cerda, J., and Guild, R., Inorganic Phosphorus Availability in Total Parenteral Nutrition Solutions; Amer. Soc. of Hosp. Pharm.; Baltimore, Md., 6/8/82.
 - BAUMGARTNER TG, and Faber, E., Pyrogen Leak Distal to On-line Filters Post Gentamicin Administration; Amer. Soc. of Hosp. Pharm.; Baltimore, Md., 6/8/82.
 - Stacpoole, P.W., Harman, E.M., Curry, S.H., BAUMGARTNER TG, Misbin, R.I., Treatment of Lactic Acidosis in Humans with Dichloroacetate; Association of American Physicians, 10/82.
-- Curry SH, Stacpoole PW, Harman EM, BAUMGARTNER TG, and Misbin RI, Clinical Pharmacology of Sodium Dichloracetate (DCA), World Conference on Clinical Pharmacology and Therapeutics; Washington, D.C., 7/31-8/5 83.
+- Curry SH, Stacpoole PW, Harman EM, BAUMGARTNER TG, and Misbin RI, Clinical Pharmacology of Sodium Dichloracetate (DCA), World Conference on Clinical Pharmacology and Therapeutics; Washington, D.C., 7/31/83 to 8/5/83.
 - BAUMGARTNER TG, and Gotz V, Clinical Pharmacy Services in the Stomatognathic Clinic, FSHP, Orlando, Florida, 10/9/83.
 - BAUMGARTNER TG, Shaw, M., Curry, S., and Russell, W., Nitroglycerine Absorption to a new filter Material (Posidyne), FSHP, Orlando, Florida, 10/9/83.
 - BAUMGARTNER TG, Petersen, E., Cerda, J., Acree, B., Goff, K., and Rumley, T., Insulin and Trace Element (Cu, Mn, Zn) Absorption to New Filter Material, (Posidyne®), ASPEN; Las Vegas, Nev., 1/31/84.
@@ -316,7 +319,7 @@ Website: consultantpharmacistsofamerica.com
 - Ellis, LM, Bryant, MS, Copeland III, EM, Bland, KI, Getelman, MH, Hitchcock, CL, Harris, B, BAUMGARTNER TG, Sitren, HS, Comparison of Enteral VS. Parenteral Nutrition on Liver Composition after Partial Hepatectomy, Fed Proc Abstr #4043, 1987.
 - Bryant, M.S., Copeland, E.M., Ellis, L.M., BAUMGARTNER TG and Sitren, H.S., Intestinal Mucosal Function in Parenterally Fed Mice, FASEB, 4/87.
 - Ellis, L.M., Bryant, M.S., Copeland, E.M., Bland, K.I., Getelman, M.H. Hitchcock, C.L., Harris, B., BAUMGARTNER TG, Sitren, H.S., Comparison of Enteral VS. Parenteral Nutrition on Liver Composition After Partial Hepatectomy, FASEB, 4/87.
-- Wright, E.C., Stacpoole, P, BAUMGARTNER TG, et al The Design of a Randomized, Multicenter Study of Sodium Dichloroacetate (DCA) as a Treatment for Lactic Acidosis, Soc for Clin Trials, Atlanta, Ga; 5/17-20, 1987.
+- Wright, E.C., Stacpoole, P, BAUMGARTNER TG, et al The Design of a Randomized, Multicenter Study of Sodium Dichloroacetate (DCA) as a Treatment for Lactic Acidosis, Soc for Clin Trials, Atlanta, Ga; 5/17/87 to 5/20/87.
 - Ellis, LM, BAUMGARTNER TG, Bryant, MS, Copeland, EM, Sitren, HS, Hematologic Changes Induced by Acute IV Fat Emulsion. FASEB, 1988.
 - BAUMGARTNER TG, Sitren, HS, Stewart, T, Johns, P, Schmidt, GL, Ellis, LM, Cerda, JJ. The Influence of Fat Emulsion on Calcium and Phosphate Laboratory Tests, ASHP, San Francisco, 1988.
 - Bryant, MS, Ellis, LM, Copeland III, EM, BAUMGARTNER TG, and Sitren, HS., Effects of Total Parenteral Nutrition (TPN) on Hepatocellular Enzyme Activity, FASEB, 1988.
@@ -340,14 +343,14 @@ Website: consultantpharmacistsofamerica.com
 
 ## Texts
 
-- BAUMGARTNER TG (Editor/creator), Total Parenteral and Enteral Nutrition (TPEN), Virtual Housestaff Manual (www.health.ufl.edu/tpn), Edition 1-6; Copyright 2001-11.
-- BAUMGARTNER TG (Editor/creator), Total Parenteral and Enteral Nutrition (TPEN), Housestaff Manual (Shands Hospital, Inc., Univ. of FL.), Editions 1-20; Copyright 1980-2000.
-- BAUMGARTNER TG, (Editor, Five Chapters and Enhanced Material), Clinical Guide to Parenteral Micronutrition, ENHANCED Third Edition. Consultant Pharmacists of America, Inc., Gainesville, FL 2012.
+- BAUMGARTNER TG (Editor/creator), Total Parenteral and Enteral Nutrition (TPEN), Virtual Housestaff Manual (www.health.ufl.edu/tpn), Edition 1-6; Copyright 2001 to 2011.
+- BAUMGARTNER TG (Editor/creator), Total Parenteral and Enteral Nutrition (TPEN), Housestaff Manual (Shands Hospital, Inc., Univ. of FL.), Editions 1-20; Copyright 1980 to 2000.
+- BAUMGARTNER TG, (Editor, Five Chapters and Enhanced Material), Clinical Guide to Parenteral Micronutrition, ENHANCED Third Edition. Consultant Pharmacists of America, Gainesville, FL 2012.
 - BAUMGARTNER TG, (Editor and Five Chapters), Clinical Guide to Parenteral Micronutrition, Third Edition. Lyphomed, Division of Fujisawa, Inc., Deerfield, Ill., 1997.
 - BAUMGARTNER TG, (Editor and Four Chapters), Clinical Guide to Parenteral Micronutrition, Second Edition. Lyphomed, Division of Fujisawa, Inc., Deerfield, Ill., 1991.
-- BAUMGARTNER TG, (Editor and Three Chapters), Clinical Guide to Parenteral Micronutrition, Consultant Pharmacists of America, Inc., 323 S. Franklin Bldg; Suite C-462; Chicago, IL 60606-7093; 1st Edition, 1984.
-- BAUMGARTNER TG, Clinical Guide to Parenteral Micronutrition 3rd Ed, Consultant Pharmacists of America, Inc., Amazon-Kindle, 2023.
-- BAUMGARTNER TG, Micronutrient Primer Q&A, Consultant Pharmacists of America, Inc., Amazon-Kindle, 2023.
+- BAUMGARTNER TG, (Editor and Three Chapters), Clinical Guide to Parenteral Micronutrition, Consultant Pharmacists of America, 323 S. Franklin Bldg; Suite C-462; Chicago, IL 60606-7093; 1st Edition, 1984.
+- BAUMGARTNER TG, Clinical Guide to Parenteral Micronutrition 3rd Ed, Consultant Pharmacists of America, Amazon-Kindle, 2023.
+- BAUMGARTNER TG, Micronutrient Primer Q&A, Consultant Pharmacists of America, Amazon-Kindle, 2023.
 - BAUMGARTNER TG, From the Shooting on Broadway, Amazon-Kindle, 2023.
 
 ## Text Chapters
@@ -374,36 +377,36 @@ Website: consultantpharmacistsofamerica.com
 - BAUMGARTNER TG, (Editor/Author), Magnesium; Clinical Guide to Parenteral Micronutrition, Second Edition. Lyphomed, Division of Fujisawa, Inc., Deerfield, Ill., 1992.
 - BAUMGARTNER TG, (Editor/Author), Phosphate; Clinical Guide to Parenteral Micronutrition, Second Edition. Lyphomed, Division of Fujisawa, Inc., Deerfield, Ill., 1992.
 - BAUMGARTNER TG, (Editor/Author), TPN Review; Clinical Guide to Parenteral Micronutrition, Second Edition. Lyphomed, Division of Fujisawa, Inc., Deerfield, Ill., 1992.
-- BAUMGARTNER TG, (Editor/Author),Calcium; Clinical Guide to Parenteral Micronutrition, Consultant Pharmacists of America, Inc., 323 S. Franklin Bldg; Suite C-462; Chicago, IL 60606-7093; 1st Edition (1984).
-- BAUMGARTNER TG, (Editor/Author), Magnesium; Clinical Guide to Parenteral Micronutrition, Consultant Pharmacists of America, Inc., 323 S. Franklin Bldg; Suite C-462; Chicago, IL 60606-7093; 1st Edition (1984).
-- BAUMGARTNER TG, (Editor/Author), Phosphate; Clinical Guide to Parenteral Micronutrition, Consultant Pharmacists of America, Inc., 323 S. Franklin Bldg; Suite C-462; Chicago, IL 60606-7093; 1st Edition (1984).
+- BAUMGARTNER TG, (Editor/Author),Calcium; Clinical Guide to Parenteral Micronutrition, Consultant Pharmacists of America, 323 S. Franklin Bldg; Suite C-462; Chicago, IL 60606-7093; 1st Edition (1984).
+- BAUMGARTNER TG, (Editor/Author), Magnesium; Clinical Guide to Parenteral Micronutrition, Consultant Pharmacists of America, 323 S. Franklin Bldg; Suite C-462; Chicago, IL 60606-7093; 1st Edition (1984).
+- BAUMGARTNER TG, (Editor/Author), Phosphate; Clinical Guide to Parenteral Micronutrition, Consultant Pharmacists of America, 323 S. Franklin Bldg; Suite C-462; Chicago, IL 60606-7093; 1st Edition (1984).
 
 ## Editorial Activities
 
-- BOARD OF SCIENTIFIC AND POLICY ADVISORS -American Council on Science and Health 1992-present
+- BOARD OF SCIENTIFIC AND POLICY ADVISORS -American Council on Science and Health 1992 to present
 - SCIENCE ADVISORY BOARD (www.scienceboard.net)
 - INTERNATIONAL EDITORIAL CONSULTANT - Nutricion Clinica, 1999 -
 - EXECUTIVE PEER-REVIEWER - Educational Technology and Society (ISSN 1436-4522) 1998 -
 - CONTRIBUTING EDITOR - Advances in Gastroenterology, Hepatology and Nutrition, 1997 -
-- EDITOR-IN-CHIEF NEWSLETTER- 1990-Present. Florida Association of Nutritional Support/Florida Society of Parenteral and Enteral Nutrition
-- EDITOR - 1988-1992 Journal of Pharmacy Practice, WB Saunders Company, Philadelphia, PA
-- EDITOR-IN-CHIEF - 1981-1992. FL J Hosp Pharm Florida Society of Hospital Pharmacy
-- EDITOR AND AUTHOR - Clinical Guide to Parenteral Micronutrition 3rd Ed, Consultant Pharmacists of America, Inc., 323 S. Franklin Bldg;Suite C-462; Chicago, IL 60606-7093; 1st Edition (1984).
+- EDITOR-IN-CHIEF NEWSLETTER- 1990 to present. Florida Association of Nutritional Support/Florida Society of Parenteral and Enteral Nutrition
+- EDITOR - 1988 to 1992 Journal of Pharmacy Practice, WB Saunders Company, Philadelphia, PA
+- EDITOR-IN-CHIEF - 1981 to 1992. FL J Hosp Pharm Florida Society of Hospital Pharmacy
+- EDITOR AND AUTHOR - Clinical Guide to Parenteral Micronutrition 3rd Ed, Consultant Pharmacists of America, 323 S. Franklin Bldg;Suite C-462; Chicago, IL 60606-7093; 1st Edition (1984).
 - EDITOR AND AUTHOR - Clinical Guide to Parenteral Micronutrition, 2nd Edition. Lyphomed, Division of Fujisawa, Deerfield, Ill. (1992).
 - EXTERNAL REVIEWER - Hyperalimentation Guidelines; Center for Disease Control; Atlanta, Ga., 1984, 1985 (JPEN 11/12, 1985).
-- EDITOR-IN-CHIEF NEWSLETTER - 1986/87 - Managing Ed of Newsletter, 1984-85. American Society of Nutritional Support Services.
+- EDITOR-IN-CHIEF NEWSLETTER - 1986/87 - Managing Ed of Newsletter, 1984 to 1985. American Society of Nutritional Support Services.
 - Guest Editorial - BAUMGARTNER TG, Happenings in Hospital Pharmacy - The Communications Council, FL Pharm J; Oct, 1985.
-- REVIEWER 1996 - present; Chest, American College of Chest Physicians.
-- REVIEWER 1982 - present; Journal of Parenteral and Enteral Nutrition; ASPEN - member of Self Assessment Exam Committee - 1988-89.
-- REVIEWER 1986 - present; Lippincott's Hospital Pharmacy.
-- REVIEWER 1986 - present; Pharmacy Times.
-- CONSULTING EDITOR/ REVIEWER 1985 - 89; Journal of Nutritional Support Services.
-- REVIEWER 1986 - present; American Journal of Hospital Pharmacy.
+- REVIEWER 1996 to present; Chest, American College of Chest Physicians.
+- REVIEWER 1982 to present; Journal of Parenteral and Enteral Nutrition; ASPEN - member of Self Assessment Exam Committee - 1988 to 1989.
+- REVIEWER 1986 to present; Lippincott's Hospital Pharmacy.
+- REVIEWER 1986 to present; Pharmacy Times.
+- CONSULTING EDITOR/ REVIEWER 1985 to 1989; Journal of Nutritional Support Services.
+- REVIEWER 1986 to present; American Journal of Hospital Pharmacy.
 - REVIEWER 1990 - Biopharmaceutics and Drug Disposition.
 - REVIEWER 1992 - Journal of Surgical Research.
 - BOARD QUESTION DEVELOPMENT 1992- Board of Pharmaceutical Specialties -Nutrition Support
-- REVIEWER 1979 - present; American Society of Hospital Pharmacists (ASHP) , Intravenous Papers Reviewer.
-- EDITOR 1983 - 86; Perspectives in Pharmacy Management Newsletter, Macmillan, Inc., Chicago, Ill.
+- REVIEWER 1979 to present; American Society of Hospital Pharmacists (ASHP) , Intravenous Papers Reviewer.
+- EDITOR 1983 to 1986; Perspectives in Pharmacy Management Newsletter, Macmillan, Inc., Chicago, Ill.
 - ASHP Text Review - BAUMGARTNER TG, American College of Clinical Pharmacy - Pharmacotherapy Self-Assessment Program: Module 6, Oncology, Nutrition, Fluid and Electrolytes, American Journal of Hospital Pharmacy, Invited Review, 1993.
 - ASNSS Text Review - BAUMGARTNER TG (Catania, PN, Rosner, MM; Home Health Care Practice, Health Markets Research; Palo Alto, Calif 1986), ASNSS Newsletter/January 1987.
 - Nutritional Newsletter (LyphoMed) - BAUMGARTNER TG, (Chandra, R.K., Trace Elements in Nutrition of Children, Raven Press, NY, NY, 1985), LyphoMed Nutritional Newsletter, 6(3), 1986.
@@ -417,7 +420,7 @@ Website: consultantpharmacistsofamerica.com
 ## Funded Research
 
 - Medication/Total Parenteral Nutrition Stability Study; NIH Protocol, Co-investigator, pending review, $400,000.
-- Propofol Filtration Safety and Efficacy Study (FDA approved) - Principal Investigator, 1995-96, $ 215,000.
+- Propofol Filtration Safety and Efficacy Study (FDA approved) - Principal Investigator, 1995 to 1996, $ 215,000.
 - Intravenous Fat and Laboratory Monitoring Parameters (Rat Model); Co-investigator, 1995.
 - H-2 Antagonist/fat soluble vitamin stability; Co-investigator, Glaxo Labs, 1994.
 - H-2 Antagonist/B Group vitamin stability, Co-investigator, Glaxo Labs, 1993.
@@ -425,13 +428,13 @@ Website: consultantpharmacistsofamerica.com
 - Intravenous Fat and Laboratory Monitoring Parameters (Rat Model); Co-investigator, 1992.
 - Intralipid Filtration Study, Pall Labs, $1500, 1992.
 - Diprivan™ Filtration Study, Pall Labs, $750, 1992.
-- Dichloroacetate Study - Coinvestigator - Funded through NIH, (Collaboration with Endocrinology Department); 8 multicenter study NIH $2,100,000 (4yr) grant; Responsible for NIH presentation of product development/ dispensing regarding center coordination. Director of Pharmacy Core Center (compounding, quality control, limulus lysate, microbial assays) Multicenter Coordinator, policies and procedures, and dispensing, 1986-89.
+- Dichloroacetate Study - Coinvestigator - Funded through NIH, (Collaboration with Endocrinology Department); 8 multicenter study NIH $2,100,000 (4yr) grant; Responsible for NIH presentation of product development/ dispensing regarding center coordination. Director of Pharmacy Core Center (compounding, quality control, limulus lysate, microbial assays) Multicenter Coordinator, policies and procedures, and dispensing, 1986 to 1989.
 - Fat Emulsion and Laboratory Monitoring Parameters - Upjohn $4500, 1989.
 - Cumulative Sum (CUSUMS) of the Means Nutritional Support Monitoring Computer Program - 1989.
 - Filtration and Oncology Medications, Funded thru Pall Labs, $4000, (Collaboration with University Hospital/Jacksonville), 9/87.
 - Antibiotic/Pyrogen Leak and Filtration, Funded thru Pall Labs, $2000, (Collaboration with University Hospital/Jacksonville), 9/87.
 - Multivitamin Analysis Study in Human Subjects - Coinvestigator, Funded through Ascot Laboratories, (Collaboration with Gastroenterology), $25,000, 1982.
-- Nutritional Fellow - Funded through the American Society of Hospital Pharmacists Research Foundation, $17,500, 1984-85.
+- Nutritional Fellow - Funded through the American Society of Hospital Pharmacists Research Foundation, $17,500, 1984 to 1985.
 - Filter comparison of Pyrogen Retention - Principal Investigator, Funded by Pall Laboratories, $2000, 1983.
 - Filter Comparison of Pyrogen Retention after Antibiotic Challenge - Coinvestigator, Funded by Pall Laboratories, $1000, 1983.
 - Filter Comparison of Pyrogen Retention Corroboration using Reference Lab, Principal Investigator, Funded by Pall Laboratories, $1000, 1983.
@@ -446,10 +449,10 @@ Website: consultantpharmacistsofamerica.com
 
 ## Investigational Medication Responsibility
 
-- Stable isotopic investigation of folate bioavailability - Coinvestigator - non-funded thru Food Science and Human Nutrition 1991-92.
-- The Nutritional Properties of Pyridoxine-Beta-Glucoside - Coinvestigator - non-funded thru Food Science and Human Nutrition 1991-92.
-- Anabolism and the use of a high nitrogen, low-kilocalorie to nitrogen ratio enteral formula in the burn patient - Clintec Nutrition 1991-92.
-- Dichloroacetate Study - Coinvestigator - Funded through NIH, (Collaboration with Endocrinology Department); NIH $2,100,000 (5yr) grant 1986-91)
+- Stable isotopic investigation of folate bioavailability - Coinvestigator - non-funded thru Food Science and Human Nutrition 1991 to 1992.
+- The Nutritional Properties of Pyridoxine-Beta-Glucoside - Coinvestigator - non-funded thru Food Science and Human Nutrition 1991 to 1992.
+- Anabolism and the use of a high nitrogen, low-kilocalorie to nitrogen ratio enteral formula in the burn patient - Clintec Nutrition 1991 to 1992.
+- Dichloroacetate Study - Coinvestigator - Funded through NIH, (Collaboration with Endocrinology Department); NIH $2,100,000 (5yr) grant 1986 to 1991)
 - Total Parenteral and Enteral Nutrition in Oat Cell Carcinoma - Nutritional Consultant, Funded by National Cancer Institute, $550,000 (Collaboration with Med. Onc. Div.).
 - Tetrahydrocannabinol (THC) Study - NCI - Principal Investigator, 1985.
 - Enteral Nutrition Formula with soy - Coinvestigator, Wyeth Labs, 1988.
@@ -502,8 +505,8 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 
 - "Pharmacy Department Operations" - Cardiopulmonary Technologists; Shands Hosp - 3/7/77
 - "Total Parenteral Nutrition" - Surgical Nurses; Shands Hospital 4/22/77
-- "Clinical Pharmacy Services in a Teaching Hospital" - Institute on Clinical Pharmacy Services, Hollywood, Florida, American Society of Hospital Pharmacists , 6/8-11/77
-- "Pragmatic Application of Principles - Total Parenteral Nutrition" - Intravenous Seminar for the S.W. Florida Society of Hospital Pharmacists, 9/17-18/77
+- "Clinical Pharmacy Services in a Teaching Hospital" - Institute on Clinical Pharmacy Services, Hollywood, Florida, American Society of Hospital Pharmacists , 6/8/77 to 6/11/77
+- "Pragmatic Application of Principles - Total Parenteral Nutrition" - Intravenous Seminar for the S.W. Florida Society of Hospital Pharmacists, 9/17/77 to 9/18/77
 - "Laetrile" - WRUF Radio - 1 hour Panel Program - 9/77
 - "Clinical Pharmacy Extensions to the Hematology/Oncology Clinic" -Hematology/Oncology Fellows and Attending Staff - 10/13/77
 - "Pharmacokinetics of Gentamicin Therapy" -Shands Teaching Hospital Internal Medicine House-Staff B Service - 11/16/77
@@ -512,19 +515,19 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "Electrolyte Considerations" - Shands Teaching Hospital Internal Medicine House-Staff B Service - 11/18/77
 - "Long Range Planning" - Midyear Clinical Meeting, Atlanta, Georgia, American Society of Hospital Pharmacists, CURBSIDE CONSULTANT - 12/7/77
 - Clinical Pharmacy Coordinator - Series of Fifty Lectures concerning Clinical Pharmacy Weekly Continuing Education - FY 78,79
-- "Issue Y" - Ninth Annual Regional Conference for Hospital Pharmacy Teachers, Residents and Graduate Students - 1/13-15/78
+- "Issue Y" - Ninth Annual Regional Conference for Hospital Pharmacy Teachers, Residents and Graduate Students - 1/13/78 to 1/15/78
 - "Liquid Protein Diets" - WUFT TV, 30 minute interview - 1/78
 - "Total Parenteral Nutrition Therapy" - Burn Nurses and Surgical Nurses - 3/28/78
 - "Nursing Obligations of Total Parenteral Nutrition" - College of Nursing Course NSY 405, 2/23/78
 - " Clinical Pharmacy" - Clinical Pharmacy Course PHY 471, College of Pharmacy - 2/28/78
-- Cardiopulmonary Resuscitation Course - Instructor for Pharmacists and Pharmacy Resident Basic Life Support Certification 3/13-14/78
+- Cardiopulmonary Resuscitation Course - Instructor for Pharmacists and Pharmacy Resident Basic Life Support Certification 3/13/78 to 3/14/78
 - "Total Parenteral Nutrition and the RN" - UF College of Nursing Course NSY 426 Critical Care RN's - 11/13/79
 - "Total Parenteral Nutrition and the RN" - UF College of Nursing Course NSY 426 (2 hours) Critical Care RN's - 11/27/79
-- "Cardiovascular Pharmacology for the Emergency Medical Technician" - Alachua County Medical Services - EMT's (4 hours) - 1/8/80 - 1/15/80
+- "Cardiovascular Pharmacology for the Emergency Medical Technician" - Alachua County Medical Services - EMT's (4 hours) - 1/8/80 to 1/15/80
 - Eleventh Annual Meeting of Southeastern Residents/Preceptors Graduate-Students/Teachers, Athens, Georgia - University of Georgia (Invited Moderator) 2/22/80
 - "Presidential Obligations" - Florida Society of Hospital Pharmacists Workshop, Orlando, Florida - 4/12/80
 - "Hypertension Screening" Alachua County Pharmacy Association and the North Central Florida Society of Hospital Pharmacists - 5/8/80
-- "Hypertension Screening Clinic" (Organizer/Coordinator) - 5/12-16-80
+- "Hypertension Screening Clinic" (Organizer/Coordinator) - 5/12/80 to 5/16/80
 - "Cancer and Nutrition" - American Cancer Society (Oncology Nurses) - 6/7/80
 - "Cancer Chemotherapy" - UF College of Nursing (Nurses) - 8/5/80
 - "Total Parenteral Nutrition" - Florida Academy of Physician Assistants, Tarpon Springs, Florida - 8/28/80
@@ -539,14 +542,14 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "Emergency Medications" - Intensive Care Nurses - 2/13/81
 - "Pharmacist Role in TPEN Therapy" - American Dietary Association Taping (audio) - 3/19/81
 - "Emergency Meds and the Critical Care Nurse" - AACN - 3/19/81
-- "Evaluation/Utilization of Lab Tests" - Florida Pharmacy Association, Haines City, Florida - 2/30-31/81; Sanibel Island, Florida - 8/1-2/81; Panama City, Florida - 1/9-10/82
+- "Evaluation/Utilization of Lab Tests" - Florida Pharmacy Association, Haines City, Florida - 1/30/81 to 1/31/81; Sanibel Island, Florida - 8/1/81 to 8/2/81; Panama City, Florida - 1/9/82 to 1/10/82
 - "Rubella Vaccine Therapy" - OB/GYN - 3/20/81
 - "Total Parenteral and Enteral Nutrition Team" - MD's, R.Ph.'s, RN's, RD's, Lake City VA Medical Center, Lake City, Florida - 3/26/81
 - "Nutrition in the Special Diseased Patient" - MD's, R.PH.'s, RN's, RD's, Lake City VA Medical Center, Lake City, Florida - 3/26/81
 - "Role of the Pharmacist in Oncology Clinic" - Pharmacy Students, College of Pharmacy Oncology Course - 4/13/81
 - "Role of the Pharmacist in Disaster Planning" - Gainesville Hospital Administrators - North Florida Regional Hospital - 4/29/81
 - "Role of the Pharmacist in Total Parenteral and Enteral Nutrition" - Pharmacy Students, UF College of Pharmacy - 5/7/81
-- Hypertension Screening Clinic - Initiator/developer - 5/8-16/81
+- Hypertension Screening Clinic - Initiator/developer - 5/8/81 to 5/16/81
 - "Insulin" - Flr 5W RN's, Shands Teaching Hospital - 7/8/81
 - "Emergency Medications" - Housewide Inservice, Shands Teaching Hospital - 7/8/81
 - "Nutrition in Various Disease States" - Dietary Department, Shands Teaching Hospital - 7/21/81, 7/28/81
@@ -571,9 +574,9 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "Physical Therapy and Pharmacy" - UF College of Health Related Professions, Course HSC 4516; 1/12, 1/19, 1/26/82
 - "Patient Education and High Blood Pressure" - UF College of Pharmacy, NCFSHP Seminar, Gainesville, Florida - 1/29/82
 - "American Society of Nutritional Support Services" 1st Annual Assembly, Program Moderator; San Francisco, California - 2/4/82
-- "The Pharmacist's Role in the Oral Surgery Pain Clinic" - UF College of Dentistry Seminar; Buena Vista, Florida - 3/5-7/82
-- "Total Parenteral Nutrition in Various Disease States" - UF College of Pharmacy; St. Augustine, Florida - 3/13-14/82
-- "The Role of the Clinical Pharmacist in Investigational Medications" - Associates of Clinical Pharmacology, M.D.'s, Ph.D.'s, Pharmacists, Nurses, etc; Buena Vista, Florida - 3/18-19/82
+- "The Pharmacist's Role in the Oral Surgery Pain Clinic" - UF College of Dentistry Seminar; Buena Vista, Florida - 3/5/82 to 3/7/82
+- "Total Parenteral Nutrition in Various Disease States" - UF College of Pharmacy; St. Augustine, Florida - 3/13/82 to 3/14/82
+- "The Role of the Clinical Pharmacist in Investigational Medications" - Associates of Clinical Pharmacology, M.D.'s, Ph.D.'s, Pharmacists, Nurses, etc; Buena Vista, Florida - 3/18/82 to 3/19/82
 - "Blood Components and IV Therapy Interactions" - UF/Shands Teaching Hospital Blood Bank - 3/31/82
 - "Total Parenteral Nutrition Overview" - UF College of Pharmacy Course; 3,4,+5PH - 4/8/82
 - "The State of the Art - TPEN" - Department of OB-GYN Surgeons, UF College of Medicine/Shands Teaching Hospital - 4/16/82
@@ -581,12 +584,12 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "Total Parenteral Nutrition and the OB-GYN Surgeon" - UF Division of OB-GYN Surgeons - 4/23/82
 - "Clinical Pharmacy and Physical Therapy" - Florida Society of Physical Therapists; Gainesville, Florida - 5/3/82
 - "Enteral Nutrition and Pharmacy Interactions" - Tampa General Hospital Staff, Tampa, Florida - 5/7/82
-- "Physical Assessment/Geriatrics" - Florida Pharmacy Association; Haines City, Florida - 5/8-9/82
-- "Laboratory Testing and the Geriatric Patient" - Florida Pharmacy Association; Haines City, Florida - 5/8-9/82
-- Hypertension Screening Clinic Coordinator, University of Florida, Shands Teaching Hospital, Inc. - 5/10-14/82
-- "Total Parenteral Nutrition in Various Disease States" - UF College of Pharmacy; Palm Beach, Florida - 5/22-23/82
+- "Physical Assessment/Geriatrics" - Florida Pharmacy Association; Haines City, Florida - 5/8/82 to 5/9/82
+- "Laboratory Testing and the Geriatric Patient" - Florida Pharmacy Association; Haines City, Florida - 5/8/82 to 5/9/82
+- Hypertension Screening Clinic Coordinator, University of Florida, Shands Teaching Hospital, Inc. - 5/10/82 to 5/14/82
+- "Total Parenteral Nutrition in Various Disease States" - UF College of Pharmacy; Palm Beach, Florida - 5/22/82 to 5/23/82
 - "Laboratory Tests and Medications" - Southwest Society of Hospital Pharmacists - 6/3/82
-- Total Parenteral and Enteral Nutrition Course - UF College of Pharmacy; "TPEN Complications" - 7/12/82; "TPEN Therapy and Pharmacotherapeutics" - 7/14-15/82; "Renal Nutrition" - 7/27/82
+- Total Parenteral and Enteral Nutrition Course - UF College of Pharmacy; "TPEN Complications" - 7/12/82; "TPEN Therapy and Pharmacotherapeutics" - 7/14/82 to 7/15/82; "Renal Nutrition" - 7/27/82
 - "The Renal Patient and Medications" Renal Nurses, Shands Teaching Hospital, Inc. - 7/29/82
 - "The Hospital Pharmacist" - UF College of Pharmacy, Orientation - 8/23/82
 - "Total Parenteral Nutrition and the BMTU Patient" - BMTU Staff, Shands Teaching Hospital - 9/7/82
@@ -596,8 +599,8 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - American Society of Nutritional Support Services, 2nd Annual Assembly Moderator, Washington, D.C. - 1/22/83
 - "Clinical Implications of Pediatric Total Parenteral Nutrition (MD's, RN's, RPh's), International Association of Hospital Central Sterile Managers, Orlando, FL, 2/11/83
 - "Training of Hospital Managers", 14th Annual Southeastern Conference for Post Graduate Pharmacy Education and Training, Athens, Ga, 3/13/83
-- "Total Parenteral Nutrition in Various Disease States", UF College of Pharmacy, Tampa, FL, 5/21-22/83
-- "Nutrition in the Hospital and the Community", SWSHP/FSHP, St. Petersburg, FL, 8/12-14/83
+- "Total Parenteral Nutrition in Various Disease States", UF College of Pharmacy, Tampa, FL, 5/21/83 to 5/22/83
+- "Nutrition in the Hospital and the Community", SWSHP/FSHP, St. Petersburg, FL, 8/12/83 to 8/14/83
 - "Evaluation of New Products", American Society of Nutritional Support Services, New Orleans, LA, 8/24/83
 - "Metabolic Potpourri - TPN Therapy", University of Mississippi (MD's, RN's, RD's and RPh's), Jackson, Miss., 11/16/83
 - "Micronutrient Trace Element Therapy", -LyphoMed Seminar - ASHP Midyear, Atlanta, Ga, 12/4/83
@@ -607,7 +610,7 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "TPN and the Renal Patient", University of Florida College of Pharmacy, Tampa FL 5/12/84
 - "Metabolic Considerations in Parenteral Nutrition Therapy", Jackson Memorial Hospital, Miami, FL, 5/19/84
 - "TPN Formulations and Compatibilities", American Society of Nutrition Support Services, Houston, Tex., 8/16/84
-- "Home Parenteral Therapy and Home Chemotherapy", University of Florida College of Pharmacy, Key Biscayne, FL 9/24-25/84 (12 hour CE Coordinator)
+- "Home Parenteral Therapy and Home Chemotherapy", University of Florida College of Pharmacy, Key Biscayne, FL 9/24/84 to 9/25/84 (12 hour CE Coordinator)
 - "Anabolic Steroids and Protein Metabolism", Suncoast Seminar, Tampa, FL 11/17/84
 - "Home Parenteral Therapy and Home Chemotherapy", University of Florida College of Pharmacy, Gainesville, FL, 1/18/85
 - "Renal Therapeutics" (moderator); North Central Florida Society of Hospital Pharmacists/College of Pharmacy; Gainesville, FL 1/18/85
@@ -632,21 +635,21 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "Pharmacy Role in the Study of Dichloroacetate" - National Institutes of Health (on-site visit), 12/12/85.
 - "Clinical Pharmacy Implications - Intravenous Fat Emulsions" - Critical Care Medicine, Shands Teaching Hospital, University of Florida, 12/13/85.
 - "Micronutrient Therapy" - Critical Care Medicine, Shands Teaching Hosp., University of Florida, 1/9/86.
-- "Ambulatory Care and Parenteral Therapy", Lecturer & Seminar Coordinator, College of Pharmacy, University of Florida, 1/11-12/86
+- "Ambulatory Care and Parenteral Therapy", Lecturer & Seminar Coordinator, College of Pharmacy, University of Florida, 1/11/86 to 1/12/86
 - "Primary Therapeutics of Parenteral/Enteral Nutrition" - Critical Care Medicine, Shands Teaching Hospital, University of Florida, 1/31/86.
 - "Clinical Software Applications for Home Health Care Services", DataMed Clinical Support Services, 2/3/86.
-- "Ambulatory Care and Parenteral Therapy", Lecturer & Seminar Coordinator, College of Pharmacy, University of Florida, 3/1-2/86.
+- "Ambulatory Care and Parenteral Therapy", Lecturer & Seminar Coordinator, College of Pharmacy, University of Florida, 3/1/86 to 3/2/86.
 - "Cholestasis and Total Parenteral Nutrition: Neonatal vs. Adult, Critical Care Medicine/Anesthesia/Cardiology/Pulmonology, Shands Teaching Hospital, Gainesville, FL 4/8/86.
-- "Ambulatory Care and Parenteral Therapy", Lecturer & Seminar Coordinator, College of Pharmacy, University of Florida, 5/31-6/1/86
+- "Ambulatory Care and Parenteral Therapy", Lecturer & Seminar Coordinator, College of Pharmacy, University of Florida, 5/31/86 to 6/1/86
 - "Home Infusion Roundtable", Harvard Club, 8/11/86.
 - "Nutrition and Disease Etiology", American Society of Nutritional Support Services, Boston, 8/12/86.
-- "Micronutrient Therapy: Parts 1 and 2", Florida Association for Nutritional Support, Orlando, FL 9/12-13/86.
+- "Micronutrient Therapy: Parts 1 and 2", Florida Association for Nutritional Support, Orlando, FL 9/12/86 to 9/13/86.
 - "Acid-Base Implications in Nutritional Support", Beijing Surgical Staff; Beijing Medical Center; Beijing, China (People to People Delegation on IV Therapy), 9/20/86.
 - "Clinical Pharmacy", Medical and Pharmacy Staff, Hangjou Medical Center, Hanjhou, China, (People to People Delegation on IV Therapy), 10/24/86.
 - "Micronutrient Therapeutics", Illinois Society of Hospital Pharmacists, Chicago, 10/21/86.
 - "Micronutrient Roundtable", American Society of Parenteral and Enteral Nutrition, 11th Clinical Congress, New Orleans, 2/3/87.
 - "Nutrient/Medication Relationships", Nutrition Course, College of Medicine 3/16/87.
-- "Vitamins and Trace Minerals", Harvard Medical School Department of Surgery, Advanced Course, 5/6-8/87.
+- "Vitamins and Trace Minerals", Harvard Medical School Department of Surgery, Advanced Course, 5/6/87 to 5/8/87.
 - "Pharmacy/Nutrient Implications", Graduate Students, Food Science & Human Nutrition, 6/24/87.
 - "Pharmacy Implications:TPN Therapy", Surgical Housestaff, College of Medicine, 7/23/87.
 - "Nutrition and the Cancer Patient", Oncology Nurses, Lake City VA Medical Center, Lake City, FL, 8/14/87.
@@ -667,13 +670,13 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "Parenteral Nutrition Support in Specific Disease States"; VA Medical Center/Clinical Dietetic Staff 11/6/87.
 - "Drug/Nutrient Interactions", University of Florida Student Dietetic Association,12/2/87.
 - "Home TPEN Therapy", ASPEN Roundtable, Las Vegas, 1/19/88.
-- "Micronutrients", Pendleton Memorial Hospital, New Orleans, 3/9-10/88.
+- "Micronutrients", Pendleton Memorial Hospital, New Orleans, 3/9/88 to 3/10/88.
 - "Selenium", American Pharmaceutical Association, Atlanta, Ga, 3/16/88.
 - "Pharmacist Role in TPN Therapy", College of Food Science & Human Nutrition, 3/18/88.
 - "Controversies in Nutrition", Medical Students, Food Science & Human Nutrition, 3/25/88
 - "Total Parenteral Nutrition"/ "Role of the Clinical Pharmacist in IV Therapy", Dispensing Course, College of Pharmacy, 4/22 and 4/24/88.
 - "Provocative Nutrition Matters", Critical Care Medicine, Shands Teaching Hospital, 4/3/88.
-- "Intravenous Therapy", 12 hours Laboratory, Dispensing, College of Pharmacy, 4/11-14/88.
+- "Intravenous Therapy", 12 hours Laboratory, Dispensing, College of Pharmacy, 4/11/88 to 4/14/88.
 - "Cancer and Nutrition"/"Parenteral Nutrition", Medical Staff, Rock Ridge Hospital, 4/20/88.
 - "Nutrition and the Critically Ill", Titusville Dietetic Association, 4/20/88.
 - "Controversies in Micronutrition", Georgia Baptist Medical Center, Atlanta 4/22/88.
@@ -683,7 +686,7 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "Parenteral Nutrition and the Intensive Care Patient", Critical Care Med Staff, 8/12/88.
 - "Parenteral Micronutrient Therapy Highlights", Oklahoma Society of Hospital Pharmacists, 8/26/88.
 - "Nutritional Support Monitoring for the Home Patient", Multidisciplinary Audience, St. Augustine, 10/24/88.
-- "Electrolyte and Trace Elements in the Hospital and Home Patient", Florida Association of Nutrition Support, Clearwater, 9/9-10/88.
+- "Electrolyte and Trace Elements in the Hospital and Home Patient", Florida Association of Nutrition Support, Clearwater, 9/9/88 to 9/10/88.
 - "Acid-Base Therapeutics as it applies to the Nutrition Patient", Florida Association of Nutrition Support, Clearwater, 9/10/88.
 - "Micronutrients", Roundtable, Florida Association of Nutrition Support, Clearwater, 9/10/88.
 - "Nutrition in the Intensive Care Unit", Crit Care Medicine, 10/14/88.
@@ -691,8 +694,8 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "Nutritional Support and the AIDS Patient", League of Intravenous Therapy Education; Columbus, Ohio, 10/28/88.
 - "Nutrient/Medication Interactions", Gastroenterology/Surgery Conference, Shands, 11/15/88.
 - "Nutrition and Medication Interactions", Med Students (FS&Human Nutr Course), 1/20/89.
-- "Point/Counterpoint-Standard vs Patient-specific TPN Formulas", ASPEN, Miami, 2/5-8/89.
-- "Computers- Applications for Nutritional Support Pharmacists", ASPEN, Miami, 2/5-8/89.
+- "Point/Counterpoint-Standard vs Patient-specific TPN Formulas", ASPEN, Miami, 2/5/89 to 2/8/89.
+- "Computers- Applications for Nutritional Support Pharmacists", ASPEN, Miami, 2/5/89 to 2/8/89.
 - "Total Parenteral Nutrition - Nursing Implications", Grad Nursing, 2/6/89.
 - "Professional Pharmacy...", Preprofessional Students Organization, 2/6/89.
 - "Gastroenterology Recent Briefs", Gastroenterology Research Conference, 2/14/89.
@@ -702,7 +705,7 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "Micronutrient Therapy", West Florida Dietary Association, Baptist Memorial Hospital, Pensacola, 3/21/89.
 - "Monitoring TPN Therapy", TPEN Teams of Pensacola, Sacred Heart Hospital, Pensacola, 3/22/89.
 - "Total Parenteral Nutrition"/ "Role of the Clinical Pharmacist in IV Therapy", Dispensing Course, College of Pharmacy, 4/22 and 4/24/89.
-- "Intravenous Therapy", 12 hours Laboratory, Dispensing, College of Pharmacy, 4/11-14/89.
+- "Intravenous Therapy", 12 hours Laboratory, Dispensing, College of Pharmacy, 4/11/89 to 4/14/89.
 - "Oxygen Consumption and Nutrition", Crit Care Medicine, 4/26/89.
 - "Thiamine Deficiency and Death", Intravenous Nurses Association, Miami, 5/10/89.
 - "Acid/Base Therapy", Long Island Pharmacy Association and Long Island Dietetic Association, Long Island, NY, 6/21/89.
@@ -727,11 +730,11 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "Pulmonary Patient and Nutrition " Gastroenterology Lecture Series, Tallahassee, 3/3/90.
 - "GI-TPN update-1989-90" - GI Division, College of Medicine, 3/19/90.
 - "Total Parenteral Nutrition"/ "Role of the Clinical Pharmacist in IV Therapy", Compounding and Parenteral:PHA 4103C, College of Pharmacy, 4/10 and 4/11/90.
-- "Intravenous Therapy", 12 hours Laboratory, Compounding and Parenteral:PHA 4103C, College of Pharmacy, 4/12-14/90.
+- "Intravenous Therapy", 12 hours Laboratory, Compounding and Parenteral:PHA 4103C, College of Pharmacy, 4/12/90 to 4/14/90.
 - "Medications and Enteral Nutrition, Chattahoochie Medical Center, 6/20/90.
 - "Home Parenteral Therapy (2 hrs), Florida Pharmacy Association, Daytona Beach, FL, 6/30/90.
-- "Clinical Nutrition in the 90's", Florida Association of Nutritional Support, Moderator, Clearwater Beach, 8/10-11/90.
-- "Computers and Clinical Nutrition", Moscow/Leningrad/Tbilisi/ Baku, USSR Delegation Leader, 7/23-8/5/90.
+- "Clinical Nutrition in the 90's", Florida Association of Nutritional Support, Moderator, Clearwater Beach, 8/10/90 to 8/11/90.
+- "Computers and Clinical Nutrition", Moscow/Leningrad/Tbilisi/ Baku, USSR Delegation Leader, 7/23/90 to 8/5/90.
 - "Nutrition Perles for the Critically Ill Pulmonary Patient, Florida Association of Nutritional Support/Florida Society for Parenteral and Enteral Nutrition, Clearwater Beach, FL, 8/10/90.
 - "USSR Health Care", Medical Center Staff, Gainesville, FL, 8/22/90.
 - "USSR Health Care", Medical Center Staff, Gainesville, FL, 9/25/90.
@@ -789,7 +792,7 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "Nutrition Assessment in the Traumatized Patient" and "Nutrition Support in the Oncology Patient; Southern Medical Association; Orlando, FL, 11/3/94.
 - "Nutrition Assessment" Washington, DC, 11/15/94.
 - "What place for TPN?", Connecticut Society for Parenteral and Enteral Nutrition/ Rhode Island Nutrition Group, Yale University School of Medicine, Bridgeport, CONN, 11/12/94.
-- "Nutrition and Pulmonary Services?", Gator City Seminars, Florida Respiratory Therapists, Gainesville, FL, 11/17/94.
+- "Nutrition and Pulmonary Services", Gator City Seminars, Florida Respiratory Therapists, Gainesville, FL, 11/17/94.
 - "Antioxidants", Louisiana Society for Parenteral and Enteral Nutrition, New Orleans, LA, 11/18/94.
 - "Micronutrients", North Texas Society of Hospital Pharmacists; Texas 12/2/94.
 - "Nutrition Assessment", Palm Beach, 12/15/94.
@@ -806,7 +809,7 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "Clinical Nutrition Support and the Physician", Medical Staff Grand Rounds, Rocklege Hospital, Tampa, Florida 6/6/95.
 - "Clinical Nutrition Support and the Physician", Medical Staff Grand Rounds, Hudson Memorial Hospital, Tampa, FL 6/29/95.
 - "Parenteral Nutrition and the Renal Patient", Vanderbilt Medical Center, Nashville, TN, 7/17/95.
-- "Clinical Nutrition", Thailand - Songla University; Chang Mai University; Bangkok University, 8/14-23/95 (28 lectures-University and Intensive Care Units).
+- "Clinical Nutrition", Thailand - Songla University; Chang Mai University; Bangkok University, 8/14/95 to 8/23/95 (28 lectures-University and Intensive Care Units).
 - "Clinical Nutrition Support and Surgical Outcomes", NYSPEN, Long Island, 9/13/95.
 - "Antioxidants/Proxidants", Florida Society for Parenteral and Enteral Nutrition, Palm Beach, 9/15/95.
 - "Micronutrients", Virginia Society for Parenteral and Enteral Nutrition, Richmond, (Roundtable - Medication/nutrient interaction), 9/30/95.
@@ -825,7 +828,7 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - "Nutritional Assessment of the Critically-Ill Geriatric Patient", Pittsburgh Society for Parenteral and Enteral Nutrition, Pittsburgh, PA, 4/24/97.
 - "Intravenous Products - Do’s and Don’ts", Shands Gastroenterology Nursing Division, 6/97.
 - "Clinical Nutrition - Basic Science", Surgical Residents, 6/28/97.
-- Thailand Intravenous Symposium; Colleges of Pharmacy - 22 Hours of Lecture; Hat Yai, Chang Mai, 7/4-16/97.
+- Thailand Intravenous Symposium; Colleges of Pharmacy - 22 Hours of Lecture; Hat Yai, Chang Mai, 7/4/97 to 7/16/97.
 - "Pharmacological Enhancement of Food Intake - Use of Appetite Suppressants and Antiemetics", FANS/FSPEN, Orlando, 9/19/97.
 - "Antioxidants in Nutrition", Mexican Society of Parenteral and Enteral Nutrition, Acapulco, 10/2/97.
 - "Micronutrition : A New Concept in Nutritional Management", Mexican Society of Parenteral and Enteral Nutrition, Acapulco, 10/3/97.
@@ -985,4 +988,4 @@ Gainesville Italian American Club, Generic Medications; Catholic Woman's Associa
 - Shands Teaching Hospital Fellowship: Dr. Gerald L. Schmidt, American Society of Hospital Pharmacists Research and Education Foundation, 1985
 - American Society of Hospital Pharmacists residencies: rotation preceptor for 2 to 5 residents per year since 1976
 
-Other students precepted for service or research: Pharmacy Clerkship Students (Pharm.D. and B.S. Course PHA 5686), Pharmacy interns, Medical Students, Medical Interns, Medical Residents, Surgery Residents, Nephrology Fellows, Pulmonary Fellows, GI Fellows, Graduate Nurses... TG 11/23
+Other students precepted for service or research: Pharmacy Clerkship Students (Pharm.D. and B.S. Course PHA 5686), Pharmacy interns, Medical Students, Medical Interns, Medical Residents, Surgery Residents, Nephrology Fellows, Pulmonary Fellows, GI Fellows, Graduate Nurses...

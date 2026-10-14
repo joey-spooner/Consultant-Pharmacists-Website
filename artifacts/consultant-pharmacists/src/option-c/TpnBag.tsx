@@ -5,8 +5,10 @@ export const bagIngredients = [
   { group: 'Trace elements', items: ['Chromium', 'Copper', 'Iodide', 'Manganese', 'Molybdenum', 'Selenium', 'Zinc'] },
   { group: 'Vitamins', items: [
     { group: 'Fat-soluble vitamins', items: ['A', 'D', 'E', 'K'] },
-    { group: 'B vitamins', items: ['B1 (Thiamine)', 'B2 (Riboflavin)', 'B3 (Niacin)', 'B6 (Pyridoxine)', 'B9 (Folic acid)', 'B12 (Cyanocobalamin)'] },
-    { group: 'Vitamin C', items: ['Ascorbic acid'] },
+    { group: 'Water-soluble vitamins', groups: [
+      { group: 'B vitamins', items: ['B1 (Thiamine)', 'B2 (Riboflavin)', 'B3 (Niacin)', 'B6 (Pyridoxine)', 'B9 (Folic acid)', 'B12 (Cyanocobalamin)'] },
+      { group: 'Vitamin C', items: ['Ascorbic acid'] },
+    ] },
   ] },
 ] as const;
 
@@ -19,7 +21,7 @@ export function TpnBagSvg() {
       <path d="M26 112 H134 V190 Q134 208 114 211 L96 214 H64 L46 211 Q26 208 26 190Z" fill="#FFFFFF" />
       <path d="M26 112 Q53 102 80 112 T134 112" fill="none" stroke="#7F1519" strokeWidth="3" />
       <rect x="40" y="52" width="80" height="40" rx="3" fill="#fff" stroke="#9E1B22" strokeWidth="2" />
-      <text x="80" y="79" textAnchor="middle" fontSize="20" fontWeight="700" fill="#7F1519" fontFamily="Georgia,serif">TPN</text>
+      <text x="80" y="79" textAnchor="middle" fontSize="20" fontWeight="700" fill="#7F1519" fontFamily="inherit">TPN</text>
       <path d="M72 222 V240 H88 V222" fill="#FBEFEF" />
       <path d="M80 240 V256" stroke="#FBEFEF" strokeWidth="5" strokeLinecap="round" />
     </svg>

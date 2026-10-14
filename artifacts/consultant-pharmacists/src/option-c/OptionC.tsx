@@ -25,7 +25,7 @@ const descriptions: Record<Page, string> = {
   home: 'Compatibility, dosing and monitoring for every TPN micronutrient, in one reference you can search. For multidiscipline clinical nutritionists, particularly hospital and home nutrition teams.',
   contact: 'Contact Consultant Pharmacists of America about clinical consultation, healthcare writing, and classroom pricing.',
   webinars: 'Explore the complete clinical nutrition, parenteral nutrition, and pharmacy education topic catalog.',
-  cv: 'Curriculum vitae of Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, FASPEN, R.Ph., President and CEO of Consultant Pharmacists of America, Inc.',
+  cv: 'Curriculum vitae of Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, FASPEN, R.Ph., President and CEO of Consultant Pharmacists of America.',
 };
 
 function Header({ page }: { page: Page }) {
@@ -56,6 +56,22 @@ function Header({ page }: { page: Page }) {
   );
 }
 
+function ContactBlock() {
+  return (
+    <div className="oc-contact-block">
+      <div>Consultant Pharmacists of America</div>
+      <div>Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, FASPEN, R.Ph.</div>
+      <div>President and Chief Executive Officer</div>
+      <div>ORCID iD: <a href="https://orcid.org/0009-0007-1591-4269">0009-0007-1591-4269</a></div>
+      <div>E-mail: <a href="mailto:ConsultantPharmacistsofAmerica@gmail.com">ConsultantPharmacistsofAmerica@gmail.com</a></div>
+      <div>Web site: <a href="https://consultantpharmacistsofamerica.com/">http://consultantpharmacistsofamerica.com/</a></div>
+      <div>Phone: <a href="tel:+13526423005">+1-352-642-3005</a></div>
+      <div>9200 NW 36th Place; Suite A-5, Gainesville, FL 32606</div>
+      <div>Preferred mailing address: 1616 SW 77th Terrace, Gainesville, FL 32607</div>
+    </div>
+  );
+}
+
 function Footer() {
   return (
     <footer className="oc-foot">
@@ -66,12 +82,10 @@ function Footer() {
              <li><a href={base}>Home</a></li><li><a href={`${oc}webinars/`}>Webinars</a></li><li><a href={`${base}cv/`}>Curriculum vitae</a></li><li><a href={`${oc}contact/`}>Contact</a></li>
           </ul></nav>
           <div><h2>Contact</h2>
-            <a href="tel:+13526423005">352-642-3005</a><br />
-            <a href={`mailto:${cfg.email}`} style={{ wordBreak: 'break-all' }}>{cfg.email}</a>
-            <p>1616 SW 77th Terrace<br />Gainesville, FL 32607</p>
+            <ContactBlock />
           </div>
         </div>
-        <p className="legal">© {new Date().getFullYear()} Consultant Pharmacists of America, Inc.</p>
+        <p className="legal">© {new Date().getFullYear()} Consultant Pharmacists of America</p>
       </div>
     </footer>
   );
@@ -126,6 +140,7 @@ function Home() {
     <main id="main">
       <section className="oc-hero">
         <div className="oc-wrap">
+          <p className="oc-hero-eyebrow">Consultant Pharmacists of America</p>
           <h1 className="oc-rise">Compatibility, dosing and monitoring for every TPN micronutrient, in one reference you can search.</h1>
           <p className="sub oc-rise d1">For multidiscipline clinical nutritionists, particularly hospital and home nutrition teams.</p>
           <div className="oc-hero-grid oc-rise d2">
@@ -140,9 +155,18 @@ function Home() {
                     <span><b>{tr.group}:</b> {tr.items.join(', ')}</span>
                     <span>
                       <b>{vi.group}:</b>
-                      <span style={{ display: 'grid', gap: 8, marginTop: 8, marginLeft: 12 }}>
-                        {vi.items.map(({ group, items }) => (
-                          <span key={group}><b>{group}:</b> {items.join(', ')}</span>
+                      <span className="oc-vit-groups">
+                        {vi.items.map(vitamins => (
+                          <span key={vitamins.group}>
+                            <b>{vitamins.group}:</b>
+                            {'groups' in vitamins ? (
+                              <span className="oc-vit-groups">
+                                {vitamins.groups.map(({ group, items }) => (
+                                  <span key={group}><b>{group}:</b> {items.join(', ')}</span>
+                                ))}
+                              </span>
+                            ) : ` ${vitamins.items.join(', ')}`}
+                          </span>
                         ))}
                       </span>
                     </span>
@@ -237,7 +261,7 @@ function Home() {
           <div>
             <p className="oc-kick">About</p>
             <h2 id="about-h">Thomas G. Baumgartner, <span style={{ display: 'inline-block', whiteSpace: 'nowrap', fontSize: 'clamp(0.8125rem, calc((100vw - 3rem) / 20), 1.25rem)' }}>Pharm.D., M.Ed., FASHP, FASPEN, R.Ph.</span></h2>
-            <p>President and CEO of Consultant Pharmacists of America, Inc., and a Fellow of the American Society for Parenteral and Enteral Nutrition. Former Clinical Professor at the University of Florida Colleges of Pharmacy, Medicine, Nursing and Dentistry in Gainesville, Florida.</p>
+            <p>President and CEO of Consultant Pharmacists of America, and a Fellow of the American Society for Parenteral and Enteral Nutrition. Former Clinical Professor at the University of Florida Colleges of Pharmacy, Medicine, Nursing and Dentistry in Gainesville, Florida.</p>
              <p><a className="oc-btn alt" href={`${base}cv/`}>Read the full curriculum vitae</a></p>
           </div>
         </div>
@@ -285,13 +309,7 @@ function Contact() {
     <main id="main">
       <section className="oc-page-head"><div className="oc-wrap"><h1>Start a conversation.</h1><p>For clinical consultation, legal expertise, healthcare writing, webinars, and classroom pricing.</p></div></section>
       <section className="oc-sec"><div className="oc-wrap oc-contact">
-        <div>
-          <p className="oc-kick">Direct contact</p>
-          <h2>Reach the practice.</h2>
-          <p><strong>Phone</strong><br /><a href="tel:+13526423005">352-642-3005</a></p>
-          <p><strong>Email</strong><br /><a href={`mailto:${cfg.email}`} style={{ wordBreak: 'break-all' }}>{cfg.email}</a></p>
-          <address style={{ fontStyle: 'normal' }}><strong>Address</strong><br />1616 SW 77th Terrace<br />Gainesville, FL 32607</address>
-        </div>
+        <ContactBlock />
         <div>
           <p className="oc-kick">Inquiry form</p>
           <h2>Your inquiry</h2>
