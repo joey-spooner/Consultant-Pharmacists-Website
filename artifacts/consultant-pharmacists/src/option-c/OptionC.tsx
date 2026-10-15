@@ -38,11 +38,6 @@ function Header({ page }: { page: Page }) {
   return (
     <>
       <a className="oc-skip" href="#main">Skip to content</a>
-      <aside className="oc-banner" aria-label="Temporary design review banner">
-        <strong>Option C: Clinical reference</strong>
-        <span>Temporary banner for design review</span>
-        <span><a href={`${base}single-page/`}>View Option B</a> · <a href={`${base}option-a/`}>View Option A</a></span>
-      </aside>
       <header className="oc-head">
         <div className="oc-wrap">
           <a href={base} aria-label="Consultant Pharmacists of America home"><img src={cfg.images.logo} alt="Consultant Pharmacists of America" /></a>
@@ -288,7 +283,7 @@ function Home() {
 function Webinars() {
   return (
     <main id="main">
-      <section className="oc-page-head"><div className="oc-wrap"><h1>Webinar topics.</h1><p>Browse the clinical education catalog by division and subject. Expand a category to see its topics.</p></div></section>
+      <section className="oc-page-head"><div className="oc-wrap"><h1>Webinar topics.</h1><p>Browse the clinical education catalog by division and subject. Expand a category to see its topics.</p><p>Mailing address is preferred for webinar and speaking inquiries.<br />1616 SW 77th Terrace, Gainesville, FL 32607</p></div></section>
       <section className="oc-sec"><div className="oc-wrap oc-web">
         <nav aria-label="Webinar divisions"><p className="oc-kick">Divisions</p>
           {webinarDivisions.map((d, i) => <a key={d.title} href={`#division-${i + 1}`}>{String(i + 1).padStart(2, '0')} {d.title}</a>)}
@@ -321,6 +316,7 @@ function Contact() {
           <p className="oc-kick">Inquiry form</p>
           <h2>Your inquiry</h2>
           <p className="oc-notice" role="status">The form is displayed for review. Submission is unavailable until a secure form endpoint is connected. Please use the email or phone links to get in touch.</p>
+          <p>Mailing address is preferred.<br />1616 SW 77th Terrace, Gainesville, FL 32607</p>
           <form className="oc-form" onSubmit={e => e.preventDefault()}>
             <fieldset disabled aria-label="Inquiry form, currently unavailable">
               <label className="oc-field">Name *<input name="name" type="text" autoComplete="name" /></label>

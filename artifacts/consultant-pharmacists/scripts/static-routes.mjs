@@ -20,37 +20,6 @@ const pages = [
     image: 'option-c-cover.png',
   },
   {
-    route: 'option-a',
-    title: 'Consultant Pharmacists of America | Clinical Advisory',
-    description: 'Independent clinical pharmacy and nutrition advisory services from Dr. Thomas G. Baumgartner, with expertise in parenteral nutrition and micronutrition.',
-  },
-  {
-    route: 'option-a/about',
-    title: 'About Dr. Baumgartner | Consultant Pharmacists of America',
-    description: 'Explore Dr. Thomas G. Baumgartner’s credentials, professional recognition, and more than 30 years of clinical pharmacy experience.',
-  },
-  {
-    route: 'option-a/client-relationships',
-    title: 'Client Relationships | Consultant Pharmacists of America',
-    description: 'Learn about the healthcare, pharmacy, institutional, and private-patient settings served by Consultant Pharmacists of America.',
-  },
-  {
-    route: 'option-a/webinars',
-    title: 'Clinical Webinars | Consultant Pharmacists of America',
-    description: 'Browse clinical nutrition, parenteral nutrition, and pharmacy education topics from Dr. Thomas G. Baumgartner.',
-  },
-  {
-    route: 'option-a/contact',
-    title: 'Contact | Consultant Pharmacists of America',
-    description: 'Contact Consultant Pharmacists of America about clinical consultation, medico-legal expertise, healthcare writing, and guest speaking.',
-  },
-  {
-    route: 'single-page',
-    title: 'The Clinical Guide to Parenteral Micronutrition | Consultant Pharmacists of America',
-    description: 'A practical clinical reference for hospital and home nutrition teams, by pharmacist educator Dr. Thomas G. Baumgartner. Get the Kindle edition or the free Chapters 5–11 self-assessment.',
-    image: 'parenteral-micronutrition-cover-enhanced.jpg',
-  },
-  {
     route: 'option-c',
     canonicalRoute: '',
     title: 'Clinical Guide to Parenteral Micronutrition — Enhanced Third Edition | Consultant Pharmacists of America',
@@ -83,13 +52,6 @@ const pages = [
     image: 'option-c-baumgartner.jpg',
   },
 ];
-// Preserve old direct links; React redirects these to the review version.
-for (const page of [...pages]) {
-  if (page.route.startsWith('option-a/')) {
-    pages.push({ ...page, route: page.route.slice('option-a/'.length), canonicalRoute: page.route });
-  }
-}
-
 const escapeHtml = value => value.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;');
 function replaceTag(html, pattern, replacement) {
   if (!pattern.test(html)) throw new Error(`Missing required SEO tag: ${pattern}`);
@@ -124,9 +86,28 @@ for (const page of pages) {
   await mkdir(directory, { recursive: true });
   await writeFile(path.join(directory, 'index.html'), renderPage(page));
 }
-await writeFile(path.join(output, '404.html'), renderPage({ ...pages[0], route: '404' }));
+// GitHub Pages has no configurable HTTP redirects. These tiny documents use
+// location.replace, a no-script meta refresh, and a normal fallback link.
+function redirectPage(target) {
+  const url = new URL(target, rootUrl).href;
+  return `<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, follow"><title>Consultant Pharmacists of America</title><link rel="canonical" href="${escapeHtml(url)}"><meta http-equiv="refresh" content="0; url=${escapeHtml(url)}"><script>location.replace(${JSON.stringify(url)});</script></head><body><a href="${escapeHtml(url)}">Continue to Consultant Pharmacists of America</a></body></html>`;
+}
+const redirects = [
+  ['contact', 'option-c/contact/'],
+  ...['option-a', 'option-a/about', 'option-a/client-relationships',
+    'option-a/webinars', 'option-a/contact', 'single-page',
+    'about', 'client-relationships', 'webinars'].map(route => [route, '']),
+];
+for (const [route, target] of redirects) {
+  const directory = path.join(output, route);
+  await mkdir(directory, { recursive: true });
+  await writeFile(path.join(directory, 'index.html'), redirectPage(target));
+}
+// Unknown/deeper legacy addresses also return to the selected homepage.
+await writeFile(path.join(output, '404.html'), redirectPage(''));
 await writeFile(path.join(output, '.nojekyll'), '');
-const urls = `  <url><loc>${rootUrl.href}</loc></url>`;
+const urls = ['', 'option-c/webinars/', 'option-c/contact/', 'cv/']
+  .map(route => `  <url><loc>${new URL(route, rootUrl).href}</loc></url>`).join('\n');
 await writeFile(path.join(output, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`);
 await writeFile(path.join(output, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${new URL('sitemap.xml', rootUrl).href}\n`);
-console.log(`Generated ${pages.length} static route shells for ${rootUrl.href}`);
+console.log(`Generated ${pages.length} page shells and ${redirects.length} redirects for ${rootUrl.href}`);

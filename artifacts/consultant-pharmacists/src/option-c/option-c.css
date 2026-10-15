@@ -7,8 +7,6 @@ font-size:18px;line-height:1.65;color:var(--ink);background:#fff;min-height:100d
 .oc a:focus-visible,.oc summary:focus-visible,.oc button:focus-visible,.oc input:focus-visible,.oc textarea:focus-visible{outline:3px solid #1F1F1F;outline-offset:3px}
 .oc-wrap{max-width:1120px;margin:0 auto;padding:0 24px}
 .oc-skip{position:absolute;left:-999px;top:8px;background:#fff;padding:10px 14px;z-index:99}.oc-skip:focus{left:8px}
-.oc-banner{background:var(--ink);color:#fff;font-size:14px;padding:8px 24px;display:flex;flex-wrap:wrap;gap:6px 16px;justify-content:center}
-.oc-banner a{color:#fff}
 .oc-head{background:#fff;border-bottom:3px solid var(--red)}
 .oc-head .oc-wrap{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;padding-top:12px;padding-bottom:12px}
 .oc-head img{height:44px;width:auto;display:block}
