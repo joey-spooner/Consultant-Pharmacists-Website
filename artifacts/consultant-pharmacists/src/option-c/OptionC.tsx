@@ -1,4 +1,4 @@
-import { useEffect, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type FormEvent, type ReactNode } from 'react';
 import { webinarDivisions } from '../data/webinars';
 import cvSource from './cv-content.md?raw';
 import sampleQaSource from './sample-qa.md?raw';
@@ -307,6 +307,31 @@ function Webinars() {
 }
 
 function Contact() {
+  const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
+  const sending = useRef(false);
+
+  async function submitInquiry(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    if (sending.current) return;
+    const form = event.currentTarget;
+    if (!form.reportValidity()) return;
+    sending.current = true;
+    setStatus('sending');
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST',
+        headers: { Accept: 'application/json' },
+        body: new FormData(form),
+      });
+      if (!response.ok) throw new Error('Inquiry submission failed');
+      setStatus('success');
+    } catch {
+      setStatus('error');
+    } finally {
+      sending.current = false;
+    }
+  }
+
   return (
     <main id="main">
       <section className="oc-page-head"><div className="oc-wrap"><h1>Start a conversation.</h1><p>For clinical consultation, legal expertise, healthcare writing, webinars, and classroom pricing.</p></div></section>
@@ -315,20 +340,27 @@ function Contact() {
         <div>
           <p className="oc-kick">Inquiry form</p>
           <h2>Your inquiry</h2>
-          <p className="oc-notice" role="status">The form is displayed for review. Submission is unavailable until a secure form endpoint is connected. Please use the email or phone links to get in touch.</p>
           <p>Mailing address is preferred.<br />1616 SW 77th Terrace, Gainesville, FL 32607</p>
-          <form className="oc-form" onSubmit={e => e.preventDefault()}>
-            <fieldset disabled aria-label="Inquiry form, currently unavailable">
-              <label className="oc-field">Name *<input name="name" type="text" autoComplete="name" /></label>
-              <label className="oc-field">Email *<input name="email" type="email" autoComplete="email" /></label>
+          {status === 'success' ? (
+            <p role="status">Thank you. Your message was sent. Dr. Baumgartner will reply by email.</p>
+          ) : (
+          <form className="oc-form" action="https://formspree.io/f/xzedkjve" method="POST" onSubmit={submitInquiry} aria-busy={status === 'sending'}>
+            <input type="hidden" name="_gotcha" tabIndex={-1} aria-hidden="true" />
+            <input type="hidden" name="_subject" value="Website inquiry from consultantpharmacistsofamerica.com" />
+            <fieldset aria-label="Inquiry form">
+              <label className="oc-field">Name *<input name="name" type="text" autoComplete="name" required /></label>
+              <label className="oc-field">Email *<input name="email" type="email" autoComplete="email" required /></label>
+              <label className="oc-field">Organization<input name="organization" type="text" autoComplete="organization" /></label>
               <fieldset><legend style={{ fontWeight: 700, fontSize: 16 }}>Services</legend>
                 <div className="oc-checks">{services.map(s => <label key={s}><input type="checkbox" name="services" value={s} />{s}</label>)}</div>
               </fieldset>
-              <label className="oc-field">Message<textarea name="message" rows={5} /></label>
-              <button type="submit" className="oc-btn" disabled>Submit unavailable</button>
+              <label className="oc-field">Message *<textarea name="message" rows={5} required /></label>
+              {status === 'error' && <p className="oc-notice" role="alert">Sorry, that did not send. Please try again, or email consultantpharmacistsofamerica@gmail.com.</p>}
+              <button type="submit" className="oc-btn" disabled={status === 'sending'}>{status === 'sending' ? 'Sending…' : 'Submit'}</button>
             </fieldset>
             <p className="oc-small">Do not include sensitive patient information.</p>
           </form>
+          )}
         </div>
       </div></section>
     </main>
