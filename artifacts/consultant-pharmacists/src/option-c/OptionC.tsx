@@ -51,7 +51,7 @@ function Header({ page }: { page: Page }) {
   );
 }
 
-function ContactBlock() {
+function ContactBlock({ showMailingLabel = true }: { showMailingLabel?: boolean }) {
   return (
     <div className="oc-contact-block">
       <div>Consultant Pharmacists of America</div>
@@ -63,11 +63,7 @@ function ContactBlock() {
       <div>Web site: <a href="https://consultantpharmacistsofamerica.com/">consultantpharmacistsofamerica.com</a></div>
       <div>Phone: <a href="tel:+13526423005">+1-352-642-3005</a></div>
       <div className="oc-contact-address">
-        <div>Office</div>
-        <div>9200 NW 36th Place; Suite A-5, Gainesville, FL 32606</div>
-      </div>
-      <div className="oc-contact-address">
-        <div>Mailing address</div>
+        {showMailingLabel && <div>Mailing address</div>}
         <div>1616 SW 77th Terrace, Gainesville, FL 32607</div>
       </div>
     </div>
@@ -84,7 +80,7 @@ function Footer() {
              <li><a href={base}>Home</a></li><li><a href={`${oc}webinars/`}>Webinars</a></li><li><a href={`${base}cv/`}>Curriculum vitae</a></li><li><a href={`${oc}contact/`}>Contact</a></li>
           </ul></nav>
           <div><h2>Contact</h2>
-            <ContactBlock />
+            <ContactBlock showMailingLabel={false} />
           </div>
         </div>
         <p className="legal">© {new Date().getFullYear()} Consultant Pharmacists of America</p>
@@ -340,7 +336,7 @@ function Contact() {
         <div>
           <p className="oc-kick">Inquiry form</p>
           <h2>Your inquiry</h2>
-          <p>Mailing address is preferred.<br />1616 SW 77th Terrace, Gainesville, FL 32607</p>
+          <p>Mailing address is preferred.</p>
           {status === 'success' ? (
             <p role="status">Thank you. Your message was sent. Dr. Baumgartner will reply by email.</p>
           ) : (
