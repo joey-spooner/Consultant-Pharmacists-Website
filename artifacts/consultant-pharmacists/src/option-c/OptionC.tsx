@@ -5,7 +5,7 @@ import sampleQaSource from './sample-qa.md?raw';
 import { siteConfig as cfg } from './config';
 import { trackEvent } from './analytics';
 import { Markdown } from './markdown';
-import { TpnBagSvg, bagIngredients } from './TpnBag';
+import { bagIngredients } from './TpnBag';
 import { chapterFormat, contents, painPoints, preface, quotes, services } from './content';
 import './option-c.css';
 
@@ -59,11 +59,12 @@ function ContactBlock() {
       <div>Pharm.D., M.Ed., FASHP, FASPEN, R.Ph.</div>
       <div>President and Chief Executive Officer</div>
       <div>ORCID iD: <a href="https://orcid.org/0009-0007-1591-4269">0009-0007-1591-4269</a></div>
-      <div>E-mail: <a href="mailto:ConsultantPharmacistsofAmerica@gmail.com">ConsultantPharmacistsofAmerica@gmail.com</a></div>
+      <div className="oc-contact-email">E-mail: <a href="mailto:ConsultantPharmacistsofAmerica@gmail.com">ConsultantPharmacistsofAmerica@gmail.com</a></div>
       <div>Web site: <a href="https://consultantpharmacistsofamerica.com/">consultantpharmacistsofamerica.com</a></div>
       <div>Phone: <a href="tel:+13526423005">+1-352-642-3005</a></div>
       <div className="oc-contact-address">
-        <div>1616 SW 77th Terrace, Gainesville, FL 32607</div>
+        <div>Office: 9200 NW 36th Place, Suite A-5, Gainesville, FL 32606</div>
+        <div>Mailing address (preferred): 1616 SW 77th Terrace, Gainesville, FL 32607</div>
       </div>
     </div>
   );
@@ -141,7 +142,14 @@ function Home() {
           <h1 className="oc-rise">Compatibility, dosing and monitoring for every TPN micronutrient, in one reference you can search.</h1>
           <p className="sub oc-rise d1">For multidiscipline clinical nutritionists, particularly hospital and home nutrition teams.</p>
           <div className="oc-hero-grid oc-rise d2">
-            <TpnBagSvg />
+            <img
+              className="oc-bag"
+              src={`${base}IV-bag-yellow.png`}
+              alt="Parenteral infusion bag of yellow vitamin solution hanging from an IV pole"
+              loading="lazy"
+              width={1116}
+              height={1409}
+            />
             <div className="oc-ing">
               <h2>Intravenous Total Parenteral Nutrition (TPN)</h2>
               <dl>

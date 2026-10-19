@@ -16,14 +16,15 @@ font-size:18px;line-height:1.65;color:var(--ink);background:#fff;min-height:100d
 .oc-hero{background:var(--deep);color:#fff;padding:56px 0 64px}
 .oc-hero .oc-hero-eyebrow{margin:0 0 12px;font-size:14px;letter-spacing:.06em;color:rgba(255,255,255,.8)}
 .oc-contact-block{font-size:16px;line-height:1.6;text-align:left;overflow-wrap:anywhere;min-width:0}
+.oc-contact-email{white-space:nowrap}
 .oc-contact-address{margin-top:1em}
 .oc-contact-block a{color:inherit;text-decoration:underline}
 .oc-contact-block a:focus-visible{outline-color:currentColor}
 .oc-vit-groups{display:grid;gap:8px;margin-top:8px;margin-left:12px}
 .oc-hero h1{font-size:clamp(28px,4.6vw,46px);max-width:20ch;max-width:24em}
 .oc-hero .sub{font-size:20px;margin:18px 0 0;max-width:40em;color:#FBEFEF}
-.oc-hero-grid{display:grid;grid-template-columns:200px 1fr;gap:40px;margin-top:40px;align-items:start}
-.oc-bag{width:100%;max-width:200px;height:auto;display:block}
+.oc-hero-grid{display:grid;grid-template-columns:280px 1fr;gap:40px;margin-top:40px;align-items:start}
+.oc-bag{width:280px;max-width:100%;height:auto;display:block;background:#fff;border-radius:8px}
 .oc-ing{background:var(--tint);color:var(--ink);border:1px solid var(--line);padding:22px 26px}
 .oc-ing h2{font-size:20px;margin-bottom:12px;color:var(--deep)}
 .oc-ing dl{margin:0;display:grid;gap:10px}
@@ -114,10 +115,13 @@ font-size:18px;line-height:1.65;color:var(--ink);background:#fff;min-height:100d
 .oc-cv li ul,.oc-cv li ol{margin:6px 0}
 @media (max-width:860px){
 .oc-hero-grid,.oc-book,.oc-about,.oc-web,.oc-contact,.oc-quotes,.oc-foot-grid{grid-template-columns:1fr}
-.oc-hero-grid{gap:24px}.oc-bag{max-width:140px}
+.oc-hero-grid{gap:24px}.oc-bag{width:200px}
 .oc-ladder{grid-template-columns:1fr}.oc-step{border-right:0;border-bottom:1px solid var(--line)}
 .oc-web nav{position:static}.oc-sec{padding:44px 0}.oc-checks{grid-template-columns:1fr}
 .oc-book>div:first-child{max-width:260px}
+}
+@media (max-width:480px){
+.oc-contact-email{font-size:14px}
 }
 @media (prefers-reduced-motion:no-preference){
 .oc-rise{animation:ocrise .7s cubic-bezier(.2,.7,.2,1) both}.oc-rise.d1{animation-delay:.1s}.oc-rise.d2{animation-delay:.2s}
