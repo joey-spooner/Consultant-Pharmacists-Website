@@ -390,7 +390,7 @@ function JoinCall() {
     <main id="main">
       <section className="oc-page-head"><div className="oc-wrap"><h1>Join the call</h1></div></section>
       <section className="oc-sec"><div className="oc-wrap">
-        <a className="oc-btn" href="https://calendar.app.google/ihx5CWQtApR8Qqmw6" rel="noreferrer">Join the call</a>
+        <a className="oc-btn" href="https://calendar.app.google/2zFGqAHBqA97E36Y8" rel="noreferrer">Join the call</a>
       </div></section>
     </main>
   );
