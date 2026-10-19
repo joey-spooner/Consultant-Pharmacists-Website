@@ -14,6 +14,12 @@ const shell = await readFile(path.join(output, 'index.html'), 'utf8');
 
 const pages = [
   {
+    route: 'join',
+    robots: 'noindex, nofollow',
+    title: 'Join the call | Consultant Pharmacists of America',
+    description: 'Join the call with Consultant Pharmacists of America.',
+  },
+  {
     route: '',
     title: 'Clinical Guide to Parenteral Micronutrition — Enhanced Third Edition | Consultant Pharmacists of America',
     description: 'Compatibility, dosing and monitoring for every TPN micronutrient, in one reference you can search. For multidiscipline clinical nutritionists, particularly hospital and home nutrition teams.',
@@ -64,7 +70,7 @@ function renderPage(page) {
   let html = shell;
   html = replaceTag(html, /<title>[^<]*<\/title>/, `<title>${escapeHtml(page.title)}</title>`);
   html = replaceTag(html, /<link rel="canonical" href="[^"]*" \/>/, `<link rel="canonical" href="${escapeHtml(url)}" />`);
-  html = replaceTag(html, /<meta name="robots" content="[^"]*" \/>/, `<meta name="robots" content="${page.route === '' ? 'index, follow' : 'noindex, follow'}" />`);
+  html = replaceTag(html, /<meta name="robots" content="[^"]*" \/>/, `<meta name="robots" content="${page.robots ?? (page.route === '' ? 'index, follow' : 'noindex, follow')}" />`);
   for (const [selector, content] of [
     ['name="description"', page.description],
     ['property="og:title"', page.title],

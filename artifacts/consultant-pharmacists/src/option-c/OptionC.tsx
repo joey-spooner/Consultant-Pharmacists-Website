@@ -9,7 +9,7 @@ import { bagIngredients } from './TpnBag';
 import { chapterFormat, contents, painPoints, preface, quotes, services } from './content';
 import './option-c.css';
 
-type Page = 'home' | 'contact' | 'webinars' | 'cv';
+type Page = 'home' | 'contact' | 'webinars' | 'cv' | 'join';
 const base = import.meta.env.BASE_URL;
 const oc = `${base}option-c/`;
 const buyProps = { target: '_blank', rel: 'noopener noreferrer' } as const;
@@ -19,6 +19,7 @@ const titles: Record<Page, string> = {
   contact: 'Contact | Consultant Pharmacists of America',
   webinars: 'Webinar topics | Consultant Pharmacists of America',
   cv: 'Curriculum Vitae, Thomas G. Baumgartner | Consultant Pharmacists of America',
+  join: 'Join the call | Consultant Pharmacists of America',
 };
 
 const descriptions: Record<Page, string> = {
@@ -26,6 +27,7 @@ const descriptions: Record<Page, string> = {
   contact: 'Contact Consultant Pharmacists of America about clinical consultation, healthcare writing, and classroom pricing.',
   webinars: 'Explore the complete clinical nutrition, parenteral nutrition, and pharmacy education topic catalog.',
   cv: 'Curriculum vitae of Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, FASPEN, R.Ph., President and CEO of Consultant Pharmacists of America.',
+  join: 'Join the call with Consultant Pharmacists of America.',
 };
 
 function Header({ page }: { page: Page }) {
@@ -383,11 +385,22 @@ function Cv() {
   );
 }
 
+function JoinCall() {
+  return (
+    <main id="main">
+      <section className="oc-page-head"><div className="oc-wrap"><h1>Join the call</h1></div></section>
+      <section className="oc-sec"><div className="oc-wrap">
+        <a className="oc-btn" href="https://calendar.app.google/ihx5CWQtApR8Qqmw6" rel="noreferrer">Join the call</a>
+      </div></section>
+    </main>
+  );
+}
+
 export default function OptionC({ page = 'home' }: { page?: Page }) {
   useEffect(() => {
     document.title = titles[page];
     const origin = import.meta.env.VITE_SITE_URL || window.location.origin;
-    const route = page === 'cv' ? 'cv/' : page === 'home' ? '' : `option-c/${page}/`;
+    const route = page === 'join' ? 'join/' : page === 'cv' ? 'cv/' : page === 'home' ? '' : `option-c/${page}/`;
     const canonical = new URL(`${base}${route}`, origin).href;
     const image = new URL(page === 'cv' ? cfg.images.portrait : cfg.images.cover, origin).href;
     for (const [selector, content] of [
@@ -402,7 +415,7 @@ export default function OptionC({ page = 'home' }: { page?: Page }) {
     ]) document.querySelector<HTMLMetaElement>(selector)?.setAttribute('content', content);
     document.querySelector<HTMLLinkElement>('link[rel="canonical"]')?.setAttribute('href', canonical);
     const robots = document.querySelector<HTMLMetaElement>('meta[name="robots"]');
-    robots?.setAttribute('content', page === 'home' && window.location.pathname === base ? 'index, follow' : 'noindex, follow');
+    robots?.setAttribute('content', page === 'join' ? 'noindex, nofollow' : page === 'home' && window.location.pathname === base ? 'index, follow' : 'noindex, follow');
     if (page === 'home' && window.location.hash) document.getElementById(window.location.hash.slice(1))?.scrollIntoView();
     else window.scrollTo(0, 0);
   }, [page]);
@@ -413,6 +426,7 @@ export default function OptionC({ page = 'home' }: { page?: Page }) {
       {page === 'webinars' && <Webinars />}
       {page === 'contact' && <Contact />}
       {page === 'cv' && <Cv />}
+      {page === 'join' && <JoinCall />}
       <Footer />
     </div>
   );

@@ -10,6 +10,8 @@ export default function App() {
         <Route path="/"><OptionC /></Route>
         <Route path="/option-c"><OptionC /></Route>
         <Route path="/option-c/"><OptionC /></Route>
+        <Route path="/join"><OptionC page="join" /></Route>
+        <Route path="/join/"><OptionC page="join" /></Route>
         <Route path="/option-c/contact"><OptionC page="contact" /></Route>
         <Route path="/option-c/contact/"><OptionC page="contact" /></Route>
         <Route path="/option-c/webinars"><OptionC page="webinars" /></Route>
