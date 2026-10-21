@@ -3,7 +3,7 @@ const base = import.meta.env.BASE_URL;
 
 export const siteConfig = {
   // TOM TO CONFIRM: page count. Change here only.
-  pageCountLine: 'Over 800 pages',
+  pageCountLine: 'Over 1000 pages',
   editionLabel: 'Enhanced Third Edition',
   title: 'Clinical Guide to Parenteral Micronutrition',
   editor: 'Edited by Dr. Thomas G. Baumgartner',
