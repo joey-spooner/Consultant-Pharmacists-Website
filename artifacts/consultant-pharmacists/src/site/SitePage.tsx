@@ -144,23 +144,31 @@ function Home() {
   return (
     <main id="main">
       <section className="oc-hero">
-        <div className="oc-wrap">
-          <p className="oc-hero-eyebrow">Consultant Pharmacists of America</p>
-          <h1 className="oc-rise">Compatibility, dosing and monitoring for every TPN micronutrient, in one reference you can search.</h1>
-          <p className="sub oc-rise d1">For multidiscipline clinical nutritionists, particularly hospital and home nutrition teams.</p>
-          <div className="oc-hero-grid oc-rise d2">
-            <img
-              className="oc-bag"
-              src={`${base}IV-bag-yellow.png`}
-              alt="Parenteral infusion bag of yellow vitamin solution hanging from an IV pole"
-              loading="lazy"
-              width={1116}
-              height={1409}
-            />
-            <div className="oc-ing">
-              <h2>Intravenous Total Parenteral Nutrition (TPN)</h2>
+        <div className="oc-wrap oc-hero-grid">
+          <div>
+            <p className="oc-hero-eyebrow">Consultant Pharmacists of America</p>
+            <h1 className="oc-rise">Compatibility, dosing and monitoring for every TPN micronutrient, in one reference you can search.</h1>
+            <p className="sub oc-rise d1">For multidiscipline clinical nutritionists, particularly hospital and home nutrition teams.</p>
+          </div>
+          <div className="oc-hero-ingredients oc-rise d2">
+            <figure className="oc-infographic">
+              <a className="oc-infographic-open" href={`${base}ingredients-image.jpg`} target="_blank" rel="noopener noreferrer" aria-describedby="ingredient-enlarge-hint">
+                <picture>
+                  <source srcSet={`${base}ingredients-image.webp`} type="image/webp" />
+                  <img
+                    src={`${base}ingredients-image.jpg`}
+                    alt="Parenteral infusion bag of yellow solution on an IV pole, with the ingredients of total parenteral nutrition: macronutrients, electrolytes, trace elements and vitamins."
+                    loading="eager"
+                    width={1122}
+                    height={1402}
+                  />
+                </picture>
+              </a>
+              <figcaption id="ingredient-enlarge-hint">Tap to enlarge</figcaption>
+            </figure>
+            <Det label="Read the ingredient list as text" event="open_ingredient_list">
               <IngredientBlocks />
-            </div>
+            </Det>
           </div>
         </div>
       </section>

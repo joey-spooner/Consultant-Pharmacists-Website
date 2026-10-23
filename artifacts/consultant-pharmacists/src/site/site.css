@@ -22,22 +22,18 @@ font-size:18px;line-height:1.65;color:var(--ink);background:#fff;min-height:100d
 .oc-contact-block a:focus-visible{outline-color:currentColor}
 .oc-hero h1{font-size:clamp(28px,4.6vw,46px);max-width:20ch;max-width:24em}
 .oc-hero .sub{font-size:20px;margin:18px 0 0;max-width:40em;color:#FBEFEF}
-.oc-hero-grid{display:grid;grid-template-columns:280px 1fr;gap:40px;margin-top:40px;align-items:start}
-.oc-bag{width:280px;max-width:100%;height:auto;display:block;background:#fff;border-radius:8px}
-.oc-ing{background:var(--tint);color:var(--ink);border:1px solid var(--line);padding:22px 26px}
-.oc-ing h2{font-size:20px;margin-bottom:12px;color:var(--deep)}
+.oc-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,440px);gap:48px;align-items:start}
+.oc-hero-ingredients{min-width:0;width:100%;max-width:440px}
+.oc-infographic{margin:0}
+.oc-infographic-open{display:block;background:#fff;border-radius:8px;overflow:hidden}
+.oc-infographic picture,.oc-infographic img{display:block;width:100%;height:auto}
+.oc-infographic figcaption{font-size:16px;margin-top:8px;color:#FBEFEF}
+.oc-hero-ingredients .oc-det{margin-top:16px;color:var(--ink)}
 .oc-ingredient-blocks{display:grid;gap:24px}
 .oc-ingredient-block{min-width:0}
-.oc-ing h3,.oc-ing h4,.oc-ing h5{font-family:var(--oc-font);font-weight:700;line-height:1.3;margin:0 0 8px}
-.oc-ing h3,.oc-ing h4{font-size:20px;color:var(--deep)}
-.oc-ing h5{font-size:18px;color:var(--ink)}
-.oc-ing ul{list-style:none;margin:0;padding:0 0 0 18px;font-size:18px;line-height:1.65}
-.oc-ing li{margin:0;overflow-wrap:anywhere}
-.oc-micronutrients{border-top:1px solid var(--red);padding-top:16px}
-.oc-ing .oc-micronutrients-label{font-size:16px;color:var(--red);margin-bottom:16px}
-.oc-micronutrient-blocks,.oc-vitamin-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
-.oc-vitamin-block{grid-column:1/-1}
-.oc-vitamin-groups{padding-left:18px}
+.oc-ingredient-block h3{font-family:var(--oc-font);font-size:20px;font-weight:700;line-height:1.3;margin:0 0 8px;color:var(--deep)}
+.oc-ingredient-block ul{list-style:none;margin:0;padding:0 0 0 18px;font-size:18px;line-height:1.65}
+.oc-ingredient-block li{margin:0;overflow-wrap:anywhere}
 .oc-sec{padding:64px 0}.oc-tint{background:var(--tint)}
 .oc-sec h2{font-size:clamp(26px,3.4vw,36px);color:var(--deep);margin-bottom:24px}
 .oc-kick{font-size:14px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--red);margin:0 0 10px}
@@ -124,8 +120,7 @@ font-size:18px;line-height:1.65;color:var(--ink);background:#fff;min-height:100d
 .oc-cv li ul,.oc-cv li ol{margin:6px 0}
 @media (max-width:860px){
 .oc-hero-grid,.oc-book,.oc-about,.oc-web,.oc-contact,.oc-quotes,.oc-foot-grid{grid-template-columns:1fr}
-.oc-hero-grid{gap:24px}.oc-bag{width:200px}
-.oc-micronutrient-blocks,.oc-vitamin-groups{grid-template-columns:1fr}
+.oc-hero-grid{gap:32px}
 .oc-ladder{grid-template-columns:1fr}.oc-step{border-right:0;border-bottom:1px solid var(--line)}
 .oc-web nav{position:static}.oc-sec{padding:44px 0}.oc-checks{grid-template-columns:1fr}
 .oc-book>div:first-child{max-width:260px}
