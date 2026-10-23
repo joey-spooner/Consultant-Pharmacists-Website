@@ -25,9 +25,15 @@ font-size:18px;line-height:1.65;color:var(--ink);background:#fff;min-height:100d
 .oc-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,440px);gap:48px;align-items:start}
 .oc-hero-ingredients{min-width:0;width:100%;max-width:440px}
 .oc-infographic{margin:0}
-.oc-infographic-open{display:block;background:#fff;border-radius:8px;overflow:hidden}
+.oc-infographic-open{display:block;width:100%;padding:0;border:0;background:#fff;border-radius:8px;overflow:hidden;cursor:zoom-in}
 .oc-infographic picture,.oc-infographic img{display:block;width:100%;height:auto}
 .oc-infographic figcaption{font-size:16px;margin-top:8px;color:#FBEFEF}
+.oc-infographic-caption{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:zoom-in}
+.oc-image-modal{max-width:none;max-height:calc(100dvh - 32px);width:min(1122px,calc(100% - 32px));padding:0;border:0;border-radius:8px;background:#fff;color:var(--ink);font-family:var(--oc-font);overflow:auto}
+.oc-image-modal::backdrop{background:rgb(0 0 0 / .8)}
+.oc-image-modal-content{position:relative}
+.oc-image-modal-close{position:sticky;top:12px;display:block;margin:12px 12px 12px auto;padding:8px 18px;border:1px solid var(--red);border-radius:4px;background:#fff;color:var(--red);font:inherit;cursor:pointer;z-index:1}
+.oc-image-modal img{display:block;width:100%;height:auto}
 .oc-hero-ingredients .oc-det{margin-top:16px;color:var(--ink)}
 .oc-ingredient-blocks{display:grid;gap:24px}
 .oc-ingredient-block{min-width:0}

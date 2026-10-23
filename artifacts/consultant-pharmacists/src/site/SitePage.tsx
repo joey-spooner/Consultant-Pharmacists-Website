@@ -7,6 +7,7 @@ import { siteConfig as cfg } from './config';
 import { trackEvent } from './analytics';
 import { Markdown } from './markdown';
 import { IngredientBlocks } from './TpnBag';
+import { IngredientImage } from './IngredientImage';
 import { Terms } from './Terms';
 import { chapterFormat, contents, painPoints, preface, quotes, services } from './content';
 import './site.css';
@@ -151,21 +152,7 @@ function Home() {
             <p className="sub oc-rise d1">For multidiscipline clinical nutritionists, particularly hospital and home nutrition teams.</p>
           </div>
           <div className="oc-hero-ingredients oc-rise d2">
-            <figure className="oc-infographic">
-              <a className="oc-infographic-open" href={`${base}ingredients-image.jpg`} target="_blank" rel="noopener noreferrer" aria-describedby="ingredient-enlarge-hint">
-                <picture>
-                  <source srcSet={`${base}ingredients-image.webp`} type="image/webp" />
-                  <img
-                    src={`${base}ingredients-image.jpg`}
-                    alt="Parenteral infusion bag of yellow solution on an IV pole, with the ingredients of total parenteral nutrition: macronutrients, electrolytes, trace elements and vitamins."
-                    loading="eager"
-                    width={1122}
-                    height={1402}
-                  />
-                </picture>
-              </a>
-              <figcaption id="ingredient-enlarge-hint">Tap to enlarge</figcaption>
-            </figure>
+            <IngredientImage />
             <Det label="Read the ingredient list as text" event="open_ingredient_list">
               <IngredientBlocks />
             </Det>
