@@ -1,6 +1,6 @@
-# [Project name]
+# Consultant Pharmacists of America
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A clinical reference website with book and primer purchases, sample downloads, webinars, a CV and an inquiry form.
 
 ## Run & Operate
 
@@ -30,13 +30,17 @@ _Populate as you build — non-obvious choices a reader couldn't infer from the 
 
 ## Product
 
-The user approved Option B for publication. Use the book-focused single-page version as the public homepage, without its temporary review banner. Preserve the five-page Option A at /option-a/ for review. The user plans to configure the GitHub Pages repository themselves later; do not claim GitHub Pages is live until a deployment is confirmed.
+The clinical reference website is the sole public design. Retired designs and their unused assets are removed. Keep the current appearance and copy unchanged during routing or code cleanup. Do not claim GitHub Pages is live until a deployment is confirmed.
 
 The user expects the free self-assessment download to request name and email only before delivery; the current direct download does not yet implement this. Publishing approval does not mean that form is connected.
 
-Use muted gold rather than orange for Option B's accents, keeping its green palette.
+Do not change the current palette during maintenance. Where a gold accent is specifically requested, use muted gold rather than orange.
 
-The alternative must prominently offer the free electrolyte self-assessment, keep the webinar list out of its public content, provide separate webinar-list and speaking-request CTAs, omit speaking fees, and integrate About. Form-to-email handling is deferred until design approval; Formspree is the user's suggested service, not an already configured integration. Do not claim requests are submitted or that webinar-list replies are automated until that behavior is connected and verified.
+Prominently offer the free electrolyte self-assessment, keep the full webinar list on its dedicated page rather than the homepage, provide separate webinar-list and speaking-request CTAs, omit speaking fees, and integrate About. The Contact page uses Formspree. Do not claim automated webinar-list replies exist unless that behavior is connected and verified.
+
+The canonical pages are `/`, `/webinars/`, `/contact/` and `/cv/`. Keep `/join/` unlisted. The Terms of Sale remain at `/terms/` with their footer and purchase links, but are excluded from the sitemap. Preserve redirects for earlier shared addresses.
+
+The supplied Terms of Sale require review before sales launch. Keep the bracketed refund text until the client decides the policy.
 
 ## User preferences
 

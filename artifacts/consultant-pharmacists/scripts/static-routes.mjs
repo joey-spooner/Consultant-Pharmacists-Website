@@ -7,7 +7,7 @@ import path from 'node:path';
 // route-specific metadata before React starts. The content is still client-rendered.
 const output = fileURLToPath(new URL('../dist/public/', import.meta.url));
 const basePath = `${(process.env.BASE_PATH || '/').replace(/\/+$/, '')}/`;
-const siteUrl = process.env.SITE_URL || 'https://consultant-pharmacists-website.replit.app';
+const siteUrl = process.env.SITE_URL || 'https://consultantpharmacistsofamerica.com';
 const rootUrl = new URL(basePath, `${siteUrl.replace(/\/+$/, '')}/`);
 const imageUrl = new URL('og-preview.png', rootUrl).href;
 const shell = await readFile(path.join(output, 'index.html'), 'utf8');
@@ -23,39 +23,31 @@ const pages = [
     route: '',
     title: 'Clinical Guide to Parenteral Micronutrition — Enhanced Third Edition | Consultant Pharmacists of America',
     description: 'Compatibility, dosing and monitoring for every TPN micronutrient, in one reference you can search. For multidiscipline clinical nutritionists, particularly hospital and home nutrition teams.',
-    image: 'option-c-cover.png',
+    image: 'book-cover.png',
   },
   {
-    route: 'option-c',
-    canonicalRoute: '',
-    title: 'Clinical Guide to Parenteral Micronutrition — Enhanced Third Edition | Consultant Pharmacists of America',
-    description: 'Compatibility, dosing and monitoring for every TPN micronutrient, in one reference you can search. For multidiscipline clinical nutritionists, particularly hospital and home nutrition teams.',
-    image: 'option-c-cover.png',
-  },
-  {
-    route: 'option-c/contact',
+    route: 'contact',
     title: 'Contact and Classroom Pricing | Consultant Pharmacists of America',
     description: 'Contact Consultant Pharmacists of America about clinical consultation, healthcare writing, and classroom pricing.',
-    image: 'option-c-cover.png',
+    image: 'book-cover.png',
   },
   {
-    route: 'option-c/webinars',
+    route: 'terms',
+    title: 'Terms of Sale | Consultant Pharmacists of America',
+    description: 'Terms of Sale for digital PDFs from Consultant Pharmacists of America.',
+    image: 'book-cover.png',
+  },
+  {
+    route: 'webinars',
     title: 'Clinical Webinar Topics | Consultant Pharmacists of America',
     description: 'Explore the complete clinical nutrition, parenteral nutrition, and pharmacy education topic catalog.',
-    image: 'option-c-cover.png',
+    image: 'book-cover.png',
   },
   {
     route: 'cv',
     title: 'Thomas G. Baumgartner — Curriculum Vitae | Consultant Pharmacists of America',
     description: 'Curriculum vitae of Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, FASPEN, R.Ph., President and CEO of Consultant Pharmacists of America.',
-    image: 'option-c-baumgartner.jpg',
-  },
-  {
-    route: 'option-c/cv',
-    canonicalRoute: 'cv',
-    title: 'Thomas G. Baumgartner — Curriculum Vitae | Consultant Pharmacists of America',
-    description: 'Curriculum vitae of Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, FASPEN, R.Ph., President and CEO of Consultant Pharmacists of America.',
-    image: 'option-c-baumgartner.jpg',
+    image: 'baumgartner.jpg',
   },
 ];
 const escapeHtml = value => value.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;');
@@ -98,21 +90,19 @@ function redirectPage(target) {
   const url = new URL(target, rootUrl).href;
   return `<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, follow"><title>Consultant Pharmacists of America</title><link rel="canonical" href="${escapeHtml(url)}"><meta http-equiv="refresh" content="0; url=${escapeHtml(url)}"><script>location.replace(${JSON.stringify(url)});</script></head><body><a href="${escapeHtml(url)}">Continue to Consultant Pharmacists of America</a></body></html>`;
 }
-const redirects = [
-  ['contact', 'option-c/contact/'],
-  ...['option-a', 'option-a/about', 'option-a/client-relationships',
-    'option-a/webinars', 'option-a/contact', 'single-page',
-    'about', 'client-relationships', 'webinars'].map(route => [route, '']),
-];
+const redirects = ['', 'webinars', 'contact', 'cv', 'terms'].map(route => [
+  `option-c${route ? `/${route}` : ''}`,
+  route ? `${route}/` : '',
+]);
 for (const [route, target] of redirects) {
   const directory = path.join(output, route);
   await mkdir(directory, { recursive: true });
   await writeFile(path.join(directory, 'index.html'), redirectPage(target));
 }
-// Unknown/deeper legacy addresses also return to the selected homepage.
+// Unknown addresses return to the homepage.
 await writeFile(path.join(output, '404.html'), redirectPage(''));
 await writeFile(path.join(output, '.nojekyll'), '');
-const urls = ['', 'option-c/webinars/', 'option-c/contact/', 'cv/']
+const urls = ['', 'webinars/', 'contact/', 'cv/']
   .map(route => `  <url><loc>${new URL(route, rootUrl).href}</loc></url>`).join('\n');
 await writeFile(path.join(output, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`);
 await writeFile(path.join(output, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${new URL('sitemap.xml', rootUrl).href}\n`);

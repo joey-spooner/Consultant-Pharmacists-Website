@@ -2,16 +2,17 @@ import { useEffect, useRef, useState, type FormEvent, type ReactNode } from 'rea
 import { webinarDivisions } from '../data/webinars';
 import cvSource from './cv-content.md?raw';
 import sampleQaSource from './sample-qa.md?raw';
+import { parseSampleQa } from './sample-qa';
 import { siteConfig as cfg } from './config';
 import { trackEvent } from './analytics';
 import { Markdown } from './markdown';
-import { bagIngredients } from './TpnBag';
+import { IngredientBlocks } from './TpnBag';
+import { Terms } from './Terms';
 import { chapterFormat, contents, painPoints, preface, quotes, services } from './content';
-import './option-c.css';
+import './site.css';
 
-type Page = 'home' | 'contact' | 'webinars' | 'cv' | 'join';
+type Page = 'home' | 'contact' | 'webinars' | 'cv' | 'join' | 'terms';
 const base = import.meta.env.BASE_URL;
-const oc = `${base}option-c/`;
 const buyProps = { target: '_blank', rel: 'noopener noreferrer' } as const;
 
 const titles: Record<Page, string> = {
@@ -20,6 +21,7 @@ const titles: Record<Page, string> = {
   webinars: 'Webinar topics | Consultant Pharmacists of America',
   cv: 'Curriculum Vitae, Thomas G. Baumgartner | Consultant Pharmacists of America',
   join: 'Join the call | Consultant Pharmacists of America',
+  terms: 'Terms of Sale | Consultant Pharmacists of America',
 };
 
 const descriptions: Record<Page, string> = {
@@ -28,14 +30,15 @@ const descriptions: Record<Page, string> = {
   webinars: 'Explore the complete clinical nutrition, parenteral nutrition, and pharmacy education topic catalog.',
   cv: 'Curriculum vitae of Thomas G. Baumgartner, Pharm.D., M.Ed., FASHP, FASPEN, R.Ph., President and CEO of Consultant Pharmacists of America.',
   join: 'Join the call with Consultant Pharmacists of America.',
+  terms: 'Terms of Sale for digital PDFs from Consultant Pharmacists of America.',
 };
 
 function Header({ page }: { page: Page }) {
   const links: [Page, string, string][] = [
     ['home', 'Home', base],
-    ['webinars', 'Webinars', `${oc}webinars/`],
+    ['webinars', 'Webinars', `${base}webinars/`],
     ['cv', 'CV', `${base}cv/`],
-    ['contact', 'Contact', `${oc}contact/`],
+    ['contact', 'Contact', `${base}contact/`],
   ];
   return (
     <>
@@ -79,7 +82,8 @@ function Footer() {
         <div className="oc-foot-grid">
           <div><h2>Consultant Pharmacists of America</h2><p className="serif" style={{ fontSize: 22 }}>Excellence in Parenteral Nutrition, Micronutrition, and Clinical Pharmacy.</p></div>
           <nav aria-label="Footer navigation"><h2>Explore</h2><ul>
-             <li><a href={base}>Home</a></li><li><a href={`${oc}webinars/`}>Webinars</a></li><li><a href={`${base}cv/`}>Curriculum vitae</a></li><li><a href={`${oc}contact/`}>Contact</a></li>
+             <li><a href={base}>Home</a></li><li><a href={`${base}webinars/`}>Webinars</a></li><li><a href={`${base}cv/`}>Curriculum vitae</a></li><li><a href={`${base}contact/`}>Contact</a></li>
+             <li><a href={`${base}terms/`}>Terms of Sale</a></li>
           </ul></nav>
           <div><h2>Contact</h2>
             <ContactBlock />
@@ -91,6 +95,10 @@ function Footer() {
   );
 }
 
+function TermsLink() {
+  return <p className="oc-small"><a href={`${base}terms/`}>Terms of Sale</a></p>;
+}
+
 function BuyBlock({ id }: { id?: string }) {
   const b = cfg.products.book;
   return (
@@ -99,8 +107,11 @@ function BuyBlock({ id }: { id?: string }) {
         <span className="oc-price" aria-label={`Price ${b.price}`}>{b.price}</span>
         <a className="oc-btn" href={b.url} {...buyProps}>Buy the PDF, {b.price}</a>
       </div>
+      <p className="oc-small">{cfg.boxIncludesLine}</p>
+      <TermsLink />
+      <p className="oc-small">{cfg.sharingLine}</p>
       <p className="oc-small">One PDF. Delivered through Gumroad. <span className="oc-ph">(Placeholder link until the Gumroad product is live.)</span></p>
-      <p className="oc-small"><a href={`${oc}contact/`}>Teaching a course? Ask about classroom pricing.</a></p>
+      <p className="oc-small"><a href={`${base}contact/`}>Teaching a course? Ask about classroom pricing.</a></p>
     </div>
   );
 }
@@ -115,14 +126,10 @@ function Det({ label, event, children }: { label: string; event: string; childre
 }
 
 function SampleQa() {
-  // Match only numbered items; keep the source and spelling notes in the file, off the page.
-  const items = Array.from(sampleQaSource.matchAll(/^(\d+)\. (.+)\\\r?\n\*\*Answer:\*\* ([^\r\n]+)\r?$/gm));
-  if (items.length !== 36 || items.some((item, i) => Number(item[1]) !== i + 1)) {
-    throw new Error('The Calcium sample must contain 36 consecutive questions with answers.');
-  }
+  const items = parseSampleQa(sampleQaSource);
   return (
     <ol style={{ listStyleType: 'decimal' }}>
-      {items.map(([, number, question, answer]) => (
+      {items.map(({ number, question, answer }) => (
         <li key={number} style={{ marginBottom: 20, overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
           <p>{question}</p>
           <p><strong>Answer:</strong> {answer}</p>
@@ -134,8 +141,6 @@ function SampleQa() {
 
 function Home() {
   const { electrolyte, traceVitamin, book } = cfg.products;
-  const mac = bagIngredients[0];
-  const [el, tr, vi] = [bagIngredients[1], bagIngredients[2], bagIngredients[3]];
   return (
     <main id="main">
       <section className="oc-hero">
@@ -154,32 +159,7 @@ function Home() {
             />
             <div className="oc-ing">
               <h2>Intravenous Total Parenteral Nutrition (TPN)</h2>
-              <dl>
-                <div><dt>{mac.group}</dt><dd>{mac.items.join(', ')}</dd></div>
-                <div><dt>Micronutrients</dt>
-                  <dd className="nest">
-                    <span><b>{el.group}:</b> {el.items.join(', ')}</span>
-                    <span><b>{tr.group}:</b> {tr.items.join(', ')}</span>
-                    <span>
-                      <b>{vi.group}:</b>
-                      <span className="oc-vit-groups">
-                        {vi.items.map(vitamins => (
-                          <span key={vitamins.group}>
-                            <b>{vitamins.group}:</b>
-                            {'groups' in vitamins ? (
-                              <span className="oc-vit-groups">
-                                {vitamins.groups.map(({ group, items }) => (
-                                  <span key={group}><b>{group}:</b> {items.join(', ')}</span>
-                                ))}
-                              </span>
-                            ) : ` ${vitamins.items.join(', ')}`}
-                          </span>
-                        ))}
-                      </span>
-                    </span>
-                  </dd>
-                </div>
-              </dl>
+              <IngredientBlocks />
             </div>
           </div>
         </div>
@@ -221,6 +201,14 @@ function Home() {
               <p>Self assessment questions with answers follow every micronutrient chapter. They are useful for teaching and for exam preparation.</p>
               <SampleQa />
             </Det>
+            <Det label="Sample: TPN Virtual Handbook, 50 daily monitoring parameters" event="open_sample_handbook">
+              <p>The book includes a customizable TPN Virtual Handbook. This sample shows its cover, contents and the 50 daily monitoring parameters.</p>
+              <a className="oc-btn" href={`${base}TPN-Virtual-Handbook-sample-50-monitoring-parameters.pdf`} target="_blank" rel="noopener noreferrer">Open the sample (PDF)</a>
+            </Det>
+            <Det label="Sample appendix: Common lab reference values (Appendix J)" event="open_sample_appendix">
+              <p>The book has 11 appendices, A to K. This sample is Appendix J.</p>
+              <a className="oc-btn" href={`${base}Sample-Appendix-J-Common-Lab-Reference-Values.pdf`} target="_blank" rel="noopener noreferrer">Open the sample (PDF)</a>
+            </Det>
             <Det label="Preface and full contents" event="open_full_contents">
               {preface.map(t => <p key={t}>{t}</p>)}
               {contents.map(g => (
@@ -240,9 +228,9 @@ function Home() {
           <p className="oc-kick">Choose your starting point</p>
           <h2 id="ladder-h">From a free primer to the full text.</h2>
           <div className="oc-ladder">
-            <div className="oc-step"><span className="n">Step 1</span><h3>{electrolyte.name}</h3><p className="oc-small">Excerpt of Chapters 5 to 11. Gumroad asks for your email address.</p><span className="p">{electrolyte.price}</span><a className="oc-btn alt" href={electrolyte.url} {...buyProps}>Get the free primer</a></div>
-            <div className="oc-step"><span className="n">Step 2</span><h3>{traceVitamin.name}</h3><p className="oc-small">Question and answer sets for trace elements and vitamins.</p><span className="p">{traceVitamin.price}</span><a className="oc-btn alt" href={traceVitamin.url} {...buyProps}>Buy the primer, {traceVitamin.price}</a></div>
-            <div className="oc-step"><span className="n">Or the full book</span><h3>Enhanced Third Edition PDF</h3><p className="oc-small">The complete text.</p><span className="p">{book.price}</span><a className="oc-btn" href={book.url} {...buyProps}>Buy the PDF, {book.price}</a></div>
+            <div className="oc-step"><span className="n">Step 1</span><h3>{electrolyte.name}</h3><p className="oc-small">Excerpt of Chapters 5 to 11. Gumroad asks for your email address.</p><span className="p">{electrolyte.price}</span><a className="oc-btn alt" href={electrolyte.url} {...buyProps}>Get the free primer</a><TermsLink /></div>
+            <div className="oc-step"><span className="n">Step 2</span><h3>{traceVitamin.name}</h3><p className="oc-small">Question and answer sets for trace elements and vitamins.</p><span className="p">{traceVitamin.price}</span><a className="oc-btn alt" href={traceVitamin.url} {...buyProps}>Buy the primer, {traceVitamin.price}</a><TermsLink /></div>
+            <div className="oc-step"><span className="n">Or the full book</span><h3>Enhanced Third Edition PDF</h3><p className="oc-small">The complete text.</p><span className="p">{book.price}</span><a className="oc-btn" href={book.url} {...buyProps}>Buy the PDF, {book.price}</a><TermsLink /><p className="oc-small">{cfg.sharingLine}</p></div>
           </div>
           <p style={{ marginTop: 18, fontWeight: 600 }}>{cfg.ladderLine}</p>
           <p className="oc-ph">Gumroad links are placeholders.</p>
@@ -278,7 +266,7 @@ function Home() {
         <div className="oc-wrap">
           <h2 id="web-h">Webinar topics</h2>
           <p>Browse the clinical education catalog by division and subject.</p>
-          <a className="oc-btn" href={`${oc}webinars/`}>View the Webinars page</a>
+          <a className="oc-btn" href={`${base}webinars/`}>View the Webinars page</a>
         </div>
       </section>
     </main>
@@ -396,11 +384,11 @@ function JoinCall() {
   );
 }
 
-export default function OptionC({ page = 'home' }: { page?: Page }) {
+export default function SitePage({ page = 'home' }: { page?: Page }) {
   useEffect(() => {
     document.title = titles[page];
     const origin = import.meta.env.VITE_SITE_URL || window.location.origin;
-    const route = page === 'join' ? 'join/' : page === 'cv' ? 'cv/' : page === 'home' ? '' : `option-c/${page}/`;
+    const route = page === 'home' ? '' : `${page}/`;
     const canonical = new URL(`${base}${route}`, origin).href;
     const image = new URL(page === 'cv' ? cfg.images.portrait : cfg.images.cover, origin).href;
     for (const [selector, content] of [
@@ -427,6 +415,7 @@ export default function OptionC({ page = 'home' }: { page?: Page }) {
       {page === 'contact' && <Contact />}
       {page === 'cv' && <Cv />}
       {page === 'join' && <JoinCall />}
+      {page === 'terms' && <Terms />}
       <Footer />
     </div>
   );

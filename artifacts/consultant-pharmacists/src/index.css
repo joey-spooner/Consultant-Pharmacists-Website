@@ -2,8 +2,7 @@
 @import 'tw-animate-css';
 @plugin "@tailwindcss/typography";
 
-/* Shared browser defaults retained from the original site.
-   The archived designs and their styles are not imported or scanned. */
+/* Shared browser defaults for the site. */
 :root {
   color-scheme: light;
   --spacing: 0.25rem;
