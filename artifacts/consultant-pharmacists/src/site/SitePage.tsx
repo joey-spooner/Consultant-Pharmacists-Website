@@ -111,7 +111,7 @@ function BuyBlock({ id }: { id?: string }) {
       <p className="oc-small">{cfg.boxIncludesLine}</p>
       <TermsLink />
       <p className="oc-small">{cfg.sharingLine}</p>
-      <p className="oc-small">One PDF. Delivered through Gumroad. <span className="oc-ph">(Placeholder link until the Gumroad product is live.)</span></p>
+      <p className="oc-small">One PDF. Delivered through Gumroad.</p>
       <p className="oc-small"><a href={`${base}contact/`}>Teaching a course? Ask about classroom pricing.</a></p>
     </div>
   );
@@ -228,7 +228,6 @@ function Home() {
             <div className="oc-step"><span className="n">Or the full book</span><h3>Enhanced Third Edition PDF</h3><p className="oc-small">The complete text.</p><span className="p">{book.price}</span><a className="oc-btn" href={book.url} {...buyProps}>Buy the PDF, {book.price}</a><TermsLink /><p className="oc-small">{cfg.sharingLine}</p></div>
           </div>
           <p style={{ marginTop: 18, fontWeight: 600 }}>{cfg.ladderLine}</p>
-          <p className="oc-ph">Gumroad links are placeholders.</p>
         </div>
       </section>
 

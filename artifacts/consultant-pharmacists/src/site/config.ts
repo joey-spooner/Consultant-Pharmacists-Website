@@ -42,5 +42,5 @@ export const siteConfig = {
   reference: 'The Clinical Guide to Parenteral Micronutrition has been used as a reference text by more than 100,000 multidisciplinary professionals.',
   phone: '(352) 642-3005',
   phoneHref: 'tel:+13526423005',
-  email: 'info@consultantpharmacistsofamerica.com',
+  email: 'ConsultantPharmacistsofAmerica@gmail.com',
 };
