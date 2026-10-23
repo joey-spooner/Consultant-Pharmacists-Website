@@ -26,14 +26,14 @@ export const siteConfig = {
     traceVitamin: {
       name: 'Trace Element/Vitamin Q&A Primer',
       price: '$5.99',
-      // PLACEHOLDER Gumroad URL: replace before launch.
-      url: 'https://gumroad.com/l/PLACEHOLDER-trace-vitamin-primer',
+      // Product is unpublished; Gumroad will show "not available" until Tom publishes it.
+      url: 'https://pharmacistconnect5.gumroad.com/l/trace-element-vitamin-primer',
     },
     electrolyte: {
       name: 'Electrolyte Q&A Primer',
       price: 'Free',
-      // PLACEHOLDER free Gumroad product (collects an email address).
-      url: 'https://gumroad.com/l/PLACEHOLDER-electrolyte-primer-free',
+      // Product is unpublished; Gumroad will show "not available" until Tom publishes it.
+      url: 'https://pharmacistconnect5.gumroad.com/l/electrolyte-primer',
     },
   },
   boxIncludesLine: 'Includes the electrolyte, trace element and vitamin Q&A primers.',
